@@ -17,7 +17,7 @@ This article explains how to physically install Microsoft Surface Hub 3 85" in c
 
 Before you begin, please review the Unboxing and Set Up video:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWwwgL]
+> [!VIDEO e9d69c84-279f-4643-a89f-52d90de2f8ac]
 
 ## Follow all safety precautions
 
