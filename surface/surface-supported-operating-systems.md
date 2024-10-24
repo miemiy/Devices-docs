@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 09/11/2024
+ms.date: 10/17/2024
 ms.reviewer: chauncel
 manager: frankbu
 ---
@@ -20,6 +20,7 @@ This article lists the versions of Windows that are supported on the Business an
 | Device                               | Windows OS                                                                                                          |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Surface Pro (11th Edition)               | - Windows 11, Version 24H2 build 26100 and later                                                               |
+| Surface Pro 10 with 5G for Business      | - Windows 11, Version 24H2 build 26100 and later |
 | Surface Pro 10 for Business              | - Windows 10, Version 22H2 build 19045 and later<br>- Windows 11, Version 23H2 build 22631 and later |
 | Surface Pro 9 with Intel Processor       | - Windows 10, Version 21H2 build 19044 and later<br>- Windows 11, Versions 22H2 build 22621 and later |
 | Surface Pro 9 with 5G (SQ3 Processor)    | - Windows 11, Version 22H2 build 22621 and later                                                               |
@@ -113,4 +114,4 @@ This article lists the versions of Windows that are supported on the Business an
 ## More information
 
 Surface Pro devices are optimized for 64-bit versions of the operating system. On these devices, 32-bit versions of Windows are unsupported. If a 32-bit version of the operating system is installed, it may not start correctly. This may occur if you try to start from external media, such as an attached USB or DVD drive. This may also occur if you try to start to an image that was applied to the local disk.
-For additional information about LTSC support see [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md).
+For additional information about LTSC support see [Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-ltsc.md)
