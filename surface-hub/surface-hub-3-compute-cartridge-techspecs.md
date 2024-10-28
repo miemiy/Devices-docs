@@ -1,13 +1,13 @@
 ---
 title: Surface Hub 3 Compute Cartridge tech specs
-description: View the technical specifications of the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack) designed to upgrade Surface Hub 2S devices with enhanced performance and features 
+description: Explore the tech specs of the Surface Hub 3 Compute Cartridge, including processor, memory, ports, software options, and serviceability details
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 09/21/2023
+ms.date: 10/28/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
