@@ -1,6 +1,6 @@
 ---
 title: "Configure non-Global Admin accounts on Surface Hub"
-description: "This article describes how to configure non-Global Admin accounts to manage Surface Hub and Surface Hub 2S."
+description: Learn how to configure non-Global Admin accounts on Surface Hub, limiting permissions for enhanced security while allowing admins to manage device settings via Microsoft Entra domain integration
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
