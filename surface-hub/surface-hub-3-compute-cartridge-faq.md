@@ -1,13 +1,13 @@
 ---
 title: Surface Hub 3 Compute Cartridge FAQ 
-description: This page addresses questions about the Surface Hub 3 Compute Cartridge that customers can use to upgrade Surface Hub 2S devices or replace a cartridge on Surface Hub 3. 
+description: Get answers about the Surface Hub 3 Compute Cartridge, including installation, features, upgrades, and recycling of the old cartridge 
 ms.reviewer: dpandre
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: overview
-ms.date: 01/08/2024
+ms.date: 10/28/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3

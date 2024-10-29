@@ -1,6 +1,6 @@
 ---
 title: Install apps on Surface Hub
-description: Learn how to install and manage apps on Surface Hub devices using WinGet, the Microsoft Store, and other deployment methods. Ideal for IT admins and developers managing Surface Hub 2S or Surface Hub 3 in an enterprise environment.
+description: Learn how to install and manage apps on Surface Hub devices using WinGet, the Microsoft Store, and other deployment methods. 
 ms.assetid: 3885CB45-D496-4424-8533-C9E3D0EDFD94
 ms.reviewer: dpandre
 manager: frankbu
