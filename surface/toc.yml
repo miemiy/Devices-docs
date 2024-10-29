@@ -9,26 +9,28 @@
       items: 
       - name: Technical overviews
         items:
-         - name: Surface Pro Flex Keyboard overview
-           href: surface-pro-flex-keyboard.md
          - name: NFC support in Surface Pro
            href: surface-pro-nfc.md
          - name: Surface Laptop 6 smart card reader overview
            href: surface-laptop-smart-card-reader.md 
          - name: Set up Surface devices for SDR & HDR display measurements  
            href: configure-sdr-and-hdr-display.md
-         - name: What's new in Surface Thunderbolt 4 Dock
-           href: surface-dock-whats-new.md         
-         - name: Surface Dock 2 overview
-           href: surface-dock2-overview.md
          - name: Azure Virtual Desktop on Surface
            href: windows-virtual-desktop-surface.md	
          - name: Downgrade to Windows 10
            href: surface-os-choice.md
          - name: Surface security overview
            href: surface-security.md    		   
+      - name: Accessories
+        items:
+         - name: What's new in Surface Thunderbolt 4 Dock
+           href: surface-dock-whats-new.md  
+         - name: Surface Dock 2 overview
+           href: surface-dock2-overview.md
+         - name: Surface Pro Flex Keyboard overview
+           href: surface-pro-flex-keyboard.md
          - name: Surface Headphones 2+ overview
-           href: surface-headphones.md 
+           href: surface-headphones.md     
       - name: Surface professional graphics
         items: 
          - name: Surface Laptop Studio graphics overview

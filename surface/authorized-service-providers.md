@@ -65,10 +65,11 @@ The growing ASP network consists of more than 160 locations.
 - [UDT](https://udtonline.com/)
 - [Zones](https://www.zones.com/site/home/index.html)
 
-### Europe
+### EMEA
 
-### Austria
+#### Austria
 
+- [ACP IT Solutions GMbh](https://www.acp-gruppe.com/de-at/news-und-events/acp-ist-authorized-surface-provider)
 - [Bechtle GmbH IT Systemhaus](https://www.bechtle.com/at-en/about-bechtle/company/bechtle-systemhouse-austria)
 - [CLS](https://www.cls.at/)
 - [Mobiletouch Austria GmbH](https://mobiletouch.at/)
@@ -104,6 +105,10 @@ The growing ASP network consists of more than 160 locations.
 #### Spain
 
 - [Valorista](https://valorista.com/servicio-tecnico-oficial-microsoft-surface)
+
+#### United Arab Emirates (UAE)
+
+- [Redington Gulf FZE-HQ](https://www.ensureservices.com/microsoft-authorised-service-provider/)
 
 #### United Kingdom
 
