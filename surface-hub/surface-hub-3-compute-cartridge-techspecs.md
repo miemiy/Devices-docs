@@ -34,7 +34,7 @@ This page provides tech specs for the Surface Hub 3 Compute Cartridge (formerly 
 
 ## References
 
-1. System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. For more information, see [surface.com/storage](https://support.microsoft.com/surface/surface-storage-options-and-hard-drive-sizes-9915981d-3e38-f06c-4706-82b5dedf33bc.
+1. System software uses significant storage space. Available storage is subject to change based on system software updates and apps usage. 1 GB = 1 billion bytes. 1 TB = 1,000 GB. For more information, see [surface.com/storage](https://support.microsoft.com/surface/surface-storage-options-and-hard-drive-sizes-9915981d-3e38-f06c-4706-82b5dedf33bc).
 2. Size and weight vary by configuration and manufacturing process
 3. Customer Replaceable Units (CRUs) are components available for purchase through your Surface Commercial Authorized Device Reseller. Components can be replaced on-site by a skilled technician following Microsoft’s [Service Guide](https://www.microsoft.com/download/100440). Opening and/or repairing your device can present electric shock, fire, and personal injury risks and other hazards. Use caution if undertaking do-it-yourself repairs. Device damage caused during repair isn't covered under Microsoft’s Hardware Warranty or protection plans. Availability of replaceable components and service options might vary by market and/or at initial product launch.
 4. Microsoft’s Limited Warranty is in addition to your consumer law rights.
