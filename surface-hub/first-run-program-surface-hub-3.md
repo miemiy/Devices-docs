@@ -1,6 +1,6 @@
 ---
 title: First-time setup for Surface Hub running Microsoft Teams Rooms on Windows
-description: Describes the first-time, out-of-the-box experience (OOBE) setup for Surface Hub 3.
+description: Set up your Surface Hub with Microsoft Teams Rooms quickly using our step-by-step guide for first-time setup and configuration.
 ms.reviewer: 
 manager: frankbu
 ms.service: surface-hub
