@@ -225,7 +225,7 @@
           href: surface-arm-faq.md
       - name: Accessories
         items:
-        - name: Surface Slim Pen 2 haptics dev notes
+        - name: Surface Slim Pen haptics
           href: surface-slim-pen2-haptics-dev-notes.md
     - name: Troubleshoot
       expanded: true
