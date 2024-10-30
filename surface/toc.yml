@@ -30,7 +30,9 @@
          - name: Surface Pro Flex Keyboard overview
            href: surface-pro-flex-keyboard.md
          - name: Surface Headphones 2+ overview
-           href: surface-headphones.md     
+           href: surface-headphones.md    
+         - name: Surface Slim Pen haptics
+           href: surface-slim-pen2-haptics-dev-notes.md           
       - name: Surface professional graphics
         items: 
          - name: Surface Laptop Studio graphics overview
@@ -223,10 +225,6 @@
           href: surface-pro-arm-app-management.md
         - name: Arm-based Surface devices FAQ
           href: surface-arm-faq.md
-      - name: Accessories
-        items:
-        - name: Surface Slim Pen haptics
-          href: surface-slim-pen2-haptics-dev-notes.md
     - name: Troubleshoot
       expanded: true
       items: 
