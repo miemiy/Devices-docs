@@ -1,6 +1,6 @@
 ---
-title: Create provisioning packages 
-description: Learn how to create and deploy provisioning packages for Surface Hub devices using Windows Configuration Designer, enabling streamlined setup, app installation, and configuration management. Ideal for IT admins managing Surface Hub 2S or Surface Hub 3.
+title: Create provisioning packages for Surface Hub
+description: Automate Surface Hub deployment with provisioning packages. Set up accounts, apps, proxy, and MDM enrollment for streamlined management.
 ms.assetid: 8AA25BD4-8A8F-4B95-9268-504A49BA5345
 ms.reviewer: dpandre
 manager: frankbu
@@ -104,7 +104,7 @@ Using a third-party mobile device management (MDM) provider, you can use this se
 > ![add an application.](images/sh-prov-apps.png)
 
 > [!NOTE]
-> At this time, the ability to add apps to a provisioning pack is not supported on Surface Hubs running Microsoft Teams Rooms on Windows.
+> At this time, the ability **to add apps** to a provisioning pack is not supported on Surface Hubs running Microsoft Teams Rooms on Windows.
 
 For Surface Hub 2S running Windows 10 Team edition, you can install multiple Universal Windows Platform (UWP) apps in a provisioning package. To learn more, see [Provision PCs with apps](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
