@@ -49,7 +49,7 @@ Surface USB-C Travel hub                             | May 26, 2020        | Dec
 Surface Go Type Cover                                | August 5, 2020      | December 30, 2026
 Microsoft Classroom Pen 2                            | April 27, 2021      | April 27, 2027
 Surface Headphones 2+                                | May 4, 2021         | May 4, 2027
-Surface Slim Pen 2                                   | October 5, 2021     | October 5, 2027
+Surface Slim Pen (2nd Edition)                                   | October 5, 2021     | October 5, 2027
 Surface Pro Type Cover                               | November 5, 2021    | March 30, 2028
 Surface Pro Signature Keyboard with Fingerprint Reader| January 25, 2022   | January 25, 2028
 Surface Pro Liberty Keyboard                         | January 25, 2022    | January 25, 2028

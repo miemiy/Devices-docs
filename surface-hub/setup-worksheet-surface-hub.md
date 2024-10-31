@@ -1,6 +1,6 @@
 ---
-title: Setup worksheet (Surface Hub)
-description: When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.
+title: Setup worksheet for Surface Hub
+description: Ensure smooth Surface Hub setup with key info on proxy, accounts, and networks. Verify post-deployment checks for updates, Teams, and Skype functions
 ms.assetid: AC6F925B-BADE-48F5-8D53-8B6FFF6EE3EB
 ms.reviewer: 
 manager: frankbu
@@ -15,7 +15,7 @@ appliesto:
 - Surface Hub 2S
 ---
 
-# Setup worksheet (Surface Hub)
+# Setup worksheet for Surface Hub
 
 When you've finished pre-setup and are ready to start first-time setup for your Microsoft Surface Hub, make sure you have all the information listed in this section.
 
