@@ -38,7 +38,7 @@ Enjoy the first all-in-one Teams Rooms board running on Windows by seamlessly up
 
 Review the following demo and follow the instructions on this page.
 
-> [!video https://www.microsoft.com/en-us/videoplayer/embed/RW1eQiI]
+> [!video 814a852d-7e1f-4193-98b3-2e5400395cfd]
 
 ### Detailed instructions
 
