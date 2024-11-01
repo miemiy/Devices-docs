@@ -1,4 +1,4 @@
----
+a---
 title: Tested peripherals for new Surface devices
 description: Explore tested peripherals like monitors, docks, cables, and adapters for Surface devices to ensure optimal performance and compatibility.
 ms.service: surface
@@ -39,6 +39,83 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Pro 9              | [Monitors](#tested-monitors-for-surface-pro-9)          | [Docks](#tested-docks-for-surface-pro-9)          | [Cables](#tested-cables-for-surface-pro-9) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |                          | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
+
+## Surface Pro 10 with 5G
+
+### Tested monitors for Surface Pro 10 with 5G
+
+| Monitor                            | USB-C | DisplayPort | HDMI |
+|------------------------------------|-------|-------------|------|
+| Acer 272 EBI                       |       | ✓           | ✓    |
+| Acer CB273U                        | ✓     | ✓           | ✓    |
+| Acer Predator X27U                 |       | ✓           | ✓    |
+| Asus PA247CV                       | ✓     | ✓           | ✓    |
+| Asus PA278CV                       | ✓     | ✓           | ✓    |
+| ASUS PA32UCX-PK                    | ✓     | ✓           | ✓    |
+| Dell C2422HE                       | ✓     | ✓           | ✓    |
+| Dell E2424HS                       |       | ✓           | ✓    |
+| Dell P2425HE                       | ✓     | ✓           |      |
+| Dell P2720DC                       | ✓     | ✓           |      |
+| Dell P2723QE                       | ✓     | ✓           | ✓    |
+| Dell P3223DE                       | ✓     | ✓           | ✓    |
+| Dell S2722DC                       | ✓     | ✓           | ✓    |
+| Dell U2722DE                       | ✓     | ✓           | ✓    |
+| Dell U2724D                        | ✓     | ✓           | ✓    |
+| Dell U2724DE                       | ✓     | ✓           | ✓    |
+| Dell U3219Q                        | ✓     | ✓           | ✓    |
+| Dell U3224KB                       | ✓     | ✓           | ✓    |
+| Dell U3421WE                       | ✓     | ✓           | ✓    |
+| Dell U3423WE                       | ✓     | ✓           | ✓    |
+| Dell UP2720Q                       | ✓     | ✓           |      |
+| HP Z24n G3 FHD                     |       | ✓           | ✓    |
+| Lenovo P27U-20                     | ✓     | ✓           | ✓    |
+| LG 27BN85UN-B                      | ✓     | ✓           | ✓    |
+| LG 27GP95U-B                       | ✓     | ✓           | ✓    |
+| LG 34GN850-B                       |       | ✓           | ✓    |
+| Samsung F24T454GYN                 |       | ✓           | ✓    |
+| Samsung F32TU870VC                 | ✓     | ✓           | ✓    |
+| Samsung S27B800PXC                 | ✓     | ✓           | ✓    |
+| Samsung S34C650VA                  |       | ✓           | ✓    |
+| Samsung SD60(S27D600EAU)           | ✓     | ✓           | ✓    |
+| Samsung SD60UD(S27D600UAU)         | ✓     | ✓           | ✓    |
+| Samsung SD70D(S27D700EAU)          | ✓     | ✓           | ✓    |
+| Samsung SD80D(S27D800EAU)          | ✓     | ✓           | ✓    |
+| Samsung SD80UD(S27D800UAU)         | ✓     | ✓           | ✓    |
+| Viewsonic VA2447-MH                |       | ✓           | ✓    |
+| ViewSonic(DFS) VG245               | ✓     | ✓           |      |
+| ViewSonic(DFS) VG275               | ✓     | ✓           |      |
+| ViewSonic(DFS) VP275-4K            | ✓     | ✓           | ✓    |
+
+### Tested docks for Surface Pro 10 with 5G
+
+| Dock                                          | Thunderbolt | USB-C | Surface Connect |
+|-----------------------------------------------|-------------|-------|------------------|
+| Surface Thunderbolt 4 Dock                   | ✓           |       |                  |
+| Surface Dock 2                               |             |       | ✓                |
+| Brydge Stone Pro TB4 Dock (DFS)              | ✓           |       |                  |
+| Dell Dock WD19DC USB-C                       |             | ✓     |                  |
+| Dell UD22 USB-C Dock                         |             | ✓     |                  |
+| Dell WD19S 180W Dock                         |             | ✓     |                  |
+| Dell WD22TB4 Dock                            | ✓           | ✓     |                  |
+| Kensington SD4845P Dock (DFS)                |             | ✓     |                  |
+| Kensington SD5750T Thunderbolt 4 Dock (DFS)  | ✓           |       |                  |
+| Plugable TBT4-UDZ                            | ✓           | ✓     |                  |
+
+
+### Tested cables for Surface Pro 10 with 5G
+
+
+| Cable                                                | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|------------------------------------------------------|----------------|--------------|----------------------------|----------------------|--------------|
+| DFS Cable Matters USB-C to HDMI Cable (201562)       |                |              |                            |                      | ✓            |
+| DFS Cable Matters USB-C to DP Cable (201536)         |                |              |                            | ✓                    |              |
+| DFS Cable Matters USB-C to USB-C 40Gb Cable (201504) | ✓              | ✓            |                            |                      |              |
+| BlueRigger HDMI Cable                                |                |              |                            |                      | ✓            |
+| Cable Matters TBT4/USB4 40Gbps                       | ✓              | ✓            |                            |                      |              |
+| CableMatters DP Cable (102025) - (DP1.4)             |                |              |                            | ✓                    |              |
+| Monoprice DP Cable (42994) - (DP2.0)                 |                |              |                            | ✓                    |              |
+| StartTech USB C to DP 1.4 Cable (CDP2DP141MBD)       |                |              |                            | ✓                    |              |
+
 
 ## Surface Laptop (7th Edition)
 
