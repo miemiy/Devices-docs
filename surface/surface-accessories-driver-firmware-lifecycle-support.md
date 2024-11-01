@@ -49,7 +49,7 @@ Surface USB-C Travel hub                             | May 26, 2020        | Dec
 Surface Go Type Cover                                | August 5, 2020      | December 30, 2026
 Microsoft Classroom Pen 2                            | April 27, 2021      | April 27, 2027
 Surface Headphones 2+                                | May 4, 2021         | May 4, 2027
-Surface Slim Pen 2                                   | October 5, 2021     | October 5, 2027
+Surface Slim Pen (2nd Edition)                                   | October 5, 2021     | October 5, 2027
 Surface Pro Type Cover                               | November 5, 2021    | March 30, 2028
 Surface Pro Signature Keyboard with Fingerprint Reader| January 25, 2022   | January 25, 2028
 Surface Pro Liberty Keyboard                         | January 25, 2022    | January 25, 2028
@@ -73,6 +73,6 @@ Surface Slim Pen                                     | October 1, 2019     | Sep
 ## Learn more
 
 - [Surface driver and firmware lifecycle for Windows-based devices](surface-driver-firmware-lifecycle-support.md)
-- [Surface Hub devices and accessories Driver and firmware lifecycle  ](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
-- [Surface device compatibility with Windows 10 Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-10-ltsc.md)
+- [Surface Hub devices and accessories Driver and firmware lifecycle](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle)
+- [Surface device compatibility with Windows Long-Term Servicing Channel (LTSC)](surface-device-compatibility-with-windows-ltsc.md)
 - [Surface Warranty and Support Plans](https://www.microsoft.com/surface/business/warranty-protection-plans-and-support)

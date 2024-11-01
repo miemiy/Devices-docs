@@ -56,7 +56,7 @@ The growing ASP network consists of more than 160 locations.
 - [MCPC](https://www.mcpc.com/)
 - [MicroK12](https://microk12.com/)
 - [Mobile ME IT](https://mobilemeit.com/)
-- [Netsync Network Solutions ](https://www.netsync.com/)
+- [Netsync Network Solutions ](https://www.netsync.com/services/managed-services/microsoft-asp/)
 - [New York Computer Help](https://www.newyorkcomputerhelp.com/microsoft-surface-repair-provider-in-new-york/)
 - [ProTech Computer Systems, Inc](https://www.protsys.com/)
 - [Sterling](https://sterling.com/)
@@ -65,10 +65,11 @@ The growing ASP network consists of more than 160 locations.
 - [UDT](https://udtonline.com/)
 - [Zones](https://www.zones.com/site/home/index.html)
 
-### Europe
+### EMEA
 
-### Austria
+#### Austria
 
+- [ACP IT Solutions GMbh](https://www.acp-gruppe.com/de-at/news-und-events/acp-ist-authorized-surface-provider)
 - [Bechtle GmbH IT Systemhaus](https://www.bechtle.com/at-en/about-bechtle/company/bechtle-systemhouse-austria)
 - [CLS](https://www.cls.at/)
 - [Mobiletouch Austria GmbH](https://mobiletouch.at/)
@@ -104,6 +105,10 @@ The growing ASP network consists of more than 160 locations.
 #### Spain
 
 - [Valorista](https://valorista.com/servicio-tecnico-oficial-microsoft-surface)
+
+#### United Arab Emirates (UAE)
+
+- [Redington Gulf FZE-HQ](https://www.ensureservices.com/microsoft-authorised-service-provider/)
 
 #### United Kingdom
 

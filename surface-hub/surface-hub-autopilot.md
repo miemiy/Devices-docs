@@ -1,6 +1,6 @@
 ---
 title: "Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login"
-description: "This page provides a roadmap for deploying Surface Hub 3 using Windows Autopilot and Teams Rooms Auto-login."
+description: Deploy Surface Hub with Windows Autopilot & Teams Rooms Auto-login for seamless setup and management. Explore configuration and enrollment steps.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
