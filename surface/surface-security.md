@@ -104,4 +104,4 @@ While these security features scale, more Surface devices will integrate them as
  
 ### References
 
-1. The FASR feature is exclusive to Intel-designed Surface products. FASR does not apply to Surface products designed with Qualcomm (QC) or AMD processors.
+The FASR feature is exclusive to Intel-designed Surface products. FASR does not apply to Surface products designed with Qualcomm (QC) or AMD processors.
