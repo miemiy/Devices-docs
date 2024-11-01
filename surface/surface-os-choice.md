@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 06/11/2024
+ms.date: 10/31/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -86,4 +86,5 @@ In a commercial organization, IT admins can create a Windows 10 custom image wit
 
 ### Learn more
 
+- [How to prepare for Windows 10 end of support by moving to Windows 11 today](https://blogs.windows.com/windowsexperience/2024/10/31/how-to-prepare-for-windows-10-end-of-support-by-moving-to-windows-11-today/)
 - [Surface for Business](https://www.microsoft.com/surface/business)
