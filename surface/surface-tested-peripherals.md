@@ -1,4 +1,4 @@
-a---
+---
 title: Tested peripherals for new Surface devices
 description: Explore tested peripherals like monitors, docks, cables, and adapters for Surface devices to ensure optimal performance and compatibility.
 ms.service: surface
@@ -41,7 +41,7 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |                          | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
 
 ## Surface Pro 10 with 5G
-
+=
 ### Tested monitors for Surface Pro 10 with 5G
 
 | Monitor                            | USB-C | DisplayPort | HDMI |
