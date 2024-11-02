@@ -1,76 +1,83 @@
 ---
-title: "What's new in Windows 10 Team 2020 updates"
-description: "Check out what's new in the latest update of the Surface Hub operating system, Windows 10 Team 2020 Update."
+title: What's new in Windows 10 Team 2020 updates for Surface Hub and Surface Hub 2S
+description: Learn about new features and improvements in Windows 10 Team 2020 updates for Surface Hub and Surface Hub 2S, including manageability and security.
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: overview
-ms.date: 02/15/2022
+ms.date: 10/28/2024
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub
+- Surface Hub 2S
 ---
 
-# What's new in Windows 10 Team 2020 updates
+# What's new in Windows 10 Team 2020 updates for Surface Hub and Surface Hub 2S
 
-Surface Hub benefits from periodic updates that deliver new features and functionality. The 2020 Update (20H2) to Windows 10 Team, and subsequently Update 1 & Update 2, deliver significant improvements to device deployment and manageability along with the latest Windows features.
+Surface Hub receives periodic updates to enhance features and functionality. The 2020 Update (20H2), including Update 1 and Update 2, delivers key improvements to device deployment and manageability.
+
+> [!NOTE]
+> This update applies only to Surface Hub (1st generation) and Surface Hub 2S.  
 
 ## Windows 10 Team 2020 Update 2
 
 ### Display and preferred language support
 
-After a Surface Hub admin installs additional languages, end users [can change the display language](change-language-on-surface-hub.md) by selecting a new one from the available installed languages. Ensure that your Surface Hub has [KB5023773](https://support.microsoft.com/help/5023773) (or a subsequent Windows update) installed. To learn more about the latest Windows 10 Team updates, refer to [Surface Hub update history](surface-hub-update-history.md).
+Admins can now enable end users to [change the display language](change-language-on-surface-hub.md) from installed languages on the device. Ensure that Surface Hub is running [KB5023773](https://support.microsoft.com/help/5023773) or a later Windows update. For more details, visit the [Surface Hub update history](surface-hub-update-history.md).  
 
 ### GCC High support
 
-After installation of this update ([KB5010415](https://support.microsoft.com/help/5010415) or a subsequent Windows CU), Surface Hubs are supported in GCC High environments. At this time, [additional steps](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are needed for the Teams Rooms client to successfully connect to GCC High tenants.
+With [KB5010415](https://support.microsoft.com/help/5010415) or later installed, Surface Hub supports Government Community Cloud (GCC) High environments. [More configuration steps](surface-hub-teams-rooms.md#support-for-teams-rooms-in-government-community-cloud-high-gcc-h) are required for Teams Rooms to connect to GCC High tenants successfully.  
 
 ### Support for Surface Hub Smart Camera
 
-The AI-powered Surface Hub Smart Camera is optimized for hybrid teams allowing remote participants to see people interact with content on the Surface Hub while also viewing everyone else in the room.  To learn more, see [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md).
+The AI-powered Surface Hub Smart Camera enhances hybrid collaboration, ensuring remote participants see interactions with both content and in-room participants. Learn more about installation at [Install and manage Surface Hub Smart Camera](surface-hub-smart-camera.md).  
 
 ### Support for Progressive Web Apps (PWAs)
 
-Admins can remotely install PWAs on Surface Hubs using a mobile device management provider (MDM) applying a provisioning pack. To learn more, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md).
+Admins can deploy PWAs remotely on Surface Hubs via an MDM provider using provisioning packs. For more information, see [Install Progressive Web Apps on Surface Hub](install-pwa-surface-hub.md).  
 
 ### Ease of Access updates
 
 Users can adjust Ease of Access settings during a Surface Hub session and close apps just like they do in other versions of Windows 10 or Windows 11.
 
 - **Ease of Access**. Users can adjust the following settings without signing in:   Display, Text cursor, Magnifier, High contrast, Narrator, Closed captions, and Keyboard.
-- **Familiar UI for apps**. Users can close apps on Surface Hub by selecting the Close button in the top right corner of the app. This removes the need to close apps by dragging them to the bottom of the Surface Hub display.
+- **Familiar UI for apps**. Users can close apps using the familiar **Close** button, reducing dependency on dragging apps to the bottom of the screen.  
 
-To learn more, see [Adjust Ease of Access settings on Surface Hub](accessibility-surface-hub.md).
+More details are available at [Adjust Ease of Access settings on Surface Hub](accessibility-surface-hub.md).  
 
 ### Administrator updates
 
-- **Event Viewer**. Admins can access the Windows Event Viewer directly from the Settings app.
-- **New mobile device management (MDM) policy settings**. New Configuration service providers (CSPs) include:
+- **Event Viewer access:** Now accessible from the Settings app.  
+- **New MDM policies:** Updates include the following Configuration service providers (CSPs):  
+  - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)  
+  - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups)  
 
-  - [TimeLanguageSettings-CSP](/windows/client-management/mdm/policy-csp-timelanguagesettings)
-  - [LocalUsersAndGroups-CSP](/windows/client-management/mdm/policy-csp-localusersandgroups)
-
-To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+See [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md) for further admin configurations.  
 
 ## Windows 10 Team 2020 Update 1
 
 ### Support for new Teams Rooms application
 
-After installation of this update ([KB5005101](https://support.microsoft.com/help/5005101) or a subsequent Windows CU), Surface Hubs support an automatic upgrade to the new [Teams Rooms client](surface-hub-teams-rooms.md) through Windows Update.
+### New Teams Rooms client support  
 
-### Support for new Whiteboard application
+With [KB5005101](https://support.microsoft.com/help/5005101) or later, Surface Hubs automatically upgrade to the latest [Teams Rooms client](surface-hub-teams-rooms.md).  
 
-After installation of this update, Surface Hubs support an automatic upgrade (when available) to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) through Microsoft Store updates.
+### Whiteboard application upgrade  
+
+This update facilitates the transition to the new [Whiteboard app](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/unified-whiteboard-experience-coming-to-surface-hub/ba-p/3145226) via Microsoft Store.  
 
 ### New Microsoft Edge browser installed by default
 
-After installation of this update, Surface Hubs will automatically replace their Microsoft Edge Legacy browser with the new Chromium-based Edge browser.  To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md). Edge Legacy is no longer available on Windows 10 Team after installation of this update or a subsequent Windows CU.
+After installation of this update, Surface Hubs automatically replace their Microsoft Edge Legacy browser with the new Chromium-based browser. To learn more, see [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md). Microsoft Edge Legacy is no longer available on Windows 10 Team after installation of this update or a subsequent Windows Cumulative Update (CU).
 
 ## Windows 10 Team 2020 Update (20H2)
 
 ### Deployment and manageability
 
-- **Modern authentication for cloud device accounts**. Surface Hub supports Exchange Web Services (EWS) and Active Directory Authentication Library (ADAL) based authentication to connect to Exchange, allowing customers to deprecate the use of Basic authentication. To learn more, see [Modern authentication on Surface Hub](surface-hub-modern-auth.md).
-- **More than 20 new and updated MDM policy settings**.  These policy settings give IT admins improved control over multiple device settings, including app updates from the Microsoft Store, wireless projection settings such as Miracast over infrastructure, network settings such as Quality-Of-Service and 802.1x wired authentication, and new privacy/GDPR related settings. New CSPs include:
+- **Modern authentication for cloud device accounts**. Surface Hub supports Exchange Web Services (EWS) and Microsoft Authentication Library-based authentication to connect to Exchange, allowing customers to deprecate the use of Basic authentication. To learn more, see [Modern authentication on Surface Hub](surface-hub-modern-auth.md).
+- Expanded Mobile Device Management (MDM) policy settings:** Over 20 new policies enhance control over updates, wireless projection, network configuration, and privacy settings. Key CSPs include:  
 
   - [Accounts CSP](/windows/client-management/mdm/accounts-csp)
   - [Firewall-CSP](/windows/client-management/mdm/firewall-csp)
@@ -78,40 +85,44 @@ After installation of this update, Surface Hubs will automatically replace their
   - [Wifi-CSP](/windows/client-management/mdm/wifi-csp)
   - [Wirednetwork-CSP](/windows/client-management/mdm/wirednetwork-csp)
 
-To learn more, see:
+To learn more, see the following resources:
 
 - [CSPs supported in Microsoft Surface Hub](/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
 
 <a name='azure-active-directory-joined-devices'></a>
 
+---
+
 ### Microsoft Entra joined devices
 
-- **Single sign-on (SSO) for Microsoft Entra joined devices**. When users sign in with their Microsoft 365 credentials to **My meetings and files**, their credentials flow seamlessly from app to app – including Microsoft 365 experiences in the browser.
-- **Conditional access (CA) for Microsoft Entra joined devices**. IT admins can control user access to organizational resources from Microsoft Entra joined Surface Hubs by assigning device policies per their corporate security and compliance requirements.
-- **Support for non-Global admins for Microsoft Entra joined devices**. Customers can choose a more granular set of admins within their admin hierarchy to manage Surface Hub. To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
+- **Single sign-on (SSO):** Credentials flow seamlessly across Microsoft 365 apps on Microsoft Entra joined devices.  
+- **Conditional access (CA):** Enforce policies for Microsoft Entra joined Surface Hubs per corporate security requirements.  
+- **Non-Global admin support:** Assign admins with specific permissions to manage Surface Hub.  To learn more, see [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see the recommended guidance in [Configure non-Global Admin accounts on Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
-### Inking improvements
+---
 
-- **Support for dual-pen inking on Surface Hub 2S**.  Use the whiteboard and collaborate side-by-side on Surface Hub 2S with two Surface Hub 2S Pens. Any system hardware update installed after upgrading to Windows 10 Team 2020 will add firmware support for this scenario.
+## Inking improvements  
+
+- **Dual-pen support:** Collaborate on Surface Hub 2S with two pens for real-time interaction. Ensure the latest firmware updates are installed.  
 
 ### Microsoft Teams  
 
-- **Microsoft Teams installed by default**. Microsoft Teams is the default app for meetings, calls and collaboration on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
-- **Support for Proximity Join with Microsoft Teams**.  Proximity Join lets users take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop or phone.  It also lets users transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see:
+- **Microsoft Teams installed by default**. Microsoft Teams is the default app for meetings, calls, and collaboration on new Surface Hub devices, which can be changed or configured via MDM or directly on Surface Hub using the Settings app. To learn more, see [Deploy Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
+- **Proximity Join:**   Proximity Join lets users take scheduled Microsoft Teams calls on a nearby Surface Hub using their laptop or phone. It also lets users transition an in-progress meeting to a nearby Surface Hub. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Proximity Join. To learn more, see:
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833).
   - [Manage Microsoft Teams settings on Surface Hub](/MicrosoftTeams/rooms/surface-hub-manage-config)
 
-- **Support for Coordinated Meetings with Microsoft Teams**. In meeting rooms that feature a Surface Hub and a Microsoft Teams Rooms device, or spaces with two Surface Hub devices, Coordinated Meetings let users quickly leverage both devices during a Microsoft Teams meeting. Users can join a meeting from either device with a single tap and maximize screen real estate by showing video feeds on one device and a digital whiteboard or content on the other. Windows 10 Team 2020 Update adds Mobile Device Management (MDM) support to configure Coordinated Meetings, and the feature will be subsequently released as a Microsoft Teams update through Microsoft Store. To learn more, see [Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings).
+- **Coordinated Meetings:** Utilize multiple devices for Teams meetings, maximizing screen use with separate content and video feeds.  Users can join a meeting from another device with a single tap and maximize screen real estate by showing video feeds on one device and a digital whiteboard or content on the other. Windows 10 Team 2020 Update adds MDM support to configure Coordinated Meetings. To learn more, see [Set up Coordinated Meetings with Microsoft Teams Rooms and Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings).
 
 ### Security
 
-- **Passwordless sign-in using FIDO2 security keys** With FIDO2 security keys, users can quickly sign in to Surface Hub without typing usernames and passwords. Combined with Single Sign-On (SSO), this feature provides fast and seamless authentication to files, apps, and websites during a meeting. To learn more, see [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
-- **Improvements to passwordless sign-in using Microsoft Authenticator**.  For organizations that use Microsoft Entra ID, users can sign in with the Microsoft Authenticator app. Additionally, users can sign in with their preferred email aliases in Microsoft Entra ID or their User Principal Name (UPN). To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
+- **Passwordless sign-in:** Users can sign in quickly with FIDO2 security keys or Microsoft Authenticator for seamless access to meetings and resources. To learn more, see [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
+**Microsoft Entra ID improvements:** Users can now authenticate with email aliases or UPNs through Microsoft Authenticator. To learn more, see [Sign in to Surface Hub with Microsoft Authenticator](surface-hub-authenticator-app.md).
 
 ## Learn more
 
