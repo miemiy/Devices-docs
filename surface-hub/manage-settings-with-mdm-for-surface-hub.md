@@ -147,7 +147,7 @@ Configuring [QoS for Teams or Skype for Business](/windows/client-management/mdm
  
 This procedure explains how to configure QoS for Surface Hub using Microsoft Intune. 
 
-1. In Intune, [create a custom policy](/intune/custom-settings-configure).
+1. In Intune, [create a custom policy](/mem/intune/custom-settings-configure).
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of custom policy creation dialog in Intune.](images/qos-create.png)
