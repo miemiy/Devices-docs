@@ -96,7 +96,7 @@ This table lists Surface devices and their tested peripherals. Each entry includ
 
 | Cable                                                  | Designed for Surface <br>(3rd party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |--------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB-C to USB-C 40Gbps Cable (201504)     | ✓                    | ✓              | ✓            |                            |                      |               |
+| Cable Matters USB-C to USB-C 40 Gbps Cable (201504)     | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DP Cable (201536)              | ✓                    |                |              |                            | ✓                    |               |
 | Cable Matters USB-C to HDMI Cable (201562)            | ✓                    |                |              |                            |                      | ✓             |
 | Belkin F2CD084bt0.5MBK                                |                      | ✓              |              |                            |                      |               |
@@ -177,7 +177,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Cable                                               | Designed for Surface <br>(3rd party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |-----------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB-C to USB-C 40Gbps Cable (201504)  | ✓                    | ✓              | ✓            |                            |                      |               |
+| Cable Matters USB-C to USB-C 40 Gbps Cable (201504)  | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DP Cable (201536)           | ✓                    |                |              |                            | ✓                    |               |
 | Cable Matters USB-C to HDMI Cable (201562)         | ✓                    |                |              |                            |                      | ✓             |
 | Belkin F2CD084bt0.5MBK                              |                      | ✓              |              |                            |                      |               |
@@ -239,7 +239,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Cable                                                                                          | Designed for Surface <br>(3rd party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB-C to USB-C 40Gbps Cable (201504)                                             | ✓                    |                | ✓            |                            |                      |               |
+| Cable Matters USB-C to USB-C 40 Gbps Cable (201504)                                             | ✓                    |                | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
 | Cable Matters USB-C to HDMI Cable (201562)                                                     | ✓                    |                |              |                            |                      | ✓             |
 
@@ -364,7 +364,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Cable                                                                                          | Designed for Surface <br>(3rd party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB-C to USB-C 40Gbps Cable (201504)                                             | ✓                    | ✓              | ✓            |                            |                      |               |
+| Cable Matters USB-C to USB-C 40 Gbps Cable (201504)                                             | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
 | Cable Matters USB-C to HDMI Cable (201562)                                                     | ✓                    |                |              |                            |                      | ✓             |
 
@@ -577,7 +577,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ## Surface Thunderbolt 4 Dock
 
-Surface Thunderbolt 4 Dock has been tested extensively with popular in-market peripherals to bring you the best docking experience. For host device compatibility with Surface Thunderbolt 4 Dock, refer to [What's new in Surface Thunderbolt 4 Dock](surface-dock-whats-new.md).
+Surface Thunderbolt 4 Dock is tested extensively with popular in-market peripherals to bring you the best docking experience. For host device compatibility with Surface Thunderbolt 4 Dock, refer to [What's new in Surface Thunderbolt 4 Dock](surface-dock-whats-new.md).
 
 ### Tested monitors for Surface Thunderbolt 4 Dock
 
