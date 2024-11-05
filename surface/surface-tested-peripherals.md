@@ -18,7 +18,7 @@ appliesto:
 
 As part of the Positive Experience List (PEL) initiative, Surface engineering tests various external monitors, docks, cables, and adapters to bring you the best experience on Surface devices. See the tables on this page for tested peripherals across port connections, including Surface Connect, USB-C, DisplayPort, HDMI, and Thunderbolt.
 
-**Designed for Surface** peripherals are specially created and certified to meet Microsoft’s quality standards for compatibility, reliability, and performance when paired with Surface devices. For more details on this certification, visit the [Designed for Surface (third party)page](https://www.microsoft.com/en-us/surface/designed-for-surface/what-is-designed-for-surface?msockid=2aa1d89a2f396aed21eeccdd2e146b0d).
+**Designed for Surface** peripherals are specially created and certified to meet Microsoft’s quality standards for compatibility, reliability, and performance when paired with Surface devices. For more details on this certification, visit the [Designed for Surface page](https://www.microsoft.com/surface/designed-for-surface/what-is-designed-for-surface?msockid=2aa1d89a2f396aed21eeccdd2e146b0d).
 
 > [!NOTE]
 > The testing results shown here cover popular in-market peripherals but are not intended to be comprehensive. Based on our research, we estimate that customers will have a generally positive experience with these peripherals. Still, many peripherals not shown here may function as expected.
@@ -50,7 +50,7 @@ This table lists Surface devices and their tested peripherals. Each entry includ
 
 ### Tested monitors for Surface Laptop (7th Edition)
 
-| Monitor                               | Designed for Surface (third party)| USB-C | DisplayPort | HDMI |
+| Monitor                               | Designed for Surface <br>(third party)| USB-C | DisplayPort | HDMI |
 |---------------------------------------|----------------------|-------|-------------|------|
 | ViewSonic VG245                       | ✓                    | ✓     | ✓           | ✓    |
 | ViewSonic VG275                       | ✓                    | ✓     | ✓           | ✓    |
@@ -78,7 +78,7 @@ This table lists Surface devices and their tested peripherals. Each entry includ
 
 ### Tested docks for Surface Laptop (7th Edition)
 
-| Dock                                            | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                            | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock |                    |                      |       |                 |
 | Surface Dock 2                                  |                      |             |       | ✓               |
@@ -94,7 +94,7 @@ This table lists Surface devices and their tested peripherals. Each entry includ
 ### Tested cables for Surface Laptop (7th Edition)
 
 
-| Cable                                                  | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                                  | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |--------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB-C to USB-C 40Gbps Cable (201504)     | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DP Cable (201536)              | ✓                    |                |              |                            | ✓                    |               |
@@ -119,7 +119,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested monitors for Surface Pro (11th Edition)
 
-| Monitor                               | Designed for Surface (third party)| USB-C | DisplayPort | HDMI |
+| Monitor                               | Designed for Surface <br>(third party)| USB-C | DisplayPort | HDMI |
 |---------------------------------------|----------------------|-------|-------------|------|
 | ViewSonic VG245                       | ✓                    | ✓     | ✓           | ✓    |
 | ViewSonic VG275                       | ✓                    | ✓     | ✓           | ✓    |
@@ -152,7 +152,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Pro (11th Edition)
 
-| Dock                                             | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                             | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |--------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock|                      | ✓           |       |                 |
 | Surface Dock 2                                   |                      |             |       | ✓               |
@@ -175,7 +175,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Pro (11th Edition)
 
-| Cable                                               | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                               | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |-----------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB-C to USB-C 40Gbps Cable (201504)  | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DP Cable (201536)           | ✓                    |                |              |                            | ✓                    |               |
@@ -191,7 +191,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested monitors for Surface Pro 10
 
-| Monitor                                 | Designed for Surface (third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
+| Monitor                                 | Designed for Surface <br>(third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
 |-----------------------------------------|----------------------|-------|-------------|-------------|------|
 | ViewSonic VG245                         | ✓                    | ✓     | ✓           |             | ✓    |
 | ViewSonic VG275                         | ✓                    | ✓     | ✓           |             | ✓    |
@@ -221,7 +221,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Pro 10
 
-| Dock                                                      | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                                      | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Surface Dock 2                                            |                      |             |       | ✓               |
@@ -237,7 +237,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Pro 10
 
-| Cable                                                                                          | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                                                                          | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB-C to USB-C 40Gbps Cable (201504)                                             | ✓                    |                | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
@@ -247,7 +247,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested monitors for Surface Pro 10 with 5G
 
-| Monitor                            | Designed for Surface (third party)| USB-C | DisplayPort | HDMI |
+| Monitor                            | Designed for Surface <br>(third party)| USB-C | DisplayPort | HDMI |
 |------------------------------------|----------------------|-------|-------------|------|
 | ViewSonic VG245                    | ✓                    | ✓     | ✓           |      |
 | ViewSonic VG275                    | ✓                    | ✓     | ✓           |      |
@@ -291,7 +291,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Pro 10 with 5G
 
-| Dock                                          | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                          | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------|----------------------|-------------|-------|------------------|
 | Surface Thunderbolt 4 Dock                   |                      | ✓           |       |                  |
 | Surface Dock 2                               |                      |             |       | ✓                |
@@ -306,7 +306,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Pro 10 with 5G
 
-| Cable                                                | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                                | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB4 40 Gbps Cable (201504)           | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB4 Gen 2 20Gbps Cable               | ✓                    | ✓              |              |                            |                      |               |
@@ -320,7 +320,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested monitors for Surface Laptop 6
 
-| Monitor                                 | Designed for Surface (third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
+| Monitor                                 | Designed for Surface <br>(third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
 |-----------------------------------------|----------------------|-------|-------------|-------------|------|
 | ViewSonic VG245                         | ✓                    | ✓     | ✓           |             | ✓    |
 | ViewSonic VG275                         | ✓                    | ✓     | ✓           |             | ✓    |
@@ -346,7 +346,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Laptop 6
 
-| Dock                                                      | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                                      | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Surface Dock 2                                            |                      |             |       | ✓               |
@@ -362,7 +362,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Laptop 6
 
-| Cable                                                                                          | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                                                                          | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB-C to USB-C 40Gbps Cable (201504)                                             | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
@@ -372,7 +372,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested monitors for Surface Laptop Studio 2
 
-| Monitor                                 | Designed for Surface (third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
+| Monitor                                 | Designed for Surface <br>(third party)| USB-C | DisplayPort | Thunderbolt | HDMI |
 |-----------------------------------------|----------------------|-------|-------------|-------------|------|
 | ViewSonic VG245                         | ✓                    | ✓     | ✓           |             | ✓    |
 | ViewSonic VG275                         | ✓                    | ✓     | ✓           |             | ✓    |
@@ -394,7 +394,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Laptop Studio 2
 
-| Dock                                                      | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                                      | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Surface Dock 2                                            |                      |             |       | ✓               |
@@ -410,7 +410,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Laptop Studio 2
 
-| Cable                                                                                          | Designed for Surface (third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+| Cable                                                                                          | Designed for Surface <br>(third party)| USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB4 40 Gbps Cable 3.3 ft (201504-BLK-1m)                                       | ✓                    |                | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort 1.4 Cable - six Feet (201536-BLK-6)                        | ✓                    |                |              |                            | ✓                    |               |
@@ -442,7 +442,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Go 4
 
-| Dock                                                        | Designed for Surface (third party)| Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
+| Dock                                                        | Designed for Surface <br>(third party)| Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
 | ----------------------------------------------------------- |----------------------| ----------- | ----- | ---- | ----------- | --------------- |
 | Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Go 4) |                      | ✓           |       |      |             |                 |
 | Surface Dock 2                                              |                      |             |       |      |             | ✓               |
@@ -468,7 +468,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Laptop Go 3
 
-| Dock                                                        | Designed for Surface (third party)| Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
+| Dock                                                        | Designed for Surface <br>(third party)| Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
 | ----------------------------------------------------------- |----------------------| ----------- | ----- | ---- | ----------- | --------------- |
 | Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Laptop Go 3) |                      | ✓           |       |      |             |                 |
 | Surface Dock 2                                              |                      |             |       |      |             | ✓               |
@@ -518,7 +518,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested docks for Surface Pro 9
 
-| Dock                                                      | Designed for Surface (third party)| Thunderbolt | USB-C | Surface Connect |
+| Dock                                                      | Designed for Surface <br>(third party)| Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Surface Dock 2                                            |                      |             |       | ✓               |
@@ -544,7 +544,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Pro 9
 
-| Cable                               | Designed for Surface (third party)| USB-C to USB-C | Thunderbolt to Thunderbolt | DisplayPort | USB-C to DisplayPort | HDMI to HDMI |
+| Cable                               | Designed for Surface <br>(third party)| USB-C to USB-C | Thunderbolt to Thunderbolt | DisplayPort | USB-C to DisplayPort | HDMI to HDMI |
 |-------------------------------------|----------------------|----------------|----------------------------|-------------|----------------------|--------------|
 | Moshi USB-C to DisplayPort Cable (99MO084102) | ✓                    |                |                            |             | ✓                    |              |
 | j5Create USB-C Cable                |                      | ✓              |                            |             |                      |              |
@@ -557,7 +557,7 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 ### Tested cables for Surface Pro 9 with 5G
 
-| Cable                               | Designed for Surface (third party)| USB-C to USB-C | DisplayPort to DisplayPort | USB-C to DisplayPort | HDMI to HDMI |
+| Cable                               | Designed for Surface <br>(third party)| USB-C to USB-C | DisplayPort to DisplayPort | USB-C to DisplayPort | HDMI to HDMI |
 |-------------------------------------|----------------------|----------------|----------------------------|----------------------|--------------|
 | Moshi USB-C to DisplayPort Cable (99MO084102) | ✓                    |                |                            | ✓                    |              |
 | j5Create USB-C Cable                |                      | ✓              |                            |                      |              |
@@ -626,7 +626,7 @@ For devices without USB4/Thunderbolt 4 support, the USB-C connection supports on
 
 ### Tested adapters for Surface Thunderbolt 4 Dock
 
-| Adapter                                                | Designed for Surface (third party)| USB-C to DisplayPort | USB-C to HDMI | USB-C to USB-A | USB-C to Micro-USB |
+| Adapter                                                | Designed for Surface <br>(third party)| USB-C to DisplayPort | USB-C to HDMI | USB-C to USB-A | USB-C to Micro-USB |
 |--------------------------------------------------------|----------------------|----------------------|---------------|----------------|---------------------|
 | Cable Matters USB-C to USB-A 3.2 Gen 1 Adapter         | ✓                    |                      |               | ✓              |                     |
 | Cable Matters USB-C to Micro USB 3.1 Gen 2 Cable - 0.3 m | ✓                  |                      |               |                | ✓                   |
@@ -637,7 +637,7 @@ For devices without USB4/Thunderbolt 4 support, the USB-C connection supports on
 
 ### Tested cables for Surface Thunderbolt 4 Dock
 
-| Cable                                                  | Designed for Surface (third party)| Thunderbolt4/USB4 | USB-C to USB-C | USB-C to DP | USB-C to HDMI |
+| Cable                                                  | Designed for Surface <br>(third party)| Thunderbolt4/USB4 | USB-C to USB-C | USB-C to DP | USB-C to HDMI |
 |--------------------------------------------------------|----------------------|-------------------|----------------|-------------|---------------|
 | Cable Matters USB4 40 Gbps Cable 1 m                  | ✓                    | ✓                 |                |             |               |
 | Cable Matters USB4 Gen 2 20Gbps Cable                 | ✓                    | ✓                 |                |             |               |
