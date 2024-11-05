@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/04/2024
+ms.date: 11/05/2024
 ms.reviewer: dpushkareva
 manager: frankbu
 appliesto:
@@ -28,16 +28,16 @@ As part of the Positive Experience List (PEL) initiative, Surface engineering te
 
 ## Testing matrix
 
-This table lists Surface devices and their tested peripherals, arranged with the most recently tested devices at the top. Each entry includes direct links to the sections detailing the specific monitors, docks, cables, and adapters tested for compatibility.
+This table lists Surface devices and their tested peripherals. Each entry includes direct links to the sections detailing the specific monitors, docks, cables, and adapters tested for compatibility.
 
 | Device                     | Tested Monitors            | Tested Docks              | Tested Cables             | Tested Adapters           |
 |----------------------------|----------------------------|---------------------------|---------------------------|---------------------------|
-| Surface Pro 10 with 5G   | [Monitors](#tested-monitors-for-surface-pro-10-with-5g) | [Docks](#tested-docks-for-surface-pro-10-with-5g) | [Cables](#tested-cables-for-surface-pro-10-with-5g) | |
 | Surface Laptop (7th Edition)   | [Monitors](#tested-monitors-for-surface-laptop-7th-edition) | [Docks](#tested-docks-for-surface-laptop-7th-edition) | [Cables](#tested-cables-for-surface-laptop-7th-edition) | [Adapters](#tested-adapters-for-surface-laptop-7th-edition)|
 | Surface Pro (11th Edition - Wi-Fi only)  | [Monitors](#tested-monitors-for-surface-pro-11th-edition) | [Docks](#tested-docks-for-surface-pro-11th-edition) | [Cables](#tested-cables-for-surface-pro-11th-edition) |[Adapters](#tested-adapters-for-surface-pro-11th-edition)  |
 | Surface Pro (11th Edition – Wi-Fi + 5G)  | [Monitors](#tested-monitors-for-surface-pro-11th-edition) | [Docks](#tested-docks-for-surface-pro-11th-edition) | [Cables](#tested-cables-for-surface-pro-11th-edition) |[Adapters](#tested-adapters-for-surface-pro-11th-edition)  |
-| Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) |  |
 | Surface Pro 10              | [Monitors](#tested-monitors-for-surface-pro-10)          | [Docks](#tested-docks-for-surface-pro-10)          | [Cables](#tested-cables-for-surface-pro-10) | |
+| Surface Pro 10 with 5G   | [Monitors](#tested-monitors-for-surface-pro-10-with-5g) | [Docks](#tested-docks-for-surface-pro-10-with-5g) | [Cables](#tested-cables-for-surface-pro-10-with-5g) | |
+| Surface Laptop 6   | [Monitors](#tested-monitors-for-surface-laptop-6) | [Docks](#tested-docks-for-surface-laptop-6) | [Cables](#tested-cables-for-surface-laptop-6) |  |
 | Surface Laptop Studio 2    | [Monitors](#tested-monitors-for-surface-laptop-studio-2) | [Docks](#tested-docks-for-surface-laptop-studio-2) | [Cables](#tested-cables-for-surface-laptop-studio-2) | [Adapters](#tested-adapters-for-surface-laptop-studio-2) |
 | Surface Go 4               | [Monitors](#tested-monitors-for-surface-go-4)           | [Docks](#tested-docks-for-surface-go-4)           |                          |                          |
 | Surface Laptop Go 3        | [Monitors](#tested-monitors-for-surface-laptop-go-3)    | [Docks](#tested-docks-for-surface-laptop-go-3)    |                          |                          |
@@ -45,78 +45,6 @@ This table lists Surface devices and their tested peripherals, arranged with the
 | Surface Pro 9 with 5G      | [Monitors](#tested-monitors-for-surface-pro-9-with-5g)  | [Docks](#tested-docks-for-surface-pro-9-with-5g)  | [Cables](#tested-cables-for-surface-pro-9-with-5g) | [Adapters](#tested-adapters-for-surface-pro-9--surface-pro-9-with-5g) |
 | Surface Thunderbolt 4 Dock | [Monitors](#tested-monitors-for-surface-thunderbolt-4-dock) |                          | [Cables](#tested-cables-for-surface-thunderbolt-4-dock) | [Adapters](#tested-adapters-for-surface-thunderbolt-4-dock) |
 
-## Surface Pro 10 with 5G
-
-### Tested monitors for Surface Pro 10 with 5G
-
-| Monitor                            | Designed for Surface | USB-C | DisplayPort | HDMI |
-|------------------------------------|----------------------|-------|-------------|------|
-| ViewSonic VG245                    | ✓                    | ✓     | ✓           |      |
-| ViewSonic VG275                    | ✓                    | ✓     | ✓           |      |
-| ViewSonic VP275-4K                 | ✓                    | ✓     | ✓           | ✓    |
-| Viewsonic VA2447-MH                |                      |       | ✓           | ✓    |
-| Acer 272 EBI                       |                      |       | ✓           | ✓    |
-| Acer CB273U                        |                      | ✓     | ✓           | ✓    |
-| Acer Predator X27U                 |                      |       | ✓           | ✓    |
-| Asus PA247CV                       |                      | ✓     | ✓           | ✓    |
-| Asus PA278CV                       |                      | ✓     | ✓           | ✓    |
-| ASUS PA32UCX-PK                    |                      | ✓     | ✓           | ✓    |
-| Dell C2422HE                       |                      | ✓     | ✓           | ✓    |
-| Dell E2424HS                       |                      |       | ✓           | ✓    |
-| Dell P2425HE                       |                      | ✓     | ✓           |      |
-| Dell P2720DC                       |                      | ✓     | ✓           |      |
-| Dell P2723QE                       |                      | ✓     | ✓           | ✓    |
-| Dell P3223DE                       |                      | ✓     | ✓           | ✓    |
-| Dell S2722DC                       |                      | ✓     | ✓           | ✓    |
-| Dell U2722DE                       |                      | ✓     | ✓           | ✓    |
-| Dell U2724D                        |                      | ✓     | ✓           | ✓    |
-| Dell U2724DE                       |                      | ✓     | ✓           | ✓    |
-| Dell U3219Q                        |                      | ✓     | ✓           | ✓    |
-| Dell U3224KB                       |                      | ✓     | ✓           | ✓    |
-| Dell U3421WE                       |                      | ✓     | ✓           | ✓    |
-| Dell U3423WE                       |                      | ✓     | ✓           | ✓    |
-| Dell UP2720Q                       |                      | ✓     | ✓           |      |
-| HP Z24n G3 FHD                     |                      |       | ✓           | ✓    |
-| Lenovo P27U-20                     |                      | ✓     | ✓           | ✓    |
-| LG 27BN85UN-B                      |                      | ✓     | ✓           | ✓    |
-| LG 27GP95U-B                       |                      | ✓     | ✓           | ✓    |
-| LG 34GN850-B                       |                      |       | ✓           | ✓    |
-| Samsung F24T454GYN                 |                      |       | ✓           | ✓    |
-| Samsung F32TU870VC                 |                      | ✓     | ✓           | ✓    |
-| Samsung S27B800PXC                 |                      | ✓     | ✓           | ✓    |
-| Samsung S34C650VA                  |                      |       | ✓           | ✓    |
-| Samsung SD60(S27D600EAU)           |                      | ✓     | ✓           | ✓    |
-| Samsung SD60UD(S27D600UAU)         |                      | ✓     | ✓           | ✓    |
-| Samsung SD70D(S27D700EAU)          |                      | ✓     | ✓           | ✓    |
-| Samsung SD80D(S27D800EAU)          |                      | ✓     | ✓           | ✓    |
-| Samsung SD80UD(S27D800UAU)         |                      | ✓     | ✓           | ✓    |
-
-### Tested docks for Surface Pro 10 with 5G
-
-| Dock                                          | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
-|-----------------------------------------------|----------------------|-------------|-------|------------------|
-| Brydge Stone Pro TB4 Dock                    | ✓                    | ✓           |       |                  |
-| Kensington SD4845P Dock                      | ✓                    |             | ✓     |                  |
-| Kensington SD5750T Thunderbolt 4 Dock        | ✓                    | ✓           |       |                  |
-| Surface Thunderbolt 4 Dock                   |                      | ✓           |       |                  |
-| Surface Dock 2                               |                      |             |       | ✓                |
-| Dell Dock WD19DC USB-C                       |                      |             | ✓     |                  |
-| Dell UD22 USB-C Dock                         |                      |             | ✓     |                  |
-| Dell WD19S 180W Dock                         |                      |             | ✓     |                  |
-| Dell WD22TB4 Dock                            |                      | ✓           | ✓     |                  |
-| Plugable TBT4-UDZ                            |                      | ✓           | ✓     |                  |
-
-### Tested cables for Surface Pro 10 with 5G
-
-| Cable                                                | Designed for Surface | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
-|------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB4 40 Gbps Cable (201504)           | ✓                    | ✓              | ✓            |                            |                      |               |
-| Cable Matters USB4 Gen 2 20Gbps Cable               | ✓                    | ✓              |              |                            |                      |               |
-| Cable Matters USB-C to HDMI Cable (201562)          | ✓                    |                |              |                            |                      | ✓             |
-| Cable Matters USB-C to DP Cable (201536)            | ✓                    |                |              |                            | ✓                    |               |
-| BlueRigger HDMI Cable                               |                      |                |              |                            |                      | ✓             |
-| Monoprice DP Cable (42994) - (DP2.0)                |                      |                |              |                            | ✓                    |               |
-| StartTech USB C to DP 1.4 Cable (CDP2DP141MBD)      |                      |                |              |                            | ✓                    |               |
 
 ## Surface Laptop (7th Edition)
 
@@ -259,60 +187,8 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 | Monoprice DP Cable                                  |                      |                |              |                            | ✓                    |               |
 | Moshi USB-C to DP Cable (99MO084102)                |                      |                |              |                            | ✓                    |               |
 
-
-## Surface Laptop 6
-
-### Tested monitors for Surface Laptop 6
-
-| Monitor                                 | Designed for Surface | USB-C | DisplayPort | Thunderbolt | HDMI |
-|-----------------------------------------|----------------------|-------|-------------|-------------|------|
-| ViewSonic VG245                         | ✓                    | ✓     | ✓           |             | ✓    |
-| ViewSonic VG275                         | ✓                    | ✓     | ✓           |             | ✓    |
-| ViewSonic VP275-4K                      | ✓                    | ✓     | ✓           |             | ✓    |
-| Acer SB220Q                             |                      |       |             |             | ✓    |
-| Asus VG279QM                            |                      |       | ✓           |             | ✓    |
-| Dell C2422HE                            |                      | ✓     |             |             |      |
-| Dell P2419Hc                            |                      | ✓     | ✓           |             | ✓    |
-| Dell P2720DC                            |                      | ✓     |             |             |      |
-| Dell P2721Q                             |                      | ✓     |             |             |      |
-| Dell U2720Q                             |                      | ✓     |             |             |      |
-| Dell U3219Q                             |                      | ✓     | ✓           |             | ✓    |
-| Dell U3421WE                            |                      | ✓     | ✓           |             | ✓    |
-| HP OMEN 27i                             |                      |       | ✓           |             | ✓    |
-| HP X24iH                                |                      |       | ✓           |             |      |
-| Lenovo C32q-20                          |                      |       | ✓           |             | ✓    |
-| Lenovo L27i-30                          |                      |       |             |             | ✓    |
-| LG 27GN950-B                            |                      |       | ✓           |             | ✓    |
-| LG 34GN850-B                            |                      |       | ✓           |             |      |
-| Samsung LF32TU87                        |                      | ✓     | ✓           | ✓           | ✓    |
-| Samsung LS34C654VANXGO                  |                      | ✓     | ✓           |             | ✓    |
-| ViewSonic VA2447-MH                     |                      |       |             |             | ✓    |
-
-### Tested docks for Surface Laptop 6
-
-| Dock                                                      | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
-|-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
-| Brydge Stone Pro TB4 Dock                                 | ✓                    | ✓           |       |                 |
-| Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
-| Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
-| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
-| Surface Dock 2                                            |                      |             |       | ✓               |
-| Surface Dock 1                                            |                      |             |       | ✓               |
-| Dell Dock WD19DC USB-C                                    |                      |             | ✓     |                 |
-| Dell WD19S 180W Dock                                      |                      |             | ✓     |                 |
-| Dell UD22 USB-C Dock                                      |                      |             | ✓     |                 |
-| Dell WD22TB4 Dock                                         |                      | ✓           | ✓     |                 |
-| Plugable TBT4 UDZ                                         |                      | ✓           |       |                 |
-
-### Tested cables for Surface Laptop 6
-
-| Cable                                                                                          | Designed for Surface | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
-|------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
-| Cable Matters USB-C to USB-C 40 Gb Cable (201504)                                             | ✓                    | ✓              | ✓            |                            |                      |               |
-| Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
-| Cable Matters USB-C to HDMI Cable (201562)                                                     | ✓                    |                |              |                            |                      | ✓             |
-
 ## Surface Pro 10
+
 ### Tested monitors for Surface Pro 10
 
 | Monitor                                 | Designed for Surface | USB-C | DisplayPort | Thunderbolt | HDMI |
@@ -347,12 +223,12 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Dock                                                      | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
-| Brydge Stone Pro TB4 Dock                                 | ✓                    | ✓           |       |                 |
-| Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
-| Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
 | Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Surface Dock 2                                            |                      |             |       | ✓               |
 | Surface Dock 1                                            |                      |             |       | ✓               |
+| Brydge Stone Pro TB4 Dock                                 | ✓                    | ✓           |       |                 |
+| Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
+| Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
 | Dell Dock WD19DC USB-C                                    |                      |             | ✓     |                 |
 | Dell WD19S 180W Dock                                      |                      |             | ✓     |                 |
 | Dell UD22 USB-C Dock                                      |                      |             | ✓     |                 |
@@ -364,6 +240,131 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 | Cable                                                                                          | Designed for Surface | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
 |------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
 | Cable Matters USB-C to USB-C 40 Gb Cable (201504)                                             | ✓                    |                | ✓            |                            |                      |               |
+| Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
+| Cable Matters USB-C to HDMI Cable (201562)                                                     | ✓                    |                |              |                            |                      | ✓             |
+
+## Surface Pro 10 with 5G
+
+### Tested monitors for Surface Pro 10 with 5G
+
+| Monitor                            | Designed for Surface | USB-C | DisplayPort | HDMI |
+|------------------------------------|----------------------|-------|-------------|------|
+| ViewSonic VG245                    | ✓                    | ✓     | ✓           |      |
+| ViewSonic VG275                    | ✓                    | ✓     | ✓           |      |
+| ViewSonic VP275-4K                 | ✓                    | ✓     | ✓           | ✓    |
+| Viewsonic VA2447-MH                |                      |       | ✓           | ✓    |
+| Acer 272 EBI                       |                      |       | ✓           | ✓    |
+| Acer CB273U                        |                      | ✓     | ✓           | ✓    |
+| Acer Predator X27U                 |                      |       | ✓           | ✓    |
+| Asus PA247CV                       |                      | ✓     | ✓           | ✓    |
+| Asus PA278CV                       |                      | ✓     | ✓           | ✓    |
+| ASUS PA32UCX-PK                    |                      | ✓     | ✓           | ✓    |
+| Dell C2422HE                       |                      | ✓     | ✓           | ✓    |
+| Dell E2424HS                       |                      |       | ✓           | ✓    |
+| Dell P2425HE                       |                      | ✓     | ✓           |      |
+| Dell P2720DC                       |                      | ✓     | ✓           |      |
+| Dell P2723QE                       |                      | ✓     | ✓           | ✓    |
+| Dell P3223DE                       |                      | ✓     | ✓           | ✓    |
+| Dell S2722DC                       |                      | ✓     | ✓           | ✓    |
+| Dell U2722DE                       |                      | ✓     | ✓           | ✓    |
+| Dell U2724D                        |                      | ✓     | ✓           | ✓    |
+| Dell U2724DE                       |                      | ✓     | ✓           | ✓    |
+| Dell U3219Q                        |                      | ✓     | ✓           | ✓    |
+| Dell U3224KB                       |                      | ✓     | ✓           | ✓    |
+| Dell U3421WE                       |                      | ✓     | ✓           | ✓    |
+| Dell U3423WE                       |                      | ✓     | ✓           | ✓    |
+| Dell UP2720Q                       |                      | ✓     | ✓           |      |
+| HP Z24n G3 FHD                     |                      |       | ✓           | ✓    |
+| Lenovo P27U-20                     |                      | ✓     | ✓           | ✓    |
+| LG 27BN85UN-B                      |                      | ✓     | ✓           | ✓    |
+| LG 27GP95U-B                       |                      | ✓     | ✓           | ✓    |
+| LG 34GN850-B                       |                      |       | ✓           | ✓    |
+| Samsung F24T454GYN                 |                      |       | ✓           | ✓    |
+| Samsung F32TU870VC                 |                      | ✓     | ✓           | ✓    |
+| Samsung S27B800PXC                 |                      | ✓     | ✓           | ✓    |
+| Samsung S34C650VA                  |                      |       | ✓           | ✓    |
+| Samsung SD60(S27D600EAU)           |                      | ✓     | ✓           | ✓    |
+| Samsung SD60UD(S27D600UAU)         |                      | ✓     | ✓           | ✓    |
+| Samsung SD70D(S27D700EAU)          |                      | ✓     | ✓           | ✓    |
+| Samsung SD80D(S27D800EAU)          |                      | ✓     | ✓           | ✓    |
+| Samsung SD80UD(S27D800UAU)         |                      | ✓     | ✓           | ✓    |
+
+### Tested docks for Surface Pro 10 with 5G
+
+| Dock                                          | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
+|-----------------------------------------------|----------------------|-------------|-------|------------------|
+| Surface Thunderbolt 4 Dock                   |                      | ✓           |       |                  |
+| Surface Dock 2                               |                      |             |       | ✓                |
+| Brydge Stone Pro TB4 Dock                    | ✓                    | ✓           |       |                  |
+| Kensington SD4845P Dock                      | ✓                    |             | ✓     |                  |
+| Kensington SD5750T Thunderbolt 4 Dock        | ✓                    | ✓           |       |                  |
+| Dell Dock WD19DC USB-C                       |                      |             | ✓     |                  |
+| Dell UD22 USB-C Dock                         |                      |             | ✓     |                  |
+| Dell WD19S 180W Dock                         |                      |             | ✓     |                  |
+| Dell WD22TB4 Dock                            |                      | ✓           | ✓     |                  |
+| Plugable TBT4-UDZ                            |                      | ✓           | ✓     |                  |
+
+### Tested cables for Surface Pro 10 with 5G
+
+| Cable                                                | Designed for Surface | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
+| Cable Matters USB4 40 Gbps Cable (201504)           | ✓                    | ✓              | ✓            |                            |                      |               |
+| Cable Matters USB4 Gen 2 20Gbps Cable               | ✓                    | ✓              |              |                            |                      |               |
+| Cable Matters USB-C to HDMI Cable (201562)          | ✓                    |                |              |                            |                      | ✓             |
+| Cable Matters USB-C to DP Cable (201536)            | ✓                    |                |              |                            | ✓                    |               |
+| BlueRigger HDMI Cable                               |                      |                |              |                            |                      | ✓             |
+| Monoprice DP Cable (42994) - (DP2.0)                |                      |                |              |                            | ✓                    |               |
+| StartTech USB C to DP 1.4 Cable (CDP2DP141MBD)      |                      |                |              |                            | ✓                    |               |
+
+## Surface Laptop 6
+
+### Tested monitors for Surface Laptop 6
+
+| Monitor                                 | Designed for Surface | USB-C | DisplayPort | Thunderbolt | HDMI |
+|-----------------------------------------|----------------------|-------|-------------|-------------|------|
+| ViewSonic VG245                         | ✓                    | ✓     | ✓           |             | ✓    |
+| ViewSonic VG275                         | ✓                    | ✓     | ✓           |             | ✓    |
+| ViewSonic VP275-4K                      | ✓                    | ✓     | ✓           |             | ✓    |
+| Acer SB220Q                             |                      |       |             |             | ✓    |
+| Asus VG279QM                            |                      |       | ✓           |             | ✓    |
+| Dell C2422HE                            |                      | ✓     |             |             |      |
+| Dell P2419Hc                            |                      | ✓     | ✓           |             | ✓    |
+| Dell P2720DC                            |                      | ✓     |             |             |      |
+| Dell P2721Q                             |                      | ✓     |             |             |      |
+| Dell U2720Q                             |                      | ✓     |             |             |      |
+| Dell U3219Q                             |                      | ✓     | ✓           |             | ✓    |
+| Dell U3421WE                            |                      | ✓     | ✓           |             | ✓    |
+| HP OMEN 27i                             |                      |       | ✓           |             | ✓    |
+| HP X24iH                                |                      |       | ✓           |             |      |
+| Lenovo C32q-20                          |                      |       | ✓           |             | ✓    |
+| Lenovo L27i-30                          |                      |       |             |             | ✓    |
+| LG 27GN950-B                            |                      |       | ✓           |             | ✓    |
+| LG 34GN850-B                            |                      |       | ✓           |             |      |
+| Samsung LF32TU87                        |                      | ✓     | ✓           | ✓           | ✓    |
+| Samsung LS34C654VANXGO                  |                      | ✓     | ✓           |             | ✓    |
+| ViewSonic VA2447-MH                     |                      |       |             |             | ✓    |
+
+### Tested docks for Surface Laptop 6
+
+| Dock                                                      | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
+|-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
+| Surface Dock 2                                            |                      |             |       | ✓               |
+| Surface Dock 1                                            |                      |             |       | ✓               |
+| Brydge Stone Pro TB4 Dock                                 | ✓                    | ✓           |       |                 |
+| Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
+| Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
+| Dell Dock WD19DC USB-C                                    |                      |             | ✓     |                 |
+| Dell WD19S 180W Dock                                      |                      |             | ✓     |                 |
+| Dell UD22 USB-C Dock                                      |                      |             | ✓     |                 |
+| Dell WD22TB4 Dock                                         |                      | ✓           | ✓     |                 |
+| Plugable TBT4 UDZ                                         |                      | ✓           |       |                 |
+
+### Tested cables for Surface Laptop 6
+
+| Cable                                                                                          | Designed for Surface | USB-C to USB-C | USB4 to USB4 | Thunderbolt to Thunderbolt | USB-C to DisplayPort | USB-C to HDMI |
+|------------------------------------------------------------------------------------------------|----------------------|----------------|--------------|----------------------------|----------------------|---------------|
+| Cable Matters USB-C to USB-C 40 Gb Cable (201504)                                             | ✓                    | ✓              | ✓            |                            |                      |               |
 | Cable Matters USB-C to DisplayPort Cable (201536)                                              | ✓                    |                |              |                            | ✓                    |               |
 | Cable Matters USB-C to HDMI Cable (201562)                                                     | ✓                    |                |              |                            |                      | ✓             |
 
@@ -395,17 +396,17 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Dock                                                      | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
+| Surface Dock 2                                            |                      |             |       | ✓               |
+| Surface Dock 1 (slow charging is possible)                |                      |             |       | ✓               |
 | Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
 | Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
-| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Plugable TBT4 UDZ                                         |                      | ✓           |       |                 |
 | Dell WD22TB4                                              |                      | ✓           |       |                 |
 | Dell WD19TB                                               |                      | ✓           |       |                 |
 | Dell U22                                                  |                      |             | ✓     |                 |
 | Dell WD19S                                                |                      |             | ✓     |                 |
 | Plugable ULT CDL                                          |                      |             |       |                 |
-| Surface Dock 2                                            |                      |             |       | ✓               |
-| Surface Dock 1 (slow charging is possible)                |                      |             |       | ✓               |
 
 ### Tested cables for Surface Laptop Studio 2
 
@@ -443,13 +444,13 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Dock                                                        | Designed for Surface | Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
 | ----------------------------------------------------------- |----------------------| ----------- | ----- | ---- | ----------- | --------------- |
-| Kensington SD4845P Thunderbolt 4 Dock                       | ✓                    | ✓           |       |      |             |                 |
 | Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Go 4) |                      | ✓           |       |      |             |                 |
+| Surface Dock 2                                              |                      |             |       |      |             | ✓               |
+| Surface Dock 1                                              |                      |             |       |      |             | ✓               |
+| Kensington SD4845P Thunderbolt 4 Dock                       | ✓                    | ✓           |       |      |             |                 |
 | Targus DOCK430USZ                                           |                      | ✓           | ✓     | ✓    | ✓           |                 |
 | Dell WD19S 180W Dock                                        |                      |             | ✓     | ✓    | ✓           |                 |
 | Plugable Docking Station (UD-ULTCDL)                        |                      |             | ✓     | ✓    |             |                 |
-| Surface Dock 2                                              |                      |             |       |      |             | ✓               |
-| Surface Dock 1                                              |                      |             |       |      |             | ✓               |
 
 ## Surface Laptop Go 3
 
@@ -469,13 +470,13 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Dock                                                        | Designed for Surface | Thunderbolt | USB-C | HDMI | DisplayPort | Surface Connect |
 | ----------------------------------------------------------- |----------------------| ----------- | ----- | ---- | ----------- | --------------- |
-| Kensington SD4845P Thunderbolt 4 Dock                       | ✓                    | ✓           |       |      |             |                 |
 | Surface Thunderbolt 4 Dock (supports [one external monitor](surface-dock-whats-new.md) for Surface Laptop Go 3) |                      | ✓           |       |      |             |                 |
+| Surface Dock 2                                              |                      |             |       |      |             | ✓               |
+| Surface Dock 1                                              |                      |             |       |      |             | ✓               |
+| Kensington SD4845P Thunderbolt 4 Dock                       | ✓                    | ✓           |       |      |             |                 |
 | Targus DOCK430USZ                                           |                      | ✓           | ✓     | ✓    | ✓           |                 |
 | Dell WD19S 180W Dock                                        |                      |             | ✓     | ✓    | ✓           |                 |
 | Plugable Docking Station (UD-ULTCDL)                        |                      |             | ✓     | ✓    |             |                 |
-| Surface Dock 2                                              |                      |             |       |      |             | ✓               |
-| Surface Dock 1                                              |                      |             |       |      |             | ✓               |
 
 ## Surface Pro 9 & Surface Pro 9 with 5G
 
@@ -519,27 +520,27 @@ This section includes test results for both Surface Pro (11th Edition Wi-Fi only
 
 | Dock                                                      | Designed for Surface | Thunderbolt | USB-C | Surface Connect |
 |-----------------------------------------------------------|----------------------|-------------|-------|-----------------|
+| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
+| Surface Dock 2                                            |                      |             |       | ✓               |
+| Surface Dock 1 (slow charging is possible)                |                      |             |       | ✓               |
 | Kensington SD4845P Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
 | Kensington SD5750T Thunderbolt 4 Dock                     | ✓                    | ✓           |       |                 |
-| Surface Thunderbolt 4 Dock                                |                      | ✓           |       |                 |
 | Plugable TBT4 UDZ                                         |                      | ✓           |       |                 |
 | Dell WD22TB4                                              |                      | ✓           |       |                 |
 | Dell WD19TB                                               |                      | ✓           |       |                 |
 | Dell U22                                                  |                      |             | ✓     |                 |
 | Dell WD19S                                                |                      |             | ✓     |                 |
 | Plugable ULT CDL                                          |                      |             | ✓     |                 |
-| Surface Dock 2                                            |                      |             |       | ✓               |
-| Surface Dock 1 (slow charging is possible)                |                      |             |       | ✓               |
 
 ### Tested docks for Surface Pro 9 with 5G
 
 | Dock                     | USB-C | Surface Connect |
 |--------------------------|-------|-----------------|
 | Surface Thunderbolt 4 Dock | ✓     |                 |
-| Dell WD19DC              | ✓     |                 |
-| Plugable ULT-CDL         | ✓     |                 |
 | Surface Dock 1           |       | ✓               |
 | Surface Dock 2           |       | ✓               |
+| Dell WD19DC              | ✓     |                 |
+| Plugable ULT-CDL         | ✓     |                 |
 
 ### Tested cables for Surface Pro 9
 
@@ -622,6 +623,7 @@ For devices without USB4/Thunderbolt 4 support, the USB-C connection supports on
 | SHARP-60MY5100A Smart TV                |             |       |              | ✓    |
 | SHARP-TV                                |             |       |              | ✓    |
 | ViewSonic-VP2780                        |             |       | ✓            | ✓    |
+
 ### Tested adapters for Surface Thunderbolt 4 Dock
 
 | Adapter                                                | Designed for Surface | USB-C to DisplayPort | USB-C to HDMI | USB-C to USB-A | USB-C to Micro-USB |
@@ -632,7 +634,6 @@ For devices without USB4/Thunderbolt 4 support, the USB-C connection supports on
 | MSFT USB-C Travel Hub                                  |                      | ✓                    | ✓             |                |                     |
 | MSFT USB-C to HDMI Adapter                             |                      |                      | ✓             |                |                     |
 | Moshi USB-C to HDMI Adapter                            |                      |                      | ✓             |                |                     |
-
 
 ### Tested cables for Surface Thunderbolt 4 Dock
 
