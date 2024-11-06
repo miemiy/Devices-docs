@@ -42,7 +42,7 @@ When deploying Surface devices using Ethernet adapters, Configuration Manager id
 
 ## Use prestaged media with Surface clients
 
-If using **prestaged media** for Surface deployments, take extra steps to accommodate UEFI environments requiring multiple partitions. Refer to the blog post [How to apply Task Sequence Prestaged Media on multi-partitioned disks](https://techcommunity.microsoft.com/t5/configuration-manager-archive/how-to-apply-task-sequence-prestaged-media-on-multi-partitioned/ba-p/392239).
+If using **prestaged media** for Surface deployments, take extra steps to accommodate UEFI environments requiring multiple partitions. To learn more, see [Create prestaged media](/mem/configmgr/osd/deploy-use/create-prestaged-media).
 
 ## Licensing conflicts with OEM Activation 3.0
 
