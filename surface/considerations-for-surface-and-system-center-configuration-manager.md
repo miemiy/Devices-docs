@@ -1,13 +1,13 @@
 ---
 title: Considerations for Surface and Microsoft Endpoint Configuration Manager
-description: Learn considerations for deploying and managing Surface devices with Microsoft Endpoint Configuration Manager, including updates, licensing, and more.
+description: Manage & deploy Surface devices efficiently with Endpoint Configuration Manager, covering drivers, licensing, security, and Windows 11 updates.
 ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
 ms.localizationpriority: medium
 manager: frankbu
-ms.date: 08/12/2021
+ms.date: 11/05/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -15,57 +15,46 @@ appliesto:
 
 # Considerations for Surface and Microsoft Endpoint Configuration Manager
 
-Fundamentally, management and deployment of Surface devices with Microsoft Endpoint Configuration Manager is the same as the management and deployment of any other PC. Like any other PC, a deployment of Surface devices includes importing drivers, importing a Windows image, preparing a deployment task sequence, and then deploying the task sequence to a collection. After deployment, Surface devices are like any other Windows client; to publish apps, settings, and policies, you use the same process as you would use for any other device.
+Fundamentally, management and deployment of Surface devices with Microsoft Endpoint Configuration Manager follows the same principles as managing other PCs. Like any PC deployment, it includes importing drivers, preparing Windows images, setting deployment task sequences, and applying those sequences to device collections. After deployment, Surface devices behave like any other Windows client, receiving apps, settings, and policies through familiar processes.
 
 To learn more, see [Microsoft Endpoint Configuration Manager documentation](/mem/configmgr/).
 
-Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios may require extra IT tasks, as described below. 
+Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios might require extra IT tasks, as described in this article.
 
-> [!TIP]
-> Use the [Current Branch of Microsoft Endpoint Configuration Manager](/mem/configmgr/core/servers/manage/updates) to manage Surface devices.
+## Proactive monitoring, security, and AI-powered insights
 
-## Update Surface device drivers and firmware
+Endpoint Configuration Manager supports enhanced security, proactive monitoring, and compliance enforcement. It enables IT administrators to take advantage of **virtualization-based security (VBS)** to isolate critical security operations, while **TPM 2.0** plays a foundational role in enabling **encryption with BitLocker**, **secure boot**, and **Windows Hello for Business**. Endpoint Configuration Manager ensures compliance with these security baselines by monitoring device health and policy adherence, ensuring devices are protected against unauthorized access.
 
-To deploy updates device drivers and firmware using Configuration Manager or Windows Server Update Services (WSUS), see [Manage Surface driver and firmware updates](manage-surface-driver-and-firmware-updates.md).
+Additionally, [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection) integrates with Endpoint Configuration Manager, delivering AI-powered threat detection and response capabilities, helping organizations detect anomalies and protect against sophisticated threats.
+
+## Windows 11 24H2 Update integration
+
+Ensure compatibility by using Configuration Manager for **Windows 11 24H2 deployments** on Surface devices. Ensure product activation is aligned when deploying or reimaging these devices  using **OEM Activation 3.0 (OA 3.0)** tools or **Microsoft’s KMS infrastructure**.
+
+- **Key resources**: Check the **Windows Setup Edition Configuration and Product ID Files** for licensing requirements. When installing or reimaging with Windows Enterprise editions, use the proper task sequences to avoid conflicts between the embedded firmware key and the new OS.
 
 ## Surface Ethernet adapters and Configuration Manager deployment
 
-The default mechanism that Configuration Manager uses to identify devices during deployment is the Media Access Control (MAC) address. Because the MAC address is associated with the Ethernet controller, an Ethernet adapter shared among multiple devices will cause Configuration Manager to identify each of the devices as only a single device, resulting in a failed deployment. 
+When deploying Surface devices using Ethernet adapters, Configuration Manager identifies devices by **MAC address**. However, shared Ethernet adapters can cause deployment issues by recognizing multiple devices as a single device. To avoid this, configure Configuration Manager to use alternative identifiers, such as the **System UUID**.
 
-To ensure that Surface devices using the same Ethernet adapter are identified as unique devices during deployment, you can instruct Configuration Manager to identify devices using another method. You can specify that Configuration Manager use other identification methods, as documented in [Manage duplicate hardware identifiers](/mem/configmgr/core/clients/manage/manage-clients#manage-duplicate-hardware-identifiers):
-
-- Add an exclusion for the MAC addresses of Surface Ethernet adapters, which forces Configuration Manager to overlook the MAC address in preference of the System UUID.
-
-- Use a script to identify a newly deployed Surface device by the MAC address of its wireless adapter.
-
-### Surface Ethernet Driver
-
-Since 2016, the driver for the Surface Ethernet adapter has been included by default in Windows and requires no another IT configuration. The driver is no longer available for download from the Microsoft Download Center. If you need to deploy earlier versions of Windows 10 Pro, you can download the latest driver from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=surface%20ethernet%20drivers).
-
-## Deploy Surface app with Configuration Manager
-
-With the release of Microsoft Store for Business, Surface app is no longer available as a driver and firmware download. Organizations deploying Surface app to managed Surface devices or during deployment via  Configuration Manager, must first acquire Surface app through Microsoft Store for Business. To learn more, see [Deploy Surface app with Microsoft Store for Business](deploy-surface-app-with-windows-store-for-business.md).
+- **Best practice**: Exclude Surface Ethernet adapters from MAC-based identification to prevent deployment conflicts.
+- **Driver availability**: Drivers for older Windows versions are available in the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=surface%20ethernet%20drivers). For newer versions, the drivers are included by default in Windows and require no extra configuration.
 
 ## Use prestaged media with Surface clients
 
-If your organization uses prestaged media to load deployment resources onto machines prior to deployment with Configuration Manager, you may need to take extra steps. Specifically, a native UEFI environment requires that you create multiple partitions on the boot disk of the system. If you're following along with the [documentation for prestaged media](/mem/configmgr/osd/deploy-use/create-prestaged-media), the instructions provide for only single partition boot disks and therefore will fail when applied to Surface devices.
-
-To learn more, see [How to apply Task Sequence Prestaged Media on multi-partitioned disks for BIOS or UEFI PCs in System](https://techcommunity.microsoft.com/t5/configuration-manager-archive/how-to-apply-task-sequence-prestaged-media-on-multi-partitioned/ba-p/392239) blog post.
+If using **prestaged media** for Surface deployments, take extra steps to accommodate UEFI environments requiring multiple partitions. To learn more, see [Create prestaged media](/mem/configmgr/osd/deploy-use/create-prestaged-media).
 
 ## Licensing conflicts with OEM Activation 3.0
 
-Surface devices come preinstalled with a licensed copy of Windows. The license key for this preinstalled copy of Windows is embedded in the firmware of the device with [OEM Activation 3.0](/windows-hardware/manufacture/desktop/oem-activation-3) (OA 3.0). When you run Windows installation media on a device with an OA 3.0 key, Windows setup automatically reads the license key and uses it to install and activate Windows. In most situations, users don't have to find or enter a license key.
+Surface devices ship with an embedded **Windows license key** via **OEM Activation 3.0**. Be aware of potential conflicts when deploying Windows editions that differ from the preinstalled OS.
 
-When you reimage a device by using Windows Enterprise, the embedded license key doesn't cause a conflict. This is because the installation media for Windows Enterprise is configured to install only an Enterprise edition of Windows and is incompatible with the license key embedded in the system firmware. If a product key isn't specified--such as when you intend to activate with Key Management Services [KMS] or Active Directory Based Activation--a Generic Volume License Key (GVLK) is used until Windows is activated by one of those technologies.
-
-However, issues may arise when organizations intend to use versions of Windows that are compatible with the firmware embedded key. For example, an organization that wants to install Windows 10 Pro on a device that originally shipped with Windows 10 Home  may encounter difficulty when Windows setup automatically reads the Home edition key during installation and installs as Windows 10 Home instead of Windows 10 Pro. To avoid this conflict, use the Ei.cfg or Pid.txt file to explicitly instruct Windows setup to prompt for a product key, or enter a specific product key in the deployment task sequence. For more information, see [Windows Setup Edition Configuration and Product ID Files](/windows-hardware/manufacture/desktop/windows-setup-edition-configuration-and-product-id-files--eicfg-and-pidtxt). If you don't have a specific key, you can use the default product keys for Windows. For more information, see [Deploy Windows 10](/windows/deployment/deploy).
+- **Example**: If a device ships with **Windows 11 Home** and you want to install **Windows 11 Pro**, use an **Ei.cfg** or **Pid.txt** file to bypass the embedded license key.
+- **Enterprise deployment**: For organizations using **Windows Enterprise** editions, the embedded key is bypassed by default, and **KMS or Active Directory-based activation** completes the process.
 
 ## Apply an asset tag during deployment
 
-With the [Surface Asset tag tool](assettag.md), you can identify devices from UEFI even if the operating system fails. To learn more about managing assets with Configuration Manager, see [Introduction to asset intelligence in Configuration Manager](/mem/configmgr/core/clients/manage/asset-intelligence/introduction-to-asset-intelligence).
+Use the [Surface Asset Tag Tool](surface-it-toolkit-library.md) to apply asset tags directly from UEFI. This allows identification even if the OS fails, streamlining asset management for IT admins. To learn more, see [Introduction to asset intelligence in Configuration Manager](/mem/configmgr/core/clients/manage/asset-intelligence/introduction-to-asset-intelligence).
 
 ## Configure push-button reset
 
-When you deploy Windows to a Surface device, the push-button reset functionality of Windows is configured by default to revert the system back to a state where the environment isn't yet configured. When the reset function is used, the system discards any installed applications and settings. Although in some situations it can be beneficial to restore the system to a state without applications and settings, in a professional environment, this effectively renders the system unusable to the end user.
-
-Push-button reset can be configured, however, to restore the system configuration to a state where it's ready for use by the end user. Follow the process outlined in [Deploy push-button reset features](/windows-hardware/manufacture/desktop/deploy-push-button-reset-features) to customize the push-button reset experience for your devices.
+By default, **push-button reset** restores Surface devices to a clean state, discarding apps and settings. For professional environments, configure push-button reset to restore devices with preinstalled configurations using [Deploy push-button reset features](/windows-hardware/manufacture/desktop/deploy-push-button-reset-features).
