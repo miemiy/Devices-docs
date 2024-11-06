@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 06/11/2024
+ms.date: 10/31/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -17,7 +17,7 @@ appliesto:
 # Downgrade to Windows 10
 
 > [!IMPORTANT]
-> When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414).
+> When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [How to prepare for Windows 10 end of support by moving to Windows 11 today](https://blogs.windows.com/windowsexperience/2024/10/31/how-to-prepare-for-windows-10-end-of-support-by-moving-to-windows-11-today/).
 
 > [!NOTE]
 > Effective March 31, 2024, Microsoft no longer offers Windows 10 Pro as a downgrade choice in operating systems on devices delivered from the factory. PC manufacturers can no longer install Windows 10 Pro on Windows 11 Pro PCs during manufacturing. Any current stock of devices with Windows 10 preinstalled is only available while supplies last. The right for customers to install Windows 10 Pro on OEM-licensed versions of Windows 11 Pro continues while Windows 10 Pro is still supported.
@@ -86,4 +86,5 @@ In a commercial organization, IT admins can create a Windows 10 custom image wit
 
 ### Learn more
 
+- [How to prepare for Windows 10 end of support by moving to Windows 11 today](https://blogs.windows.com/windowsexperience/2024/10/31/how-to-prepare-for-windows-10-end-of-support-by-moving-to-windows-11-today/)
 - [Surface for Business](https://www.microsoft.com/surface/business)
