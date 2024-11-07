@@ -73,7 +73,7 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 - **Intune**: Manage Surface firmware updates remotely using Intune and the **Surface Management Portal** for visibility into device status. The portal provides a consolidated view of all Surface devices across the organization.
   
-- **Configuration Manager**: Synchronize Surface firmware and driver updates with Endpoint Configuration Manager for on-premises management. Use Configuration Manager to automate deployments or co-manage devices via **Microsoft Entra hybrid join**.
+- **Configuration Manager**: Synchronize Surface firmware and driver updates with Endpoint Configuration Manager for on-premises management. Use Configuration Manager to automate deployments or co-manage devices via **Microsoft Entra hybrid join**. To learn more, see [Configure Microsoft Entra hybrid join](/entra/identity/devices/how-to-hybrid-join).
 
 **Helpful resources:**
 
@@ -87,8 +87,8 @@ By having Device Firmware Configuration Interface (DFCI) profiles [built into In
 ## Best practices for Surface firmware updates
 
 - **Test updates in stages**: Deploy updates to a test group first before rolling them out organization-wide.
-- **Monitor device health**: Use Intune’s **Surface Management Portal** to track update success and detect any issues.
-- **Adopt Windows Update for Business**: This ensures Surface devices always have the latest drivers, firmware, and security patches.
+- **Monitor device health**: Use Intune’s **Surface Management Portal** to track update success and detect any issues. To learn more, see [Surface Management Portal overview](surface-management-portal.md). 
+- **Adopt Windows Update for Business**: This ensures Surface devices always have the latest drivers, firmware, and security patches. To learn more, see [Configure Windows Update for Business](/windows/deployment/update/waas-configure-wufb).
 
 ### Surface .msi naming convention
 
