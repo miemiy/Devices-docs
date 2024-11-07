@@ -80,17 +80,25 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 - [Manage Surface driver updates in Configuration Manager](/mem/configmgr/sum/deploy-use/surface-drivers)
 - [Surface Management Portal Overview](/mem/intune/fundamentals/surface-management-portal)
 
-## Managing firmware with DFCI
+## Security benefits of driver and firmware updates
 
-By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+Keeping drivers and firmware up to date ensures:
 
-## Best practices for Surface firmware updates
+- **Enhanced security**: Regular updates reduce vulnerabilities by addressing firmware-level risks.
+- **Improved performance**: Drivers aligned with the latest OS updates ensure the best experience.
+- **Simplified management**: Using tools like Intune and the Surface Management Portal ensures seamless deployment and tracking of updates, reducing administrative overhead.  
+
+### Best practices for Surface firmware updates
 
 - **Test updates in stages**: Deploy updates to a test group first before rolling them out organization-wide.
 - **Monitor device health**: Use Intune’s **Surface Management Portal** to track update success and detect any issues. To learn more, see [Surface Management Portal overview](surface-management-portal.md). 
 - **Adopt Windows Update for Business**: This ensures Surface devices always have the latest drivers, firmware, and security patches. To learn more, see [Configure Windows Update for Business](/windows/deployment/update/waas-configure-wufb).
 
-### Surface .msi naming convention
+## Managing firmware with DFCI
+
+By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+
+## Surface .msi naming convention
 
 Since August 2019, .msi files have followed the convention:
 
@@ -116,14 +124,6 @@ This helps IT admins select the correct update based on product, OS, and build c
 ## Automate driver and firmware updates with MDT on Windows 10
 
 While the [Microsoft Deployment Toolkit (MDT)](/previous-versions/windows/it-pro/windows-10/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit) isn’t supported for ARM-based devices or Windows 11, it remains a useful tool for automating updates on x86-based Surface devices running Windows 10. Use task sequences to install drivers and updates during OS deployment, ensuring devices are up to date from the start. To learn more, see [Task Sequence Steps](/mem/configmgr/mdt/task-sequence-steps).
-
-## Security benefits of driver and firmware updates
-
-Keeping drivers and firmware up to date ensures:
-
-- **Enhanced security**: Regular updates reduce vulnerabilities by addressing firmware-level risks.
-- **Improved performance**: Drivers aligned with the latest OS updates ensure the best experience.
-- **Simplified management**: Using tools like Intune and the Surface Management Portal ensures seamless deployment and tracking of updates, reducing administrative overhead.  
 
 ## Learn more
 
