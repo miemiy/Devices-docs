@@ -8,7 +8,7 @@ ms.service: surface
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 11/05/2024
+ms.date: 11/07/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -82,10 +82,7 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 ## Managing firmware with DFCI
 
-By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. For more information, see the following resources:
-
-- [Manage DFCI on Surface devices](surface-manage-dfci-guide.md)
-- [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
+By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
 ## Best practices for Surface firmware updates
 
