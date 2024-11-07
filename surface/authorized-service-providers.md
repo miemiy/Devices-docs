@@ -48,6 +48,7 @@ The growing ASP network consists of more than 160 locations.
 - [DHE](https://www.dhecs.com/)
 - [DI Technology Group Inc](https://store.dataimpressions.com/)
 - [DXC Technology](https://dxc.com/us)
+- [Duke Computer Repair](https://www.dukestores.duke.edu/index.php/computer-repair/)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
 - [GlobalAsset](https://globalassetonline.com/)
 - [Insight](https://www.insight.com/)
