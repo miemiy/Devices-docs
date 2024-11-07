@@ -30,12 +30,12 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 - Wi-Fi and LTE
 - Video
 - Solid-state drive
-- System aggregator module (SAM)
+- System Aggregator Module (SAM)
 - Battery
 - Keyboard controller
 - Embedded controller (EC)
 - Management engine (ME)
-- Unified extensible firmware interface (UEFI)
+- Unified Extensible Firmware Interface (UEFI)
 
 ## Download and install updates
 
@@ -43,7 +43,7 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 2. If multiple .msi files are available, select the file corresponding to your Surface model and deployed OS version.  
 
 > [!IMPORTANT]
-> As **Windows 10** approaches its **end of support on October 14, 2025**, organizations should plan their transition to **Windows 11**, **Windows 365**, or leverage **Extended Security Updates (ESU)**. See [Plan for Windows 10 EOS](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414).
+> When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414).
 
 | Surface device                                                                                                                                        | Downloadable .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -80,6 +80,13 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 - [Manage Surface driver updates in Configuration Manager](/mem/configmgr/sum/deploy-use/surface-drivers)
 - [Surface Management Portal Overview](/mem/intune/fundamentals/surface-management-portal)
+
+## Managing firmware with DFCI
+
+By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. For more information, see the following resources:
+
+- [Manage DFCI on Surface devices](surface-manage-dfci-guide.md)
+- [Ignite 2019: Announcing remote management of Surface UEFI settings from Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
 ## Best practices for Surface firmware updates
 
