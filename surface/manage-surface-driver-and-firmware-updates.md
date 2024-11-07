@@ -39,11 +39,10 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 ## Download and install updates
 
-1. Choose **Windows 10** or **Windows 11** as appropriate for your organization.  
+1. Choose either **Windows 11** or **Windows 10** as appropriate for your organization.  
 2. If multiple .msi files are available, select the file corresponding to your Surface model and deployed OS version.  
 
 > [!IMPORTANT]
-
 > When Windows 10 reaches end of support (EOS) on October 14, 2025, Microsoft will no longer release security updates, bug fixes, time zone updates, or technical support from Microsoft. To learn more, including transition options for organizations needing more time, see [Plan for Windows 10 EOS with Windows 11, Windows 365, and ESU](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/plan-for-windows-10-eos-with-windows-11-windows-365-and-esu/ba-p/4000414).
 
 | Surface device                                                                                                                                        | Downloadable .msi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -114,9 +113,9 @@ This file name provides the following information:
 
 This helps IT admins select the correct update based on product, OS, and build compatibility.
 
-## Automate driver and firmware updates with MDT
+## Automate driver and firmware updates with MDT on Windows 10
 
-While **MDT** isn’t supported for ARM-based devices, it remains a useful tool for automating updates on x86-based Surface devices. Use task sequences to install drivers and updates during OS deployment, ensuring devices are up to date from the start.
+While the [Microsoft Deployment Toolkit (MDT)](/previous-versions/windows/it-pro/windows-10/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit) isn’t supported for ARM-based devices or Windows 11, it remains a useful tool for automating updates on x86-based Surface devices running Windows 10. Use task sequences to install drivers and updates during OS deployment, ensuring devices are up to date from the start. To learn more, see [Task Sequence Steps](/mem/configmgr/mdt/task-sequence-steps).
 
 ## Security benefits of driver and firmware updates
 
