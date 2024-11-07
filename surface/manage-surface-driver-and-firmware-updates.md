@@ -59,7 +59,6 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 | **Surface Hub running Windows 10 Teams 2020 Update**                                                                                                  | - See [Manage Windows updates on Surface Hub](/surface-hub/manage-windows-updates-for-surface-hub)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Surface Dock**                                                                                                                                      | - [Surface Thunderbolt 4 Dock](https://www.microsoft.com/en-us/download/details.aspx?id=105115)<br>- [Surface Dock 2](https://www.microsoft.com/download/details.aspx?id=101317)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-
 ### Installation guidance for Surface devices
 
 - **Windows Update**: Surface devices can automatically receive driver and firmware updates via Windows Update, helping ensure security with minimal admin intervention.
@@ -94,14 +93,13 @@ By having Device Firmware Configuration Interface (DFCI) profiles [built into In
 - **Monitor device health**: Use Intune’s **Surface Management Portal** to track update success and detect any issues.
 - **Adopt Windows Update for Business**: This ensures Surface devices always have the latest drivers, firmware, and security patches.
 
-
 ### Surface .msi naming convention
 
 Since August 2019, .msi files have followed the convention:
 
 **Product**\_**Windows release**\_**Windows build number**\_**Version number**\_**Revision of version number (typically zero)**
 
-#### Example: 
+#### Example
 
 - **SurfacePro11_Win11_26100_24.091.12892.0.msi**
 
