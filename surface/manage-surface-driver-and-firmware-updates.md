@@ -98,13 +98,17 @@ Keeping drivers and firmware up to date ensures:
 
 By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
+## Automate driver and firmware updates with MDT on Windows 10
+
+While the [Microsoft Deployment Toolkit (MDT)](/previous-versions/windows/it-pro/windows-10/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit) isn’t supported for ARM-based devices or Windows 11, it remains a useful tool for automating updates on x86-based Surface devices running Windows 10. Use task sequences to install drivers and updates during OS deployment, ensuring devices are up to date from the start. To learn more, see [Task Sequence Steps](/mem/configmgr/mdt/task-sequence-steps).
+
 ## Surface .msi naming convention
 
 Since August 2019, .msi files have followed the convention:
 
 **Product**\_**Windows release**\_**Windows build number**\_**Version number**\_**Revision of version number (typically zero)**
 
-#### Example
+### Example
 
 - **SurfacePro11_Win11_26100_24.091.12892.0.msi**
 
@@ -120,10 +124,6 @@ This file name provides the following information:
 - **Revision of version**: 0 (first release of this version)
 
 This helps IT admins select the correct update based on product, OS, and build compatibility.
-
-## Automate driver and firmware updates with MDT on Windows 10
-
-While the [Microsoft Deployment Toolkit (MDT)](/previous-versions/windows/it-pro/windows-10/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit) isn’t supported for ARM-based devices or Windows 11, it remains a useful tool for automating updates on x86-based Surface devices running Windows 10. Use task sequences to install drivers and updates during OS deployment, ensuring devices are up to date from the start. To learn more, see [Task Sequence Steps](/mem/configmgr/mdt/task-sequence-steps).
 
 ## Learn more
 
