@@ -54,7 +54,8 @@ For optimal video and interactive functionality, use native cable connections wh
 | **HDMI (in port)** | Audio/video                               | Single cable for audio and video. TouchBack/InkBack not supported. HDCP is enabled.                       |
 | **MiniDP 1.2 out** | Video-out for display mirroring           | Mirrors Surface Hub 2S display on a larger screen. 
 
-When you connect a guest computer to Surface Hub 2S via the USB-C port, several USB devices are discovered and configured. These peripheral devices are created for TouchBack and InkBack. As shown in the following table, the peripheral devices can be viewed in Device Manager, which will show duplicate names for some devices, as shown in the following table.
+When connecting a guest computer via USB-C, Surface Hub 2S automatically configures several USB devices to enable TouchBack and InkBack, as shown in the Device Manager table below.
+
 
 |Peripheral| Listing in Device Manager |
 | ---------------------------- |------------- |
@@ -65,26 +66,26 @@ When you connect a guest computer to Surface Hub 2S via the USB-C port, several 
 
 ## Connect video-in to Surface Hub 2S
 
-You can input video to Surface Hub 2S using USB-C or HDMI, as indicated in the following table.  
+You can input video to Surface Hub 2S through USB-C or HDMI. Supported resolutions and frame rates vary by signal type. 
 
 ### Surface Hub 2S video-in settings
 
-| **Signal Type** | **Resolution** | **Frame rate** | **HDMI** | **USB-C** |
+| Signal Type | Resolution | Frame rate | HDMI | USB-C |
 | --------------- | -------------- | -------------- | -------- | --------- |
-| PC              | 640 x 480      | 60             | X        | X         |
-| PC              | 720 x 480      | 60             | X        | X         |
-| PC              | 1024 x 768     | 60             | X        | X         |
-| PC              | 1920 x 1080    | 60             | X        | X         |
-| PC              | 3840x2560      | 30             | X        | X         |
-| HDTV            | 720p           | 60             | X        | X         |
-| HDTV            | 1080p          | 60             | X        | X         |
-| 4K UHD          | 3840x2560      | 30             | X        | X         |
+| PC              | 640 x 480      | 60             | ✔       | ✔         |
+| PC              | 720 x 480      | 60             | ✔       | ✔         |
+| PC              | 1024 x 768     | 60             | ✔       | ✔         |
+| PC              | 1280 x 720     | 60             | ✔       | ✔         |
+| PC              | 1600 x 900     | 60             | ✔       | ✔         |
+| PC              | 1920 x 1080    | 60             | ✔       | ✔         |
+| PC              | 3840 x 2560    | 30             | ✔       | ✔         |
+| HDTV            | 480p           | 60             | ✔       | ✔         |
+| HDTV            | 720p           | 60             | ✔       | ✔         |
+| HDTV            | 1080p          | 60             | ✔       | ✔         |
+| 4K UHD          | 3840 x 2560    | 30             | ✔       | ✔         |
 
 > [!NOTE]
-> The 4K UHD resolution (3840×2560) is only supported when connecting to ports on the compute module. It is not supported on the “guest” USB ports located on the left, top, and right sides of the device.
-
-> [!NOTE]
-> Video from a connected external PC may appear smaller when displayed on Surface Hub 2S.
+> The 4K UHD resolution is only supported on compute module ports. Video from an external PC may appear smaller on Surface Hub 2S.
 
 ## Mirror Surface Hub 2S display on another device
 
@@ -92,16 +93,16 @@ You can output video to another display using MiniDP, as indicated in the follow
 
 ### Surface Hub 2S video-out settings
 
-| **Signal Type** | **Resolution** | **Frame rate** | **MiniDP** |
+| Signal Type | Resolution | Frame rate | MiniDP |
 | --------------- | -------------- | -------------- | ---------- |
-| PC              | 640 x 480      | 60             | X          |
-| PC              | 720 x 480      | 60             | X          |
-| PC              | 1024 x 768     | 60             | X          |
-| PC              | 1920 x 1080    | 60             | X          |
-| PC              | 3840 x 2560    | 60             | X          |
-| HDTV            | 720p           | 60             | X          |
-| HDTV            | 1080p          | 60             | X          |
-| 4K UHD          | 3840 x 2560    | 60             | X          |
+| PC              | 640 x 480      | 60             | ✔         |
+| PC              | 720 x 480      | 60             | ✔         |
+| PC              | 1024 x 768     | 60             | ✔         |
+| PC              | 1920 x 1080    | 60             | ✔         |
+| PC              | 3840 x 2560    | 60             | ✔         |
+| HDTV            | 720p           | 60             | ✔         |
+| HDTV            | 1080p          | 60             | ✔         |
+| 4K UHD          | 3840 x 2560    | 60             | ✔         |
 
 Surface Hub 2S includes a MiniDP video-out port for projecting visual content from Surface Hub 2S to another display. If you plan to use Surface Hub 2S to project to another display, note the following recommendations:
 
