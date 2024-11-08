@@ -1,20 +1,32 @@
 ---
-title: "Connect devices to Surface Hub 2S"
-description: "This page explains how to connect external devices to Surface Hub 2S."
+title: Connect devices to Surface Hub 2S
+description: Connect devices to Surface Hub 2S with USB-C, HDMI, or Bluetooth. 
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: how-to
-ms.date: 02/24/2020
+ms.date: 11/07/2024
 ms.localizationpriority: Medium
+appliesto:
+- Surface Hub 2S
+
 ---
 
 # Connect devices to Surface Hub 2S
 
-Surface Hub 2S enables you to connect external devices, mirror the display on Surface Hub 2S to another device, and connect multiple third-party peripherals including video conference cameras, conference phones, and room system devices.
+Surface Hub 2S supports flexible device connectivity for seamless collaboration and content sharing. You can connect external devices, mirror displays, and use third-party peripherals like video conference cameras, conference phones, and room system devices. Surface Hub 2S enables interactive controls through TouchBack and InkBack, enhancing collaboration during meetings.
 
-You can display content from your devices to Surface Hub 2S. If the source device is Windows-based, that device can also provide [TouchBack and InkBack](#control-your-laptop-from-the-surface-hub), which takes video and audio from the connected device and presents them on Surface Hub 2S. If Surface Hub 2S encounters a High-Bandwidth Digital Content Protection (HDCP) signal, such as a Blu-ray DVD player, the source is displayed as a black image.
+## Connection options and configurations
+
+### Connect via cables
+
+To project content with cables, connect using the ports along the bottom edge of the compute cartridge. Available ports include HDMI, USB-C, USB-A, Ethernet, and DisplayPort.
+
+- **HDMI and USB-C** – Connect for audio and video input. USB-C supports TouchBack and InkBack, allowing control from Surface Hub 2S.
+- **DisplayPort** – Use DisplayPort to mirror Surface Hub’s display to another screen.
+
+> **Important:** Surface Hub 2S uses the selected video input until a new connection is made, the connection is disrupted, or the Connect app is closed.
 
 > [!NOTE]
 > Surface Hub 2S uses the video input selected until a new connection is made, the existing connection is disrupted, or the Connect app is closed.
@@ -27,9 +39,12 @@ You can project in with USB-C or HDMI—the DisplayPort is only for mirroring yo
 
 :::image type="content" source="images/computer-cartridge-ports.png" alt-text="Screenshot of the compute cartridge that has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.":::
 
-### Recommended wired configurations
+### Recommended wired configurations for Surface Hub 2S
 
 In general, it’s recommended to use native cable connections whenever possible such as USB-C to USB-C or HDMI to HDMI. Other combinations such as MiniDP to HDMI or MiniDP to USB-C will also work. Some additional configuration may be required to optimize the video-out experience, as described on this page.
+
+> [!NOTE]
+> This section only applies to Surface Hub 2S running Windows 10 Team edition. 
 
 | **Connection** | **Functionality** | **Description**|
 | --- | --- | ---|
