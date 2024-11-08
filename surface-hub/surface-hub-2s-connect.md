@@ -26,7 +26,8 @@ To project content with cables, connect using the ports along the bottom edge of
 - **HDMI and USB-C** – Connect for audio and video input. USB-C supports TouchBack and InkBack, allowing control from Surface Hub 2S.
 - **DisplayPort** – Use DisplayPort to mirror Surface Hub’s display to another screen.
 
-> **Important:** Surface Hub 2S uses the selected video input until a new connection is made, the connection is disrupted, or the Connect app is closed.
+> [!Important]
+> Surface Hub 2S uses the selected video input until a new connection is made, the connection is disrupted, or the Connect app is closed.
 
 > [!NOTE]
 > Surface Hub 2S uses the video input selected until a new connection is made, the existing connection is disrupted, or the Connect app is closed.
