@@ -48,6 +48,7 @@ The growing ASP network consists of more than 160 locations.
 - [DHE](https://www.dhecs.com/)
 - [DI Technology Group Inc](https://store.dataimpressions.com/)
 - [DXC Technology](https://dxc.com/us)
+- [Duke Computer Repair](https://www.dukestores.duke.edu/index.php/computer-repair/)
 - [FedEx](https://www.fedex.com/global/choose-location.html)
 - [GlobalAsset](https://globalassetonline.com/)
 - [Insight](https://www.insight.com/)
@@ -92,6 +93,7 @@ The growing ASP network consists of more than 160 locations.
 - [API](https://www.api.de)
 - [Bechtle](https://www.bechtle.com/)
 - [Computacenter](https://www.computacenter.com/)
+- [Energy Net Gmbh](https://www.energy-net.de/services/maintenance-repair/microsoft-asp/)
 - [Hemmersbach](https://www.hemmersbach.com/)
 - [MetaComp](https://www.metacomp.de/)
 - [Ratiodata](https://www.ratiodata.de/)
@@ -106,6 +108,10 @@ The growing ASP network consists of more than 160 locations.
 
 - [Valorista](https://valorista.com/servicio-tecnico-oficial-microsoft-surface)
 
+#### Switzerland
+
+- [Computacenter AG](https://www.computacenter.com/en-ch/partners/microsoft/microsoft-surface)
+
 #### United Arab Emirates (UAE)
 
 - [Redington Gulf FZE-HQ](https://www.ensureservices.com/microsoft-authorised-service-provider/)
@@ -119,8 +125,9 @@ The growing ASP network consists of more than 160 locations.
 - [Class Technology Solutions](https://www.easy4u.school/)
 - [Computacenter](https://www.computacenter.com/)
 - [Currys](https://www.currys.co.uk/store-finder)
-- [HybrIT](https://www.hybrit.co.uk/)
 - [DXC Technology (UK)](https://dxc.com/uk/)
+- [HybrIT](https://www.hybrit.co.uk/)
+- [Jigsaw Systems Ltd](https://www.jigsaw24.com/partnerships/microsoft)
 - [Specialist Computer Centre](https://www.scc.com/)
 - [TMT First Limited](https://www.tmtfirst.co.uk/microsoft-surface-repairs/)
 - [Westcoast](https://www.westcoast.co.uk/)
