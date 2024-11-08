@@ -33,7 +33,7 @@ To project content with cables, connect using the ports along the bottom edge of
 
 ## Project using cables to Surface Hub 2S
 
-To project your screen with cables, connect using the ports along the bottom edge of the compute cartridge. The compute cartridge has an HDMI port, a USB-C port, USB-A, as well as the Ethernet port and DisplayPort.
+To project your screen with cables, connect using the ports along the bottom edge of the compute cartridge. The compute cartridge has an HDMI port, a USB-C port, USB-A, and the Ethernet port and DisplayPort.
 
 You can project in with USB-C or HDMI—the DisplayPort is only for mirroring your Surface Hub’s screen on another screen.
 
@@ -41,17 +41,18 @@ You can project in with USB-C or HDMI—the DisplayPort is only for mirroring yo
 
 ### Recommended wired configurations for Surface Hub 2S
 
-In general, it’s recommended to use native cable connections whenever possible such as USB-C to USB-C or HDMI to HDMI. Other combinations such as MiniDP to HDMI or MiniDP to USB-C will also work. Some additional configuration may be required to optimize the video-out experience, as described on this page.
+For optimal video and interactive functionality, use native cable connections where possible (e.g., USB-C to USB-C or HDMI to HDMI). Alternative connections like MiniDP to HDMI or MiniDP to USB-C will work, though extra configuration may be required. 
 
 > [!NOTE]
 > This section only applies to Surface Hub 2S running Windows 10 Team edition. 
 
-| **Connection** | **Functionality** | **Description**|
-| --- | --- | ---|
-| HDMI + USB-C | HDMI-in for audio and video<br><br>USB-C for TouchBack and InkBack | USB-C supports TouchBack and InkBack with the HDMI A/V connection.<br><br>Use USB-C to USB-A to connect to legacy computers.<br><br>**NOTE:** For best results, connect HDMI before connecting a USB-C cable. If the computer you're using for HDMI is not compatible with TouchBack and InkBack, you won't need a USB-C cable. |
-| USB-C <br> (via compute module) | Video-in <br>Audio-in | Single cable needed for A/V<br><br>TouchBack and InkBack is supported<br><br>HDCP enabled |
-| HDMI (in port) | Video, Audio into Surface Hub 2S | Single cable needed for A/V<br><br>TouchBack and InkBack not supported<br><br>HDCP enabled |
-| MiniDP 1.2 output | Video-out such as mirroring to a larger projector. | Single cable needed for A/V |
+
+| Connection     | Functionality                      | Description                                                                                        |
+| ------------------ | ----------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **HDMI + USB-C**   | HDMI for audio/video<br>USB-C for TouchBack/InkBack | HDMI provides audio/video while USB-C supports TouchBack and InkBack. Connect HDMI first for best results. |
+| **USB-C**          | Audio/video<br>TouchBack/InkBack          | Single cable provides audio, video, and TouchBack/InkBack. HDCP is enabled.                               |
+| **HDMI (in port)** | Audio/video                               | Single cable for audio and video. TouchBack/InkBack not supported. HDCP is enabled.                       |
+| **MiniDP 1.2 out** | Video-out for display mirroring           | Mirrors Surface Hub 2S display on a larger screen. 
 
 When you connect a guest computer to Surface Hub 2S via the USB-C port, several USB devices are discovered and configured. These peripheral devices are created for TouchBack and InkBack. As shown in the following table, the peripheral devices can be viewed in Device Manager, which will show duplicate names for some devices, as shown in the following table.
 
