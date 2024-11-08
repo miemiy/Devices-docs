@@ -119,52 +119,35 @@ Surface Hub 2S includes a MiniDP video-out port, allowing you to project visual 
 > [!TIP]
 > If projecting to a 16:9 monitor, black bars may appear on the left and right sides of the display. This is normal and does not require adjustments to the second display.## Select cables
 
-Note the following recommendations:
+Use these recommendations for cables:
 
-- **USB.** USB 3.1 Gen 2 cables.
-- **MiniDP.** DisplayPort cables certified for up to 3 meters in length.
-- **HDMI.** If a long cable is necessary, HDMI is recommended due to the wide availability of cost-effective, long-haul cables with the ability to install repeaters if needed.
+- **USB** – USB 3.1 Gen 2 cables for optimal performance.
+- **MiniDP** – Certified DisplayPort cables up to 3 meters.
+- **HDMI** – For long-distance connections, HDMI cables are recommended. Install repeaters if necessary.
 
 > [!TIP]
-> Most DisplayPort sources will automatically switch to HDMI signaling if HDMI is detected.
+> Most DisplayPort sources automatically switch to HDMI if detected.
 
-## Wirelessly connect to Surface Hub 2S
+## Connect wirelessly to Surface Hub 2S
 
-Windows 10/11 natively supports Miracast, which lets you wireless connect to Surface Hub 2S.<br><br>
+Surface Hub 2S supports wireless connections via Miracast on Windows 10 and 11 devices.
 
-### To connect using Miracast
-
-1. On your Windows 10/11 device, enter **Windows logo key** + **K**.
-2. In the Connect window, look for the name of your Surface Hub 2S in the list of nearby devices. You can find the name of your Surface Hub 2S in the bottom left corner of the display or when you press **Connect** on the welcome screen.
-
-:::image type="content" source="images/surface-hub-ready-connect-wirelessly.png" alt-text="Screenshot of a welcome screen shows that Surface Hub is ready for you to connect wirelessly.":::
-
-3. Enter a PIN if your system administrator has enabled the PIN setting for Miracast connections. This requires you to enter a PIN number when you connect to Surface Hub 2S for the first time.
+1. Press **Windows logo key** + **K**.
+2. Select Surface Hub 2S from the list of nearby devices.
+3. Enter a PIN if prompted by your administrator.
 
 > [!NOTE]
->If you do not see the name of the Surface Hub 2S device as expected, it’s possible the previous session was prematurely closed. If so, sign into Surface Hub 2S directly to end the previous session and then connect from your external device.
+> If Surface Hub 2S doesn’t appear, sign in directly to end any previous session before reconnecting.
+### Enable device control from Surface Hub
 
-### Control your laptop from the Surface Hub
-
-Sometimes when you’re presenting or collaborating on Surface Hub, you’ll want to be able to leave your laptop at your seat and be able to fully pay attention to what's on the big screen.
-
-When you've connected a device that has Windows 8 or later to Surface Hub, on that device, you’ll see a checkbox to **Allow mouse, keyboard, touch, and pen input**.
-
-:::image type="content" source="images/checkbox-allow-mouse-keyboard-touch-pen-input.png" alt-text="Screenshot of a checkbox to allow mouse, keyboard, touch, and pen input.":::
-
-When this is checked, you’ll be able to use touch and inking on the Surface Hub to control and make changes on your own connected device. If you’re connecting via USB-C, you’ll be able to use the touch and inking to make changes on your device automatically. However, if you’re connecting with HDMI, you’ll need to connect a USB cable as well to use touch and pen input on your device.
+When a Windows 8 or later device is connected, select **Allow mouse, keyboard, touch, and pen input** on the connected device to control it from Surface Hub 2S. If using HDMI, add a USB cable to enable interactive input.
 
 ## Connect peripherals to Surface Hub 2S
 
 ### Bluetooth accessories
 
-You can connect the following accessories to Surface Hub-2S using Bluetooth:
-
-- Mice
-- Keyboards
-- Headsets
-- Speakers
-- Surface Hub 2S pens
+You can connect Bluetooth accessories, including mice, keyboards, headsets, speakers, and Surface Hub 2S pens. 
 
 > [!TIP]
-> After you connect a Bluetooth headset or speaker, you might need to change the default microphone and speaker settings. For more information, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).
+> After pairing a Bluetooth audio device, update microphone and speaker settings as needed. For more details, see [Local management for Surface Hub settings](local-management-surface-hub-settings.md).
+
