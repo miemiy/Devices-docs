@@ -93,7 +93,9 @@ You can output video to another display using MiniDP, as indicated in the follow
 
 ### Surface Hub 2S video-out settings
 
-| Signal Type | Resolution | Frame rate | MiniDP |
+Surface Hub 2S includes a MiniDP video-out port, allowing you to project visual content to another display. If you plan to use Surface Hub 2S to project to an external screen, follow these guidelines for optimal results.
+
+| **Signal Type** | **Resolution** | **Frame rate** | **MiniDP** |
 | --------------- | -------------- | -------------- | ---------- |
 | PC              | 640 x 480      | 60             | ✔         |
 | PC              | 720 x 480      | 60             | ✔         |
@@ -104,18 +106,18 @@ You can output video to another display using MiniDP, as indicated in the follow
 | HDTV            | 1080p          | 60             | ✔         |
 | 4K UHD          | 3840 x 2560    | 60             | ✔         |
 
-Surface Hub 2S includes a MiniDP video-out port for projecting visual content from Surface Hub 2S to another display. If you plan to use Surface Hub 2S to project to another display, note the following recommendations:
+#### Recommendations for projecting to another display
 
-- **Keyboard required.** Before you begin, you’ll need to connect either a wired or Bluetooth-enabled external keyboard  to Surface Hub 2S. Note that unlike the original Surface Hub, a keyboard for Surface Hub 2S is sold separately and is not included in the shipping package.<br><br>
-- **Set duplicate mode.** Surface Hub 2S supports video-out in duplicate mode only. However, you will still need to manually configure the display mode when you connect for the first time:
-    1. Enter the **Windows logo key** + **P**, which opens the Project pane on the right side of Surface Hub 2S, and then select **Duplicate** mode.
-    2. When you’re finished with your Surface Hub 2S session, select **End Session**. This ensures that the duplicate setting is saved for the next session.<br><br>
-- **Plan for different aspect ratios.** Like other Surface devices, Surface Hub 2S uses a 3:2 display aspect ratio (the relationship between the width and the height of the display). Projecting Surface Hub 2S onto displays with different aspect ratios is supported. Note however that because Surface Hub 2S duplicates the display, the MiniDP output will also only display in a 3:2 aspect ratio, which may result in letterboxing or curtaining depending on the aspect ratio of the receiving display.
+- **Keyboard required:** Before you begin, connect an external keyboard to Surface Hub 2S, either wired or Bluetooth-enabled. Unlike the original Surface Hub, Surface Hub 2S does not include a keyboard in the shipping package.
+  
+- **Set to duplicate mode:** Surface Hub 2S supports video-out in duplicate mode only. To configure this setting:
+  1. Press **Windows logo key** + **P** to open the Project pane on the right side of the screen, then select **Duplicate**.
+  2. After your session, select **End Session** to save the duplicate setting for future use.
+  
+- **Aspect ratio considerations:** Surface Hub 2S has a 3:2 display aspect ratio, which may differ from the aspect ratio of the external display. When projecting, the MiniDP output will maintain the 3:2 ratio, which may result in letterboxing or curtaining on screens with other aspect ratios, like 16:9.
 
-> [!NOTE]
-> if your second monitor uses a 16:9 aspect ratio (the predominant ratio for most TV monitors), black bars may appear on the left and right sides of the mirrored display. If this occurs, you may wish to inform your users that there is no need to adjust the second display.
-
-## Select cables
+> [!TIP]
+> If projecting to a 16:9 monitor, black bars may appear on the left and right sides of the display. This is normal and does not require adjustments to the second display.## Select cables
 
 Note the following recommendations:
 
