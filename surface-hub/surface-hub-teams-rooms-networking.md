@@ -40,7 +40,7 @@ Configuring QoS for Microsoft Teams on the Surface Hub can be done using your [m
 
 To configure QoS for Surface Hub using Microsoft Intune:
 
-1. In Intune, [create a custom policy](/intune/custom-settings-configure).
+1. In Intune, [create a custom policy](/mem/intune/configuration/custom-settings-configure).
 
 2. In **Custom OMA-URI Settings**, select **Add**. For each setting that you add, you will enter a name, description (optional), data type, OMA-URI, and value.
 

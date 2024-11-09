@@ -96,7 +96,8 @@ Keeping drivers and firmware up to date ensures:
 
 ## Managing firmware with DFCI
 
-By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows-settings), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. To learn more, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
+
+By having Device Firmware Configuration Interface (DFCI) profiles [built into Intune](/mem/intune/configuration/device-firmware-configuration-interface-windows), Surface UEFI management extends the modern management stack down to the UEFI hardware level. DFCI supports zero-touch provisioning, eliminates BIOS passwords, provides control of security settings (including startup options and built-in peripherals), and lays the groundwork for advanced security scenarios in the future. For more information, see the following resources:
 
 ## Automate driver and firmware updates with MDT on Windows 10
 
