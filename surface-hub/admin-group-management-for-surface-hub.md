@@ -77,7 +77,7 @@ Surface Hubs use Microsoft Entra join to:
 
 Surface Hub now supports the ability to automatically enroll in Intune by joining the device to Microsoft Entra ID.
 
-For more information, see [Set up enrollment for Windows devices](/intune/windows-enroll#enable-windows-10-automatic-enrollment).
+For more information, see [Set up enrollment for Windows devices](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment).
 
 #### Which should I choose?
 
