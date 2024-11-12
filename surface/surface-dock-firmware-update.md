@@ -114,7 +114,7 @@ For more information, refer to [Command line options](/windows/win32/msi/command
 
 ## Intune deployment
 
-You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](/intune/apps/apps-win32-app-management).
+You can use Intune to distribute Surface Dock 1 Firmware Update to your devices. First you need to convert the MSI file to the .intunewin format, as described in the following documentation: [Intune Standalone - Win32 app management](/mem/intune/apps/apps-win32-app-management).
 
 Use the following command:
 
