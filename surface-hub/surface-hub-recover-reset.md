@@ -6,7 +6,7 @@ author: coveminer
 ms.author: chauncel
 manager: frankbu
 ms.topic: troubleshooting
-ms.date: 01/24/2024
+ms.date: 11/12/2024
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub 2S
@@ -38,7 +38,9 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 6. Select your USB drive, then select **Next > Create**.  Some utilities need to be copied to the recovery drive, so this might take a few minutes.
 
    >[!TIP]
-   > Use a USB 3.0 drive with 16 GB or 32 GB of storage, formatted as FAT32.
+   > Use a USB 3.0 drive formatted as FAT32 with:
+   - At least 16 GB of storage for Windows 10 Team.
+   - At least 32 GB of storage for Windows 11 IoT with Microsoft Teams Rooms on Windows.
 
 7. When the recovery drive is ready, select **Finish**.
 
