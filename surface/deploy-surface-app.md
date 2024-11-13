@@ -1,5 +1,5 @@
 ---
-title: Deploy Surface app in an enterprise environment
+title: Deploy Surface app in enterprise environments
 description: Guide for deploying the Surface app across multiple Surface devices in an enterprise environment using Microsoft Intune, WinGet, or provisioning packages.
 ms.service: surface
 author: coveminer
@@ -13,7 +13,7 @@ appliesto:
 - Windows 11
 ---
 
-# Deploy Surface app in an enterprise environment
+# Deploy Surface app in enterprise environments
 
 With the retirement of the Microsoft Store for Business, this article outlines modern methods to deploy the Surface app across multiple devices in an enterprise setting. Deployment can be accomplished using Microsoft Intune, WinGet, or provisioning packages. This article provides an overview of these options and links to detailed resources for each approach.
 

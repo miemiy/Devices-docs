@@ -157,8 +157,8 @@
           href: enable-surface-keyboard-for-windows-pe-deployment.md
         - name: Customize the OOBE for Surface deployments
           href: customize-the-oobe-for-surface-deployments.md          
-        - name: Deploy Surface app with Microsoft Store for Business
-          href: deploy-surface-app-with-windows-store-for-business.md
+        - name: Deploy Surface app in enterprise environments 
+          href: deploy-surface.md
       - name : Manage updates
         items:
         - name: Surface supported operating systems
