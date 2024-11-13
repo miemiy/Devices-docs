@@ -158,7 +158,7 @@
         - name: Customize the OOBE for Surface deployments
           href: customize-the-oobe-for-surface-deployments.md          
         - name: Deploy Surface app in enterprise environments 
-          href: deploy-surface.md
+          href: deploy-surface-app.md
       - name : Manage updates
         items:
         - name: Surface supported operating systems
