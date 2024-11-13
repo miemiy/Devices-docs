@@ -26,7 +26,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ## Prerequisites
 
-- Windows 11 or Windows 10 version 1809 (released November 2018)
+- Windows 11 or Windows 10 version 1809 or later
 - Devices must be registered with Windows Autopilot. To learn more, see [Surface Registration Support for Windows Autopilot](surface-autopilot-registration-support.md)
 
 > [!NOTE]
