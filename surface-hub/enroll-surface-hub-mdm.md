@@ -1,39 +1,40 @@
 ---
 title: Enroll Surface Hub to MDM provider
-description: This page explains how to enroll Surface Hub to MDM provider
+description: Learn how to enroll Surface Hub in MDM via manual or auto methods, including Intune setup for streamlined management and compliance
 manager: frankbu
 ms.service: surface-hub
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 11/13/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 2S
 - Surface Hub
 ---
 
+
 # Enroll Surface Hub into MDM management
 
-You can enroll Surface into Microsoft Intune or other MDM provider via manual or auto enrollment.
+Learn how to enroll Surface Hub into Microsoft Intune or other Mobile Device Management (MDM) providers using manual or automatic enrollment options.
 
 ## Manual enrollment
 
-1. Open the **Settings** app and sign in as a local administrator. Select **Surface Hub** > **Device management** and then select **+Device management**.
-2. You will be prompted to sign in with the account to use for your MDM provider. After authenticating, the device automatically enrolls with your MDM provider.
+1. Open the **Settings** app, sign in as a local administrator, and go to **Surface Hub** > **Device management**. Select **+Device management**.
+2. Sign in with the account to use with your MDM provider. After authentication, the device automatically enrolls with your MDM provider.
 
-> [!TIP]
-> If you’re using Intune and the server address is not detected, enter **manage.microsoft.com**.
+> [!TIP]  
+> If you’re using Intune and the server address isn’t automatically detected, enter **manage.microsoft.com**.
 
-> [!NOTE]
-> MDM enrollment uses the account details provided for authentication. The account must have permissions to enroll a Windows device as well as an Intune license (or the equivalent enrollment promissions configured in your third-party MDM provider).
+> [!NOTE]  
+> MDM enrollment uses the provided account for authentication. Ensure this account has permissions to enroll a Windows device and an Intune license or equivalent permissions in your third-party MDM provider.
 
 <a name='auto-enrollment--azure-ad-affiliated'></a>
 
-## Auto Enrollment — Microsoft Entra affiliated
+## Auto enrollment with Microsoft Entra affiliation
 
-During the [initial setup process](/surface-hub/first-run-program-surface-hub#microsoft-azure-active-directory), when affiliating Surface Hub with a Microsoft Entra tenant that has Intune auto enrollment enabled, the device will automatically enroll with Intune. To learn more, refer to [Intune enrollment methods for Windows devices](/intune/enrollment/windows-enrollment-methods). Microsoft Entra affiliation and Intune auto enrollment are required for the Surface Hub to be a "compliant device" in Intune.
+During the [initial setup process](/surface-hub/first-run-program-surface-hub#microsoft-azure-active-directory), if you affiliate Surface Hub with a Microsoft Entra tenant that has Intune auto enrollment enabled, the device automatically enrolls in Intune. For more information, see [Enroll Windows client devices in Microsoft Intune](/mem/intune/fundamentals/deployment-guide-enrollment-windows). Microsoft Entra affiliation and Intune auto enrollment are required for Surface Hub to be a "compliant device" in Intune.
 
 ## Manage Surface Hub via MDM
 
-- See [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md)
+- For more management options, see [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md).
