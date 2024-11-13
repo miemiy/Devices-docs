@@ -389,6 +389,11 @@
             "source_path":  "surface/surface-device-compatibility-with-windows-10-ltsc.md",
             "redirect_url": "/surface/surface-device-compatibility-with-windows-ltsc",
             "redirect_document_id":  false
-        }                                                                        						
+        },
+        {
+            "source_path":  "surface/deploy-surface-app-with-windows-store-for-business.md",
+            "redirect_url": "/surface/deploy-surface-app",
+            "redirect_document_id":  false
+        }                                                                           						
     ]
 }
