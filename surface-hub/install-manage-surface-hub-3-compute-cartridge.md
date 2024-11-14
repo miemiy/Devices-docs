@@ -67,7 +67,7 @@ This section provides guidance on initial management steps for Teams Admin Cente
 
 ### Manual removal of upgraded Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
 
-After upgrading your Surface Hub 2S to the Microsoft Teams Rooms on Windows platform, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
+After upgrading your Surface Hub 2S with the Surface Hub 3 Compute Cartridge, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
 
 1. **Navigate to Teams Admin Center**:
    - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
@@ -83,7 +83,7 @@ After upgrading your Surface Hub 2S to the Microsoft Teams Rooms on Windows plat
   
 ### Manual cleanup of stale Intune device records for upgraded Surface Hub devices
 
-If you registered a Surface Hub 2S with Intune or other MDM provider before transitioning it to the Microsoft Teams Rooms on Windows platform, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
+If you registered a Surface Hub 2S with Intune or other MDM provider before upgrading it with a Surface Hub 3 Compute Cartridge, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
 
 Although this stale record doesn't interfere with Intune-based management of the upgraded Surface Hub device, we recommend removal of these outdated entries to maintain directory cleanliness.
 
