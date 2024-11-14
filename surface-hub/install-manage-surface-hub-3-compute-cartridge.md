@@ -61,10 +61,26 @@ Review the following demo and follow the instructions on this page.
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
-### Manage Surface Hub 3
+## Manage Surface Hub 3
 
-This section provides guidance on managing Surface Hub 3 with Microsoft Intune or another mobile device management (MDM) provider.
+This section provides guidance on initial management steps for Teams Admin Center and Microsoft Intune or mobile device management (MDM) provider.
 
+### Manual removal of upgraded Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
+
+After upgrading your Surface Hub 2S to the Microsoft Teams Rooms on Windows platform, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
+
+1. **Navigate to Teams Admin Center**:
+   - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
+   - Sign in with your admin credentials.
+2. **Access the Surface Hubs (Legacy) Tab**:
+   - In the Teams Admin Center, select  **Teams devices** > **Surface Hubs (Legacy)**.
+3. **Manually remove the upgraded device**:
+   - Locate the row corresponding to the upgraded Surface Hub device and select the device.
+   - Select **Remove** to manually remove the device's row from the list.
+4. **Verification**:
+   - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
+   - Verify that the upgraded device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable. This may take up to 12 hours to happen, but will happen automatically.
+  
 ### Manual cleanup of stale Intune device records for upgraded Surface Hub devices
 
 If you registered a Surface Hub 2S with Intune or other MDM provider before transitioning it to the Microsoft Teams Rooms on Windows platform, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
