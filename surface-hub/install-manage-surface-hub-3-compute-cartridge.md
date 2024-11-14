@@ -63,11 +63,11 @@ Review the following demo and follow the instructions on this page.
 
 ### Manage Surface Hub 3
 
-This section provides guidance on managing Surface Hub 3, including handling any residual records from previous configurations.
+This section provides guidance on managing Surface Hub 3 with Microsoft Intune or another mobile device management (MDM) provider.
 
 ### Manual cleanup of stale Intune device records for upgraded Surface Hub devices
 
-If you registered a Surface Hub 2S with Microsoft Intune or another mobile device management (MDM) provider before transitioning it to the Microsoft Teams Rooms on Windows platform, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
+If you registered a Surface Hub 2S with Intune or other MDM provider before transitioning it to the Microsoft Teams Rooms on Windows platform, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
 
 Although this stale record doesn't interfere with Intune-based management of the upgraded Surface Hub device, we recommend removal of these outdated entries to maintain directory cleanliness.
 
