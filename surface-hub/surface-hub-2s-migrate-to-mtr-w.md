@@ -105,7 +105,7 @@ Choose one of the following options:
 ## Remotely install Migration Launcher app via Intune
 
 > [!TIP]
-> If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Autologin](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-Autologin).
+> If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Autologin](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-autologin)
 
 ### Summary
 

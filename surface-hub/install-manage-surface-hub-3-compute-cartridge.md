@@ -83,7 +83,7 @@ Although this stale record doesn't interfere with Intune-based management of the
 
 ## Surface Hub 2S Recycle Program
 
-The Surface Hub 3 Compute Cartridge packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a prepaid shipping label](#request-a-pre-paid-shipping-label). 
+The Surface Hub 3 Compute Cartridge packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a prepaid shipping label](#request-a-prepaid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
