@@ -17,7 +17,6 @@ appliesto:
 # FAQ: Surface Hub running Microsoft Teams Rooms on Windows
 
 [!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
-### Surface Hub 3 and Teams Rooms on Windows overview
 
 **When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
