@@ -25,7 +25,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 > The Migration Launcher app is available exclusively to facilitate migration of Surface Hub 2S devices from the Windows 10 Team edition operating system to the Microsoft Teams Rooms on Windows experience. The presence of this app triggers the migration process under specific [prerequisite conditions](#prerequisites) and the app itself has no functionality or user interface.
 
 > [!TIP]
-> Customers can take advantage of streamlined remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Enterprise Connect 2024](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Auto-login of Teams Rooms on Windows is now broadly available in Public Preview. Learn more in [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
+> Customers can take advantage of streamlined remotely driven deployment after migrating their Surface Hub 2S devices to the Microsoft Teams on Windows platform. As announced at [Enterprise Connect 2024](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-support-coming-for-windows-autopilot/ba-p/3977848), support for Windows Autopilot and Autologin of Teams Rooms on Windows is now broadly available in Public Preview. Learn more in [Deploy Surface Hub with Windows Autopilot & Autologin of Teams Rooms](surface-hub-autopilot.md).
 
 ### Migration Launcher app deletes OS and data
 
@@ -35,7 +35,7 @@ Begin the migration process via the downloadable **Surface Hub 2S OS Migration L
 Use of the Migration Launcher app on Surface Hub 2S involves significant changes to the operating system and stored data. Here are key points to understand before proceeding with the migration process:
 
 - **Removes the Windows 10 Team edition OS:** Migration completely eliminates the Windows 10 Team edition operating system preinstalled on the Surface Hub 2S.
-- **Requires consent for data and configuration removal:** By installing and initiating the Migration Launcher app on a Surface Hub 2S, you agree to the complete removal of the Windows 10 Team edition OS. This includes uninstalling and erasing all accounts, data, and existing configurations.
+- **Requires consent for data and configuration removal:** By installing and initiating the Migration Launcher app on a Surface Hub 2S, you agree to the complete removal of the Windows 10 Team edition OS. This process includes uninstalling and erasing all accounts, data, and existing configurations.
 - **Excludes first-generation Surface Hubs:** The Microsoft Teams Rooms on Windows experience and the Migration Launcher app don't support or affect first-generation Surface Hubs (Surface Hub v1).
 - **Requires significant download and storage space:** The migration process necessitates downloading approximately 30 GB of data and needs sufficient on-system storage to establish a temporary partition.
 - **Increases energy consumption:** Switching to the Microsoft Teams Rooms on Windows experience leads to higher energy usage due to adjustments in sleep state and power management settings.
@@ -68,14 +68,14 @@ Use of the Migration Launcher app on Surface Hub 2S involves significant changes
 > [!NOTE]
 > Support for Windows 10 Team edition on Surface Hub, based on Windows 10 version 22H2, is scheduled to end on October 14, 2025.
 
-## Optional: Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login
+## Optional: Streamline post-migration deployment with Windows Autopilot and Teams Rooms Autologin
 
-Whether you initiate the migration process manually on a Surface Hub 2S or remotely via Intune, it's advantageous to set the stage for the device to autonomously complete its deployment post-migration, utilizing Windows Autopilot in conjunction with Auto-Login of Teams Rooms. This approach is particularly beneficial for customers triggering migration remotely, as it facilitates a fully remote, end-to-end process spanning migration to the Teams Rooms on Windows experience to the subsequent deployment within your organization.
+Whether you initiate the migration process manually on a Surface Hub 2S or remotely via Intune, it's advantageous to set the stage for the device to autonomously complete its deployment post-migration, utilizing Windows Autopilot in conjunction with Autologin of Teams Rooms. This approach is beneficial for customers triggering migration remotely, as it facilitates a fully remote, end-to-end process spanning migration to the Teams Rooms on Windows experience to the subsequent deployment within your organization.
 
-For detailed guidance on enrolling your Surface Hub in Autopilot and Auto-login of Teams Rooms, see [Deploy Surface Hub with Windows Autopilot & Auto-login of Teams Rooms](surface-hub-autopilot.md).
+For detailed guidance on enrolling your Surface Hub in Autopilot and Autologin of Teams Rooms, see [Deploy Surface Hub with Windows Autopilot & Autologin of Teams Rooms](surface-hub-autopilot.md).
 
 > [!TIP]
-> For an optimal experience, it's recommended to configure Autopilot and Auto-login of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete.
+> For an optimal experience, it's recommended to configure Autopilot and Autologin of Teams Rooms before starting the migration process. This preparation ensures that seamless deployment is primed and ready to begin when migration is complete.
 
 ## Install Migration Launcher app to trigger a migration
 
@@ -105,7 +105,7 @@ Choose one of the following options:
 ## Remotely install Migration Launcher app via Intune
 
 > [!TIP]
-> If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Auto-Login](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-auto-login).
+> If you are remotely triggering migration with the following steps, you may wish to consider setting up seamless post-migration deployment as well. To learn more, see the earlier section on this page: [Streamline post-migration deployment with Windows Autopilot and Teams Rooms Autologin](#optional-streamline-post-migration-deployment-with-windows-autopilot-and-teams-rooms-Autologin).
 
 ### Summary
 
@@ -238,7 +238,9 @@ After migrating your Surface Hub 2S to the Microsoft Teams Rooms on Windows plat
 
 ## Manual cleanup of stale Intune device objects for migrated Surface Hub devices
 
-If you've previously registered a Surface Hub 2S in Intune before transitioning it to the Microsoft Teams Rooms on Windows platform, you'll likely encounter what's referred to as a "stale" device record. This occurs when the original device object in Intune remains unchanged, even as a new device record is generated post-migration to the Teams Rooms platform. Although this stale record does not interfere with the Intune-based management of the now-migrated device, it's advisable to remove these outdated entries to maintain optimal directory cleanliness.
+If you registered a Surface Hub 2S with Intune before transitioning it to the Microsoft Teams Rooms on Windows platform, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains unchanged, even after a new record is created for the Teams Rooms platform.
+
+Although this stale record doesn't interfere with Intune-based management of the migrated Surface Hub device, we recommend removal of these outdated entries to maintain directory cleanliness.
 
 1. **Access** [Microsoft Intune Admin Center](https://intune.microsoft.com/): Sign in with your admin credentials.
 2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
