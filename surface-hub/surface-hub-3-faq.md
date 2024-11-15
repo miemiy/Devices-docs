@@ -18,6 +18,8 @@ appliesto:
 
 [!INCLUDE [Hub MTR Scope](includes/hub-mtr-scope.md)]
 
+## Introduction
+
 **When did Surface Hub 3 start shipping with the Microsoft Teams Rooms on Windows experience?**
 
 - Surface Hub 3 started shipping December 5, 2023.
@@ -26,10 +28,10 @@ appliesto:
 
 - See [What's new for Surface Hub 3](surface-hub-3-whats-new.md) including [Surface Hub platform differences](/surface-hub/surface-hub-3-whats-new#surface-hub-platform-differences).
 
-**How can I upgrade my Surface Hub 2S to the new experience?**
+**How can I transition my Surface Hub 2S to the new experience?**
 
 - Purchase a new Surface Hub 3.
-- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) compute cartridge.
+- Upgrade from Surface Hub 2S to Surface Hub 3 via the [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)(formerly Surface Hub 3 Pack) . 
 - Migrate your Surface Hub 2S to the new experience. To learn more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 ### Ordering and purchasing information
@@ -46,10 +48,6 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 **How does the performance of Surface Hub 3 compare with Surface Hub 2S?**
 
 - Customers benefit from a 60% CPU performance increase and a 160% GPU performance increase over Surface Hub 2S.
-
-**How does the performance and feature set of Surface Hub 3 differ from Surface Hub 2S running Windows 10 Team edition?**
-
-- See [Surface Hub platform differences](/surface-hub/surface-hub-3-whats-new#surface-hub-platform-differences).
 
 **What other features are only available on Surface Hub 3 hardware?**
 
@@ -87,7 +85,7 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 
 **What happens after mainstream support ends on October 14, 2025?**
 
-- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.
+- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.Microsoft recommends that customers plan their strategy for transitioning Surface Hub 2S devices currently running Windows 10 Team edition, to the Microsoft Teams Rooms platform, no later than this date. You can transition your existing Surface Hub 2S devices either by upgrading them with a [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) or [software-migrating](surface-hub-2s-migrate-to-mtr-w.md) them.
 
 ## Learn more
 
