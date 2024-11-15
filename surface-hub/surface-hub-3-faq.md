@@ -73,7 +73,7 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 - Surface Hub 3 and Surface Hub 2S 50": **350 mm x 350 mm**.
 - Surface Hub 3 and Surface Hub 2S 85": **600 mm x 600 mm**. Requires [Surface Hub 2S 85" Mounting Adapter Kit](https://www.salamandercommercial.com/product/surface-hub-2s-85-mounting-adapter-kit/) (sold separately).
 
-### Windows 10 Team OS and support information
+### Windows 10 Team edition OS and support information
 
 **How long will Surface Hub 2S be supported on the current OS?**
 
@@ -81,11 +81,13 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 
 **What type of updates to Windows 10 Team OS will continue until mainstream support ends?**
 
-- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs continue to receive security updates. No new features are coming to the Windows 10 Team OS.
+- At a minimum, consistent with previously announced support for Windows 10, Surface Hubs continue to receive security updates. No new features are coming to the Windows 10 Team edition OS.
 
 **What happens after mainstream support ends on October 14, 2025?**
 
-- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.Microsoft recommends that customers plan their strategy for transitioning Surface Hub 2S devices currently running Windows 10 Team edition, to the Microsoft Teams Rooms platform, no later than this date. You can transition your existing Surface Hub 2S devices either by upgrading them with a [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md) or [software-migrating](surface-hub-2s-migrate-to-mtr-w.md) them.
+- Surface Hub devices running Windows 10 Team will no longer receive security updates from Microsoft after October 14, 2025.Microsoft recommends that customers plan their strategy for transitioning Surface Hub 2S devices currently running Windows 10 Team edition, to the Microsoft Teams Rooms platform, no later than this date. You can transition your existing Surface Hub 2S devices either by upgrading them with a [Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md), which effectively turns their Hub devices into a Surface Hub 3. Or customers can use the [software migration option](surface-hub-2s-migrate-to-mtr-w.md) to transition to Teams Rooms on Windows, although without access to capabilities like
+Smart Rotation, Portrait, Intelligent Audio<sup>1</sup>, and faster performance (which all require Surface Hub 3 hardware). To learn
+more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
 ## Learn more
 
