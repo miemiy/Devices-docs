@@ -89,6 +89,9 @@ To order the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack), see 
 Smart Rotation, Portrait, Intelligent Audio,<sup>1</sup> and faster performance (which all require Surface Hub 3 hardware). To learn
 more, see [Migrate Surface Hub 2S to Microsoft Teams Rooms on Windows](surface-hub-2s-migrate-to-mtr-w.md).
 
+> [!IMPORTANT]
+> You can [software-migrate](surface-hub-2s-migrate-to-mtr-w.md) your Surface Hub 2S device for free using the seamless software-migration option at any time before the end of support on October 14, 2025. Unlike the standard versions of Windows 10, there's no extended support option for Windows 10 Team edition when support ends.
+
 ## References
 
 1. Software license required. Sold separately.
