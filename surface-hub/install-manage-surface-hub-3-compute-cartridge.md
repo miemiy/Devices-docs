@@ -17,7 +17,7 @@ appliesto:
 
 # Install and manage Surface Hub 3 Compute Cartridge
 
-Enjoy the first all-in-one Teams Rooms board running on Windows by seamlessly updating your Surface Hub 2S to Microsoft Teams Rooms with the Surface Hub 3 Compute Cartridge, (formerly Surface Hub 3 Pack). To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
+Enjoy the first all-in-one Teams Rooms board running on Windows by seamlessly updating your Surface Hub 2S to Microsoft Teams Rooms with the Surface Hub 3 Compute Cartridge (formerly Surface Hub 3 Pack). To place an order, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface#DEVICESRESELLERS).
 
 ## Install Surface Hub 3 Compute Cartridge
 
@@ -28,7 +28,7 @@ Enjoy the first all-in-one Teams Rooms board running on Windows by seamlessly up
 > [!TIP]
 > You may need to restart the device and continue to check for available updates. Ensure the Surface Hub 2S's update history shows **Microsoft Corporation - System Hardware Update - 5/24/2023** or a **System Hardware Update** with any newer date (for example, 3/1/2024).
 
-- An account with admin privileges. You'll need to reset the device if you don't know your username or admin password. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
+- An account with admin privileges. You need to reset the device if you don't know your username or admin password. For more information, see [Reset and recovery for Surface Hub 2S](/surface-hub/surface-hub-2s-recover-reset).
 - A resource account with a [supported Microsoft Teams Rooms license](/microsoftteams/rooms/rooms-licensing).
 
 > [!NOTE]
@@ -56,29 +56,56 @@ Review the following demo and follow the instructions on this page.
 
 4. Slide the Surface Hub 3 Compute Cartridge into your Surface Hub.
 5. Fasten the locking screw and slide the cover into place. Power on your new Surface Hub 3.  
-6. To complete setup, refer to the following articles:
+6. Complete your setup with guidance from the following articles:
 
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md).
 - [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)
 
-## Manage Surface Hub 3 
+## Manage Surface Hub 3
 
-If you manage Surface Hub 2S via Microsoft Intune or another mobile device management (MDM) provider, remove the device before installing Surface Pack 3.
+This section provides guidance on initial management steps for Teams Admin Center and Microsoft Intune or mobile device management (MDM) provider.
 
-1. Sign into Microsoft Intune admin center, go to **Devices > All devices**,  and select your Surface Hub 2S.
-2. Select **Delete**.
+### Manual removal of upgraded Surface Hub devices from Teams Admin Center (Surface Hubs Legacy tab)
 
-  ![Screenshot that shows removal of Surface Hub 2S from Intune.](images/remove-hub2s-from-intune.png).
+After upgrading your Surface Hub 2S with the Surface Hub 3 Compute Cartridge, you need to manually remove the device listing from the "Surface Hubs (Legacy)" section of Teams Admin Center. This will thereafter enable the device to show up properly under the "Teams Rooms on Windows" section and enable accurate device management.
+
+1. **Navigate to Teams Admin Center**:
+   - Open your web browser and go to the [Teams Admin Center](https://admin.teams.microsoft.com).
+   - Sign in with your admin credentials.
+2. **Access the Surface Hubs (Legacy) Tab**:
+   - In the Teams Admin Center, select  **Teams devices** > **Surface Hubs (Legacy)**.
+3. **Manually remove the upgraded device**:
+   - Locate the row corresponding to the upgraded Surface Hub device and select the device.
+   - Select **Remove** to manually remove the device's row from the list.
+4. **Verification**:
+   - Refresh the page or navigate away and then back to the **Surface Hubs (Legacy)** tab to ensure that the device has been successfully removed.
+   - Verify that the upgraded device is now correctly managed under the appropriate tab for Teams Rooms devices, if applicable. This may take up to 12 hours to happen, but will happen automatically.
+  
+### Manual cleanup of stale Intune device records for upgraded Surface Hub devices
+
+If you registered a Surface Hub 2S with Intune or other MDM provider before upgrading it with a Surface Hub 3 Compute Cartridge, you might encounter a "stale" device record. This situation occurs when the original device object in Intune remains, even after a new record is created for the Teams Rooms platform.
+
+Although this stale record doesn't interfere with Intune-based management of the upgraded Surface Hub device, we recommend removal of these outdated entries to maintain directory cleanliness.
+
+1. **Access** [Microsoft Intune Admin Center](https://intune.microsoft.com/): Sign in with your admin credentials.
+2. **Navigate to Devices**: Use the left-hand navigation pane and select the **Devices** tab.
+3. **Locate All Devices**: Within the **Overview** section, select **All devices** to view the entire list of managed devices.
+4. **Identify and select the stale device object**: Look for the device object that needs removal. You can identify the stale entry based on your established device naming conventions. Typically, the stale record displays an OS build number of 19045, indicative of the Windows 10 Team edition.
+
+   > [!NOTE]
+   > Pay close attention to the OS build numbers to accurately distinguish between pre-upgrade and post-upgrade device records.
+
+5. **Delete the stale record**: On the selected device object’s page, navigate to the top menu and select **Delete** to remove the stale device record from Intune.
 
 ## Surface Hub 2S Recycle Program
 
-The Surface Hub 3 Compute Cartridge packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a pre-paid shipping label](#request-a-pre-paid-shipping-label). 
+The Surface Hub 3 Compute Cartridge packaging allows you to return your old Surface Hub 2S cartridge to Microsoft for recycling. To participate, [remove the hard drive](#required-removal-of-hard-drive--corporate-data) from the cartridge to protect your sensitive data and [request a prepaid shipping label](#request-a-prepaid-shipping-label). 
 
 ### Required removal of hard drive & corporate data
 
 Before recycling your Surface Hub 2S cartridge, first remove the hard drive and delete any corporate data.
 
-1. You'll need the compute cartridge and a screwdriver.
+1. You need the compute cartridge and a screwdriver.
 
 ![Screenshot that shows compute cartridge and screwdriver.](images/surface-hub-2s-repack-7.png)
 
@@ -86,7 +113,7 @@ Before recycling your Surface Hub 2S cartridge, first remove the hard drive and 
 
 ![Screenshot that shows removal of cover screw and cover from the compute cartridge and removal of solid state drive (SSD).](images/surface-hub-2s-repack-8.png)
 
-### Request a pre-paid shipping label
+### Request a prepaid shipping label
 
 Select your country/region and follow the instructions to obtain a shipping label. If you upgraded to the Surface Hub 3 Compute Cartridge, you can use its original packaging to ship the Surface Hub 2S cartridge for recycling. 
 
