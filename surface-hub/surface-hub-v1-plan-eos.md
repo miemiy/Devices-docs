@@ -15,7 +15,7 @@ appliesto:
 
 # Planning for End of Support for Surface Hub v1 devices
 
-As the Windows 10 Team edition OS reaches [end of support on October 14, 2025](/lifecycle/products/windows-10-team-surface-hub), Microsoft recommends organizations begin planning and budgeting for device upgrades or alternative conferencing solutions. Although Surface Hub v1 might still function with that OS, [Microsoft no longer provides hardware support for these devices](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle#legacy-products). Transitioning to newer solutions, such as Surface Hub 3, ensures your organization maintains optimal performance, security, and support.
+As the Windows 10 Team edition OS reaches [End of Support on October 14, 2025](/lifecycle/products/windows-10-team-surface-hub), Microsoft recommends organizations begin planning and budgeting for device upgrades or alternative conferencing solutions. Although Surface Hub v1 might still function with that OS, [Microsoft no longer provides hardware support for these devices](/surface-hub/surface-hub-driver-firmware-accessories-lifecycle#legacy-products). Transitioning to newer solutions, such as Surface Hub 3, ensures your organization maintains optimal performance, security, and support.
 
 For continued use of Surface Hub v1, consider using [Replacement PC Mode](/surface-hub/connect-and-display-with-surface-hub#replacement-pc-mode) by connecting an external PC. However,  this workaround doesn't extend the device’s hardware support lifespan. 
 
