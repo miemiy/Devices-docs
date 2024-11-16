@@ -16,8 +16,6 @@ appliesto:
 
 # Reset and recovery for Surface Hub (v1)
 
-[!INCLUDE [Hub v1 EoS](includes/hubv1-eos.md)]
-
 You can reset Surface Hub to restore the operating system to the last cumulative Windows update. The following information is removed:
 
 - All local user files and configuration data. 
