@@ -19,4 +19,4 @@ As the Windows 10 Team edition OS reaches [End of Support on October 14, 2025](/
 
 For continued use of Surface Hub v1, consider using [Replacement PC Mode](/surface-hub/connect-and-display-with-surface-hub#replacement-pc-mode) by connecting an external PC. However,  this workaround doesn't extend the device’s hardware support lifespan. 
 
-To avoid disruption, we recommend completing the transition before Windows 10 Team edition support ends in October 2025. For guidance on available upgrade options and planning assistance, contact your [Surface device reseller](/surface/business/where-to-buy-microsoft-surface) or [Microsoft support representative](/surface/contact-surface-business-education-support).
+To avoid disruption, we recommend completing the transition before Windows 10 Team edition support ends in October 2025. For guidance on available upgrade options and planning assistance, contact your [Surface device reseller](https://www.microsoft.com/surface/business/where-to-buy-microsoft-surface) or [Microsoft support representative](/surface/contact-surface-business-education-support).
