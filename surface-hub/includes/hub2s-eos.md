@@ -8,5 +8,5 @@ ms.topic: include
 
 ## Surface Hub 2S end of support
 
-> [!NOTE]
-> For details on Surface Hub 2S support timelines and transition options after Windows 10 Team OS end of support, see [Windows 10 Team edition OS and support information](/surface-hub/surface-hub-3-faq#windows-10-team-edition-os-and-support-information).
+> [!IMPORTANT]
+> Surface Hub 2S support ends on October 14, 2025. For more information about support timelines and transition options, see [Windows 10 Team edition OS and support information](/surface-hub/surface-hub-3-faq#windows-10-team-edition-os-and-support-information).
