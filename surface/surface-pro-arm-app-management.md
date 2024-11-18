@@ -180,4 +180,4 @@ The following tables show the availability of key features on Arm-based Surface 
 - [Arm-based Surface devices FAQ](surface-arm-faq.md)
 - [Windows on Arm documentation](/windows/arm/overview)
 - [App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure)
-- [Qualcomm: Windows on Snapdragon](https://www.qualcomm.com/developer/windows-on-snapdragon/overview)
+- [Qualcomm: Getting Started with Windows on Snapdragon](https://academy.qualcomm.com/course-catalog/Windows-on-Snapdragon)
