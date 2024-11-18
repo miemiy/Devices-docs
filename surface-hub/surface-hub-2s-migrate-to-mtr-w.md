@@ -170,7 +170,7 @@ Choose one of the following options:
 
 ### Deploy Migration Launcher app via Intune
 
-1. Sign in to [Intune Admin Center](https://endpoint.microsoft.com/) and go to **Apps** > **All apps** > **Add**. Under App type, select **Line-of-business app**.
+1. Sign in to [Intune Admin Center](https://intune.microsoft.com/) and go to **Apps** > **All apps** > **Add**. Under App type, select **Line-of-business app**.
 
    :::image type="content" alt-text="Screenshot of Select line of business app." source="images/hub2s-migration-select-lob-app.png":::
 

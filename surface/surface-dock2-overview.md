@@ -118,8 +118,8 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 Surface has released streamlined management functionality via Windows Update enabling IT admins to utilize the following enterprise-grade features:
 
-- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools.
-- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Endpoint Configuration Manager or other enterprise management tools.
+- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Configuration Manager (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools.
+- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Configuration Manager or other enterprise management tools.
 - **Centralized IT control**. Control who can connect to Surface Dock 2 by turning ports on and off. Restrict which host devices can be used with Surface Dock 2. Limit dock access to a single user or configure docks for access only by specific users in your team or across the entire company.
 
 ## Next steps

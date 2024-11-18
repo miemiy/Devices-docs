@@ -49,7 +49,7 @@ Create, manage, and track support requests while staying current on Microsoft te
 
 ### Intune users
 
-Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Learn more](surface-management-portal.md) or [Get support](https://endpoint.microsoft.com/).
+Built into Intune, the Surface Management Portal provides a centralized solution to self-serve, manage, and monitor Surface devices at scale. [Learn more](surface-management-portal.md) or [Get support](https://intune.microsoft.com/).
 
 ### Still need help?
 
