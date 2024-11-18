@@ -196,5 +196,5 @@ Enabling the "Boot Order Lock" enhances the security posture by ensuring it only
 - [Secure Boot overview](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
-- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity)
 - [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703)
