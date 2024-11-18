@@ -37,7 +37,7 @@ This update:
 
 This release contains the following components. The specific components installed are based on your device's configuration:
 
-| Windows Update Name                               | Device Manage                           |
+| Windows Update Name                               | Device Manager                          |
 |---------------------------------------------------|-----------------------------------------|
 | Intel - SoftwareComponent - 1.71.99.0             | Intel(R) iCLS Client - Software components |
 | Intel - System - 2406.5.5.0                       | Intel(R) Management Engine Interface #1 - System devices  |
