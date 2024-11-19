@@ -43,7 +43,10 @@ Surface Hub running Teams Rooms on Windows introduces **AI-powered speaker recog
 
 - **Biometric privacy and security** are a top priority. Microsoft encrypts voice and face data at rest and in transit, adhering to strict privacy guidelines and regulatory requirements for data protection. Users can unenroll their voice profiles at any time, and profiles are automatically deleted if unused for one year.
 
-To learn more, see [Get the most out of any Teams Rooms meeting with speaker recognition and Copilot](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-the-most-out-of-any-teams-rooms-meeting-with-speaker/ba-p/4182595).
+To learn more, see the following resources: 
+
+- [Get the most out of any Teams Rooms meeting with speaker recognition and Copilot](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-the-most-out-of-any-teams-rooms-meeting-with-speaker/ba-p/4182595)
+- [Enhancing collaboration with Microsoft Teams Rooms and Surface Hub 3](https://techcommunity.microsoft.com/blog/surfaceitpro/enhancing-collaboration-with-microsoft-teams-rooms-and-surface-hub-3/4292453)
 
 ### Intuitive in-room controls
 
