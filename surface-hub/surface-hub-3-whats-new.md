@@ -129,12 +129,12 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 
 ### Learn more
 
+- [Enhancing collaboration with Microsoft Teams Rooms and Surface Hub 3](https://techcommunity.microsoft.com/blog/surfaceitpro/enhancing-collaboration-with-microsoft-teams-rooms-and-surface-hub-3/4292453)
 - [Site readiness guide for Surface Hub 3](surface-hub-3-site-readiness-guide.md)  
 - [First-time setup for Surface Hub running Microsoft Teams Rooms on Windows](first-run-program-surface-hub-3.md)  
 - [Install & manage Surface Hub 3 Compute Cartridge](install-manage-surface-hub-3-compute-cartridge.md)  
 - [Install & manage Surface Hub Smart Camera](surface-hub-smart-camera.md)  
 - [Security best practices for Surface Hub running Microsoft Teams Rooms on Windows](surface-hub-3-security.md)  
-- [Install wallpaper on Surface Hub running Microsoft Teams Rooms on Windows](install-wallpaper-surface-hub.md)
 
 ### References
 
