@@ -114,7 +114,7 @@ For Surface Hub to be used in communal spaces, such as meeting rooms, its custom
 Surface Hub implements these Windows security features:
 
 - [Secure Boot](/windows-hardware/design/device-experiences/oem-secure-boot)
-- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Enable virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity?tabs=security)
 - [Application restriction policies using AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [BitLocker Drive Encryption](/windows/security/information-protection/bitlocker/bitlocker-overview)
 - [Trusted Platform Module (TPM)](/windows/security/information-protection/tpm/trusted-platform-module-top-node)

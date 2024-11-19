@@ -38,9 +38,9 @@ Even if you're familiar with Autopilot in general, to understand nuances for Tea
 
 ## How Autopilot works
 
-Windows Autopilot uses Azure cloud services, including Microsoft Entra-ID (formerly known as Azure AD) and Microsoft Endpoint Manager (formerly known as Intune). This cloud-based approach to device management and deployment allows for the automation and remote management capabilities that Autopilot delivers.
+Windows Autopilot uses Azure cloud services, including Microsoft Entra-ID (formerly known as Azure AD) and [Microsoft  Intune Admin Center](https://intune.microsoft.com). This cloud-based approach to device management and deployment allows for the automation and remote management capabilities that Autopilot delivers.
 
-IT admins create deployment profiles in Microsoft Endpoint Manager or other mobile device management (MDM) service. These profiles contain the configuration settings for the devices, such as language, region, network configuration, and the steps required in the Windows Out-of-Box Experience (OOBE). Once profiles are created, they're assigned to the registered devices based on certain criteria, like device model or purchase order. To learn more, see [Configure Autopilot profiles](/autopilot/profiles).
+IT admins create deployment profiles in Intune or other mobile device management (MDM) service. These profiles contain the configuration settings for the devices, such as language, region, network configuration, and the steps required in the Windows Out-of-Box Experience (OOBE). Once profiles are created, they're assigned to the registered devices based on certain criteria, like device model or purchase order. To learn more, see [Configure Autopilot profiles](/autopilot/profiles).
 
 When a new device with a supported platform is Internet-connected and turned on for the first time, it contacts the Windows Autopilot service. The service recognizes the device based on its hardware ID and retrieves the deployment profile assigned to it. The Windows OOBE then customizes itself according to the settings defined in the profile, automating steps that would traditionally require manual input, such as setting up a Wi-Fi connection, accepting license agreements, and more.
 

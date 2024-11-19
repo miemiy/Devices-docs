@@ -54,7 +54,7 @@ To learn more about power states, see [System Power States](/windows/win32/power
 
 ## How it works
 
-When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. Or devices may be in hibernation (S4) or shutdown (S5) power state based on the power settings configured on the device. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. Many management solutions, such as Microsoft Endpoint Configuration Manager and third-party Microsoft Store apps provide built-in support for WOL.
+When not in use, Surface devices enter an idle, low powered state known as Modern Standby or Connected Standby. Or devices may be in hibernation (S4) or shutdown (S5) power state based on the power settings configured on the device. IT admins can remotely trigger devices using a wake request (magic packet) that contains the Media Access Control (MAC) address of the target Surface device. Many management solutions, such as Microsoft Configuration Manager and third-party Microsoft Store apps provide built-in support for WOL.
 
 To enable WOL on devices without Surface Dock 2, see:
 

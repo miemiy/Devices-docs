@@ -23,7 +23,7 @@ Use work profiles to manage corporate data and apps on user-owned Android device
 
 **To enable Enterprise Work Profile:**
 
-- In Endpoint Manager, select **Devices** > **Android** > **Android enrollment** and then select **Personal devices with work profile**.
+- In Microsoft Intune, select **Devices** > **Android** > **Android enrollment** and then select **Personal devices with work profile**.
 <br><br>
  ![Enable Enterprise Work Profile.](images/enroll-start.png)
 

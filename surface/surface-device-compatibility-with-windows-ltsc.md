@@ -54,4 +54,4 @@ Surface devices that run **productivity apps like Microsoft Office**, **access M
 For devices that only perform **single-task functions**, such as kiosks or embedded systems, LTSC offers a stable environment with minimal updates. However, for most other cases, organizations should:
 
 - **Use SAC with Windows 11**: This solution ensures access to the latest Surface features, drivers, and firmware updates.
-- **Transition from Windows 10 LTSC**: Perform **in-place upgrades** to Windows 11 using **Endpoint Configuration Manager** to avoid compatibility issues with new hardware.
+- **Transition from Windows 10 LTSC**: Perform **in-place upgrades** to Windows 11 using **Configuration Manager** to avoid compatibility issues with new hardware.
