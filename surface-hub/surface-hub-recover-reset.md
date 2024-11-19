@@ -15,6 +15,8 @@ appliesto:
 
 # Reset & recovery for Surface Hub 2S & Surface Hub 3
 
+[!INCLUDE [Hub 2S EoS](includes/hub2s-eos.md)]
+
 If you encounter problems, you can recover Surface Hub 2S or Surface Hub 3 [via a USB drive](#recovery-from-a-usb-drive). Or you can [reset Surface Hub 2S](#reset-surface-hub-2s) directly via Windows settings.
 
 ## Recovery from a USB drive
@@ -37,12 +39,11 @@ With a USB drive, you can reinstall the device to factory settings--even if you 
 
 6. Select your USB drive, then select **Next > Create**.  Some utilities need to be copied to the recovery drive, which might take a few minutes.
 
->[!TIP]
-> Use a USB 3.0 drive formatted as FAT32 with:
->
-> - At least **16 GB** of storage for Windows 10 Team edition.
-> - At least **32 GB** of storage for Windows 11 IoT with Microsoft Teams Rooms on Windows.
-
+   >[!TIP]
+   > Use a USB 3.0 drive formatted as FAT32 with:
+   >
+   > - At least **16 GB** of storage for Windows 10 Team edition.
+   > - At least **32 GB** of storage for Windows 11 IoT with Microsoft Teams Rooms on Windows.
 
 7. When the recovery drive is ready, select **Finish**.
 

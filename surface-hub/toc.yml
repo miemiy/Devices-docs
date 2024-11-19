@@ -375,6 +375,8 @@
                  href: surface-hub-downloads.md    
             - name: Troubleshoot hardware
               items:     
+                - name: Planning for End of Support for Surface Hub v1
+                  href: surface-hub-v1-plan-eos.md
                 - name: Reset or recover Surface Hub v1
                   href: device-reset-surface-hub.md
                 - name: Use Surface Hub v1 Recovery Tool
