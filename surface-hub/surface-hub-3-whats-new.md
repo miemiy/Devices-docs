@@ -38,17 +38,26 @@ Surface Hub running Teams Rooms on Windows introduces **AI-powered speaker recog
 
 - **Speaker recognition**: Identifies participants' voices in the room by analyzing vocal characteristics, ensuring individual contributions are tracked. 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
+  - **Facilitator integration**: Powered by speaker recognition, Facilitator (targeted for public preview in Q1 2025) takes meeting notes in real time, tracks decisions, and automatically creates follow-up tasks, helping teams focus on discussions instead of manual follow-ups.
   - **IT administration**: Admins can manage voice and face enrollment for specific users, groups of users, or an entire organization, ensuring secure and accurate identification. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
 
 - **Biometric privacy and security** are a top priority. Microsoft encrypts voice and face data at rest and in transit, adhering to strict privacy guidelines and regulatory requirements for data protection. Users can unenroll their voice profiles at any time, and profiles are automatically deleted if unused for one year.
 
 To learn more, see [Get the most out of any Teams Rooms meeting with speaker recognition and Copilot](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/get-the-most-out-of-any-teams-rooms-meeting-with-speaker/ba-p/4182595).
 
+### Intuitive in-room controls
+
+**QR Code Join** simplifies how users connect to meetings and manage controls. Scan the QR code displayed on Surface Hub to join or control meetings directly from your mobile device using **Proximity Join** or **Companion Mode**. Manage common meeting functions such as camera on/off, mute, and layout adjustments directly from your device without leaving your seat.
+
+### Center-of-table console support
+
+Surface Hub 3 now supports **third-party center-of-table consoles**, providing an additional option for controlling meetings. These **Teams Rooms Certified Universal Consoles**, starting with hardware from MAXHUB, allow users to manage Surface Hub meetings from a touchpad at the conference room table. Console support simplifies meeting operations, including joining meetings and wired content sharing, while also making Surface Hub suitable for front-of-room deployments. Universal Console support is targeted for general availability in **Q2 of 2025**.
+
 ## Manage remotely and stay secure anywhere
 
 Surface Hub running Teams Rooms on Windows empowers IT admins with enterprise-grade tools to manage devices and maintain security from anywhere.
 
-- **Remote management**: Use Microsoft Endpoint Manager to configure settings and policies. Monitor health and room status with [Microsoft Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) and the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal).
+- **Remote management**: Use the [Microsoft Intune Admin Center](https://intune.microsoft.com) to configure settings and policies. Monitor health and room status with [Microsoft Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) and the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal).
 - **Low-touch deployment**: Quickly deploy devices using Windows Autopilot, and use auto-sign-in capabilities for seamless integration with Azure Directory.
 - **Security and compliance**: Ensure data protection with BitLocker, Trusted Platform Module 2.0 (TPM), and Microsoft Defender for cloud-powered security. Enable [Conditional Access policies](/mem/intune/protect/conditional-access) to safeguard sign-ins on shared devices. To learn more, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 
@@ -87,6 +96,9 @@ For customers with Surface Hub 2S (or Surface Hub v1) devices that have used the
 
 | **Feature**                                  | **Surface Hub 2S running Windows 10 Team Edition** | **Surface Hub running Teams Rooms on Windows**   |
 |----------------------------------------------|---------------------------------------------------|---------------------------------------------------|
+| **Center-of-table console support**          | Not available.                                    | Supported with **Teams Rooms Certified Universal Consoles** for controlling meetings and sharing wired content. This feature allows deployment in front-of-room setups and provides a familiar experience across meeting spaces. Available Q2 2025. |
+| **Facilitator AI Assistant**                 | Not available.                                    | Targeted for public preview in Q1 2025, Facilitator uses AI to take real-time notes, track decisions, and create follow-up tasks during meetings, powered by **speaker recognition**. |
+| **Coordinated Meetings**                     | Not supported.                                    | Enables multiple Teams Rooms systems to join the same meeting, optimize audio and layouts, and coordinate across multiple displays. Supports deployment alongside Surface Hub or other Teams Rooms devices. |
 | **Plug and play third-party peripheral support**                                    | Limited to seven specific items.                                                                             | Supports all **Teams Rooms Certified peripherals**. For more information, see the [list of certified peripherals](surface-hub-certifications.md).                                                                                                                                                 |
 | **One-Touch Direct Guest Join**                                                     | Requires launching Microsoft Edge from Teams, leading to a web experience.                                          | Direct integration within the **Teams Rooms** application, providing seamless guest join functionality with consistency to other Teams Rooms on Windows devices.                                                                                                              |
 | **Front Row layout**                                                                | Not available.                                                                                           | Available and consistent with other Teams Rooms on Windows devices, offering a more immersive meeting experience.                                                                                                                                        |
