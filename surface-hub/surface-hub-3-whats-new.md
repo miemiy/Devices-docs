@@ -38,7 +38,7 @@ Surface Hub running Teams Rooms on Windows introduces **AI-powered speaker recog
 
 - **Speaker recognition**: Identifies participants' voices in the room by analyzing vocal characteristics, ensuring individual contributions are tracked. 
   - **Voice enrollment**: End users can easily create a voice profile via [aka.ms/voiceprofile](https://aka.ms/voiceprofile), allowing their voice to be recognized in meetings. 
-  - **Facilitator integration**: Powered by speaker recognition, Facilitator (targeted for public preview in Q1 2025) takes meeting notes in real time, tracks decisions, and automatically creates follow-up tasks, helping teams focus on discussions instead of manual follow-ups.
+  - **Facilitator integration**: Powered by speaker recognition, Facilitator<sup>1</sup> (targeted for public preview in Q1 2025) takes meeting notes in real time, tracks decisions, and automatically creates follow-up tasks, helping teams focus on discussions instead of manual follow-ups.
   - **IT administration**: Admins can manage voice and face enrollment for specific users, groups of users, or an entire organization, ensuring secure and accurate identification. To learn more, see [Overview of voice and face enrollment](/microsoftteams/rooms/voice-and-face-recognition).
 
 - **Biometric privacy and security** are a top priority. Microsoft encrypts voice and face data at rest and in transit, adhering to strict privacy guidelines and regulatory requirements for data protection. Users can unenroll their voice profiles at any time, and profiles are automatically deleted if unused for one year.
@@ -51,7 +51,7 @@ To learn more, see [Get the most out of any Teams Rooms meeting with speaker rec
 
 ### Center-of-table console support
 
-Surface Hub 3 now supports **third-party center-of-table consoles**, providing an additional option for controlling meetings. These **Teams Rooms Certified Universal Consoles**, starting with hardware from MAXHUB, allow users to manage Surface Hub meetings from a touchpad at the conference room table. Console support simplifies meeting operations, including joining meetings and wired content sharing, while also making Surface Hub suitable for front-of-room deployments. Universal Console support is targeted for general availability in **Q2 of 2025**.
+Surface Hub 3 now supports **third-party center-of-table consoles**, providing an additional option for controlling meetings. These **Teams Rooms Certified Universal Consoles**, starting with hardware from MAXHUB, allow users to manage Surface Hub meetings from a touchpad at the conference room table. Console support simplifies meeting operations, including joining meetings and wired content sharing,<sup>?</sup> while also making Surface Hub suitable for front-of-room deployments. Universal Console support is targeted for general availability in **Q2 of 2025**.
 
 ## Manage remotely and stay secure anywhere
 
@@ -66,8 +66,8 @@ Surface Hub running Teams Rooms on Windows empowers IT admins with enterprise-gr
 Surface Hub running Teams Rooms on Windows offers unmatched versatility with modular and adaptable components that evolve with your space needs. Whether your teams meet in large conference rooms or smaller breakout areas, Surface Hub delivers the right fit.
 
 - **Two size options**: The 85-inch model is perfect for large rooms, while the 50-inch model suits smaller spaces. The 50-inch model supports Smart Rotation for effortless collaboration in landscape or portrait mode.
-- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>2</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>2</sup> offering portability without needing a constant power supply.
-- **Modular design**: Interchangeable components, such as the **Surface Hub 3 Compute Cartridge**,<sup>3</sup> help ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
+- **Mobile adaptability**: Easily move your Surface Hub using **mobile stands from Designed for Surface partners**,<sup>3</sup> including **Salamander Designs** and **Steelcase**. For added flexibility, take it further with the **APC Charge Mobile Battery**,<sup>3</sup> offering portability without needing a constant power supply.
+- **Modular design**: Interchangeable components, such as the **Surface Hub 3 Compute Cartridge**,<sup>4</sup> help ensure your device is future-proof, adapting to both technology advancements and changing room configurations.
 
 ## Seamlessly share and cocreate together
 
@@ -96,8 +96,8 @@ For customers with Surface Hub 2S (or Surface Hub v1) devices that have used the
 
 | **Feature**                                  | **Surface Hub 2S running Windows 10 Team Edition** | **Surface Hub running Teams Rooms on Windows**   |
 |----------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| **Center-of-table console support**          | Not available.                                    | Supported with **Teams Rooms Certified Universal Consoles** for controlling meetings and sharing wired content. This feature allows deployment in front-of-room setups and provides a familiar experience across meeting spaces. Available Q2 2025. |
-| **Facilitator AI Assistant**                 | Not available.                                    | Targeted for public preview in Q1 2025, Facilitator uses AI to take real-time notes, track decisions, and create follow-up tasks during meetings, powered by **speaker recognition**. |
+| **Center-of-table console support**          | Not available.                                    | Supported with **Teams Rooms Certified Universal Consoles** for controlling meetings and sharing wired content. This feature allows deployment in front-of-room setups and provides a familiar experience across meeting spaces. Targeted for general availability in Q2 of next calendar year (2025). |
+| **Facilitator AI Assistant**                 | Not available.                                    | Facilitator uses AI to take real-time notes, track decisions, and create follow-up tasks during meetings, powered by **speaker recognition**. Targeted for public preview in Q1 of next calendar year (2025). |
 | **Coordinated Meetings**                     | Not supported.                                    | Enables multiple Teams Rooms systems to join the same meeting, optimize audio and layouts, and coordinate across multiple displays. Supports deployment alongside Surface Hub or other Teams Rooms devices. |
 | **Plug and play third-party peripheral support**                                    | Limited to seven specific items.                                                                             | Supports all **Teams Rooms Certified peripherals**. For more information, see the [list of certified peripherals](surface-hub-certifications.md).                                                                                                                                                 |
 | **One-Touch Direct Guest Join**                                                     | Requires launching Microsoft Edge from Teams, leading to a web experience.                                          | Direct integration within the **Teams Rooms** application, providing seamless guest join functionality with consistency to other Teams Rooms on Windows devices.                                                                                                              |
@@ -136,5 +136,6 @@ Windows 10 Team edition, the legacy OS that was the default on Surface Hub 2S, r
 ### References
 
 1. Software license required. Sold separately.
-2. Sold separately.
-3. Formerly Surface Hub 3 Pack. 
+1. Wired content ingest support on Universal Consoles may vary by individual device capabilities. Consult with your console manufacturer for more.
+1. Sold separately.
+1. Formerly Surface Hub 3 Pack. 
