@@ -1,12 +1,12 @@
 ---
 title: Surface Dock 2 overview
-description: This article highlights features and functionality for Surface Dock 2.
+description: Surface Dock 2 boosts productivity with dual 4K@60Hz display capabilities, fast charging, seven ports, and robust IT management tools for modern workspaces
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: overview
-ms.date: 10/17/2024
+ms.date: 11/18/2024
 ms.reviewer: dashap
 manager: frankbu
 appliesto:
@@ -15,7 +15,7 @@ appliesto:
 ---
 # Surface Dock 2 overview
 
-Surface Dock 2, the next-generation Surface dock, lets users connect external monitors and multiple peripherals for a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phones and accessories.
+Surface Dock 2 lets users connect external monitors and multiple peripherals for a fully modernized desktop experience from a Surface device. Built to maximize efficiency at the office, in a flexible workspace, or at home, Surface Dock 2 features seven ports, including two front-facing USB-C ports, with 15 watts of fast charging power for phones and accessories.
 
 ## Full device management support
 
@@ -93,9 +93,9 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 | Component                           | Surface Dock                                                | Surface Dock 2                                                                                      | USB-C Travel Hub |
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | Surface Connect                            | Yes                                                         | Yes                                                                                                 | No               |
-| USB-A                               | Two front facing USB 3.1 Gen 1<br>Two rear facing USB 3.1 Gen 1 | Two rear facing USB 3.2 Gen 2 (7.5 W power)                                                            | One USB 3.1 Gen 2  |
+| USB-A                               | Two front facing USB 3.1 Gen 1<br>Two rear facing USB 3.1 Gen 1 | Two rear facing USB 3.2 Gen 2 (7.5-W power)                                                            | One USB 3.1 Gen 2  |
 | Mini Display port                   | Two rear facing (DP1.2)                                       | None                                                                                                | None             |
-| USB-C                               | None                                                        | Two front facing USB 3.2 Gen 2<br>(15 W power)<br>Two rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5 W power) | One USB 3.2 Gen 2  |
+| USB-C                               | None                                                        | Two front facing USB 3.2 Gen 2<br>(15-W power)<br>Two rear facing USB 3.2 Gen 2 (DP1.4a)<br>(7.5-W power) | One USB 3.2 Gen 2  |
 | 3.5 mm Audio in/out                 | Yes                                                         | Yes                                                                                                 | Yes              |
 | Ethernet                            | Yes, 1 gigabit                                              | Yes 1 gigabit                                                                                       | Yes, 1 gigabit   |
 | DC power in                         | Yes                                                         | Yes                                                                                                 |                  |
@@ -116,14 +116,12 @@ Surface Dock 2 is designed to simplify IT management, enabling admins to automat
 
 ## Streamlined device management
 
-Surface has released streamlined management functionality via Windows Update enabling IT admins to utilize the following enterprise-grade features:
-
-- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Endpoint Configuration Manager (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools.
-- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Endpoint Configuration Manager or other enterprise management tools.
+- **Frictionless updates**. Update your docks silently and automatically, with Windows Update or Microsoft Configuration Manager (formerly System Center Configuration Manager - SCCM) or other MSI deployment tools.
+- **Wake from the network**. Manage and access corporate devices without depending on users to keep their devices powered on. Even when a docked device is in sleep, hibernation, or power off mode, your team can wake from the network for service and management, using Configuration Manager or other enterprise management tools.
 - **Centralized IT control**. Control who can connect to Surface Dock 2 by turning ports on and off. Restrict which host devices can be used with Surface Dock 2. Limit dock access to a single user or configure docks for access only by specific users in your team or across the entire company.
 
 ## Next steps
 
 - [Secure Surface Dock 2 ports with Surface Enterprise Management Mode](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Surface Enterprise Management Mode](surface-enterprise-management-mode.md)
-- [Best practice power settings for Surface devices](maintain-optimal-power-settings-on-Surface-devices.md)
+- [What’s new in Surface Thunderbolt 4 Dock](surface-dock-whats-new.md)

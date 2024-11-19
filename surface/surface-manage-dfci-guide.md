@@ -99,7 +99,7 @@ Designed to be used with software-level mobile device management (MDM), DFCI ena
 
 ## Get started
 
-1. Sign in to your tenant at [endpoint.microsoft.com](https://endpoint.microsoft.com).
+1. Sign in to your tenant at [intune.microsoft.com](https://intune.microsoft.com).
 2. In the Microsoft Intune admin center, select **Devices > Configuration profiles > Create profile**.
 3. Under Platform, select **Windows 10 and later**.
 4. Under Profile type, select **Templates** > **Device Firmware Configuration Interface** and then select **Create.**
@@ -145,7 +145,7 @@ When you create a DFCI profile, all configured settings will remain in effect ac
 **To remove DFCI management and return device to factory new state:**
 
 1. Retire the device from Intune:
-   1. In Endpoint Manager at endpoint.microsoft.com, choose **Devices** > **All Devices**.
+   1. In Microsoft Intune at intune.microsoft.com,, choose **Devices** > **All Devices**.
    1. Select the device you want to retire, then choose **Retire/Wipe.**
    To learn more, see [Remove devices by using wipe, retire, or manually unenrolling the device](/mem/intune/remote-actions/devices-wipe).
 2. Delete the Autopilot registration from Intune:
