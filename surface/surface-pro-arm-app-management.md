@@ -19,7 +19,7 @@ Arm-based Surface devices, including Surface Pro (11th Edition), Surface Laptop 
 
 ### Image-based deployment now supported
 
-Image-based Operating System Deployment (OSD) is now [supported via Endpoint Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition), and Surface Pro 9 with 5G. 
+Image-based Operating System Deployment (OSD) is now [supported via Configuration Manager](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro (11th Edition), Surface Laptop (7th Edition), and Surface Pro 9 with 5G. 
 
 ### Autopilot deployment 
 
@@ -49,7 +49,7 @@ The Microsoft Intune admin center integrates with Microsoft Entra ID to provide 
 
 ### Co-management
 
-After deployment via Autopilot, devices can be joined to Microsoft Entra ID or Active Directory ([Microsoft Entra hybrid join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Endpoint Configuration Manager](/mem/configmgr/comanage/overview), which installs the 32-bit x86 ConfigMgr client.
+After deployment via Autopilot, devices can be joined to Microsoft Entra ID or Active Directory ([Microsoft Entra hybrid join](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), where you can [manage the devices with Intune](/mem/intune/remote-actions/device-management) or [co-manage them with Configuration Manager](/mem/configmgr/comanage/overview), which installs the 32-bit x86 ConfigMgr client.
 
 ### Other MDM solutions
 
@@ -137,7 +137,7 @@ The following tables show the availability of key features on Arm-based Surface 
 | Intune                                        | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Windows Autopilot                             | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Microsoft Entra ID (co-management)            | Yes               | Yes                           | Yes                        | Yes                          | Ability to join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). |
-| Endpoint Configuration Manager                | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
+| Configuration Manager                | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Power on When AC Restore                      | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Surface Diagnostic Toolkit (SDT) for Business | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
 | Surface Asset Tag tool                        | Yes               | Yes                           | Yes                        | Yes                          |                                                                                                                |
@@ -158,9 +158,9 @@ The following tables show the availability of key features on Arm-based Surface 
 
 ## FAQ
 
-**Can I deploy Arm-based Surface devices with Endpoint Configuration Manager?**
+**Can I deploy Arm-based Surface devices with Configuration Manager?**
 
-- Microsoft Endpoint Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).
+- Microsoft Configuration Manager now [supports Operating System Deployment](/mem/configmgr/core/plan-design/changes/whats-new-in-version-2403#support-for-arm-64-operating-system-deployment) for Windows 11 on Surface Pro 9 with 5G, Surface Pro (11th Edition), and Surface Laptop (7th Edition).
 
 **How can I deploy Arm-based Surface devices?**
 
@@ -173,11 +173,11 @@ The following tables show the availability of key features on Arm-based Surface 
 
 **Is Intune required to manage Arm-based Surface devices?**
 
-- Intune is recommended but not required. Once deployed via Autopilot, you can join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). This enables you to manage your devices with Intune or co-manage them with Endpoint Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
+- Intune is recommended but not required. Once deployed via Autopilot, you can join Arm-based Surface devices to Microsoft Entra ID or Active Directory (Microsoft Entra hybrid join). This enables you to manage your devices with Intune or co-manage them with Configuration Manager, which installs the 32-bit x86 ConfigMgr client.
 
 ### Learn more
 
 - [Arm-based Surface devices FAQ](surface-arm-faq.md)
 - [Windows on Arm documentation](/windows/arm/overview)
 - [App Assure](https://www.microsoft.com/fasttrack/microsoft-365/app-assure)
-- [Qualcomm: Windows on Snapdragon](https://www.qualcomm.com/developer/windows-on-snapdragon/overview)
+- [Qualcomm: Getting Started with Windows on Snapdragon](https://academy.qualcomm.com/course-catalog/Windows-on-Snapdragon)

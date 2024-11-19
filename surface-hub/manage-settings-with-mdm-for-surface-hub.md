@@ -18,7 +18,7 @@ appliesto:
 
 Surface Hub allows IT administrators to manage settings and policies using a mobile device management (MDM) provider such as Microsoft Intune. Surface Hub has a built-in management component to communicate with the management server. There is no need to install additional clients on the device.
 
-To enroll, see [Enroll Surface Hub into MDM management](enroll-surface-hub-mdm.md)
+To enroll, see [Enroll Surface Hub into MDM management](enroll-surface-hub-mdm.md).
 
 ## Manage Surface Hub settings with Intune
 
@@ -37,7 +37,7 @@ To summarize, options to configure and manage policy settings within Intune incl
 
 ## Create Device restriction profile
 
-1. Sign in to [**Microsoft Intune admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
+1. Sign in to [**Microsoft Intune admin center**](https://intune.microsoft.com/), select **Devices** > **Configuration profiles** > **+** **Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under ****Profile type**,** select **Templates** and then select **Device restrictions (Windows 10 Team)**
 4. Select **Create**, add a name and then select **Next.**
@@ -51,7 +51,7 @@ For more information about how to manage Surface Hub features and settings, see 
 
 ## Create Device configuration profile
 
-1. Sign in to [**Microsoft Intune admin center**](https://endpoint.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
+1. Sign in to [**Microsoft Intune admin center**](https://intune.microsoft.com/), select **Devices** > **Configuration profiles** > **+ Create profile**.
 2. Under **Platform**, select **Windows 10 and later** >
 3. Under **Profile type**, select **Templates** and choose from the following templates supported on Surface Hub:
 
@@ -92,7 +92,7 @@ To generate the OMA URI for any setting:
 
 ### Add OMA URI to Custom configuration profile
 
-1. In Endpoint Manager, select **Devices** > **Configuration profiles** > **Create profile**.
+1. In Microsoft Intune, select **Devices** > **Configuration profiles** > **Create profile**.
 2. Under Platform select **Windows 10 and later.** Under Profile, select **Custom**, and then select **Create.**
 3. Add a name and optional description and then select **Next.**
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.

@@ -69,11 +69,11 @@ Windows Installer .msi files contain all the required cumulative driver and firm
 
 ## Centralized management tools
 
-### Microsoft Intune and Endpoint Configuration Manager
+### Microsoft Intune and Configuration Manager
 
 - **Intune**: Manage Surface firmware updates remotely using Intune and the **Surface Management Portal** for visibility into device status. The portal provides a consolidated view of all Surface devices across the organization.
   
-- **Configuration Manager**: Synchronize Surface firmware and driver updates with Endpoint Configuration Manager for on-premises management. Use Configuration Manager to automate deployments or co-manage devices via **Microsoft Entra hybrid join**. To learn more, see [Configure Microsoft Entra hybrid join](/entra/identity/devices/how-to-hybrid-join).
+- **Configuration Manager**: Synchronize Surface firmware and driver updates with Configuration Manager for on-premises management. Use Configuration Manager to automate deployments or co-manage devices via **Microsoft Entra hybrid join**. To learn more, see [Configure Microsoft Entra hybrid join](/entra/identity/devices/how-to-hybrid-join).
 
 **Helpful resources:**
 

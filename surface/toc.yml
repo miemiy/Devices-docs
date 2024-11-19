@@ -217,7 +217,7 @@
           href: maintain-optimal-power-settings-on-Surface-devices.md  
         - name: Surface DMA Protection
           href: dma-protect.md   
-        - name: Considerations for Surface & Endpoint Configuration Manager
+        - name: Considerations for Surface & Configuration Manager
           href: considerations-for-surface-and-system-center-configuration-manager.md
       - name: Arm devices
         items:          

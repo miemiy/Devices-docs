@@ -21,7 +21,7 @@ You can manage Duo manage Duo via the [Microsoft EMM](https://androidenterprisep
 
 To compare EMM solutions, refer to the [Android Enterprise Solutions Directory](https://androidenterprisepartners.withgoogle.com/emm/).
 
-Endpoint Manager with Intune lets you manage Duo with the latest mobile device management policies as well as earlier technologies such as Exchange ActiveSync. If you already use Exchange ActiveSync settings to manage mobile devices, you can apply those settings to Duo devices with Intune using an Email device-configuration profile.  For more information, see [Add email settings to devices using Intune](/mem/intune/configuration/email-settings-configure).
+Microsoft Intune lets you manage Duo with the latest mobile device management policies as well as earlier technologies such as Exchange ActiveSync. If you already use Exchange ActiveSync settings to manage mobile devices, you can apply those settings to Duo devices with Intune using an Email device-configuration profile.  For more information, see [Add email settings to devices using Intune](/mem/intune/configuration/email-settings-configure).
 
 The primary means of managing devices in Intune, profiles provide default settings that you can customize to meet the needs of your organization. 
 
