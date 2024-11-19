@@ -54,7 +54,7 @@ To learn more, see the following resources:
 
 ### Center-of-table console support
 
-Surface Hub 3 now supports **third-party center-of-table consoles**, providing an additional option for controlling meetings. These **Teams Rooms Certified Universal Consoles**, starting with hardware from MAXHUB, allow users to manage Surface Hub meetings from a touchpad at the conference room table. Console support simplifies meeting operations, including joining meetings and wired content sharing,<sup>?</sup> while also making Surface Hub suitable for front-of-room deployments. Universal Console support is targeted for general availability in **Q2 of 2025**.
+Surface Hub 3 now supports **third-party center-of-table consoles**, providing an additional option for controlling meetings. These **Teams Rooms Certified Universal Consoles**, starting with hardware from MAXHUB, allow users to manage Surface Hub meetings from a touchpad at the conference room table. Console support simplifies meeting operations, including joining meetings and wired content sharing,<sup>2</sup> while also making Surface Hub suitable for front-of-room deployments. Universal Console support is targeted for general availability in **Q2 of 2025**.
 
 ## Manage remotely and stay secure anywhere
 
