@@ -1,6 +1,6 @@
 ---
 title: Conditional Access for Surface Hub
-description: Information on Conditional Access and the requirements of the Surface Hub device account. 
+description: Understand how Conditional Access policies impact Surface Hub. Learn to configure policies, troubleshoot sign-in issues, and exclude device accounts. 
 ms.assetid: 8BB80FA3-D364-4A90-B72B-65F0F0FC1F0D
 ms.reviewer: 
 manager: peterdem
@@ -9,11 +9,11 @@ ms.sitesec: library
 author: ryanbwold
 ms.author: rwold
 ms.topic: article
-ms.date: 11/18/2024
+ms.date: 11/19/2024
 ms.localizationpriority: medium
 ---
 
-# Understanding Conditional Access for Surface Hub
+# Conditional Access for Surface Hub
 
 ## What is Conditional Access?
 
@@ -88,7 +88,7 @@ If your Surface Hub device account encounters sign-in errors, use the following 
 
 ---
 
-## Review Conditional Access Policies
+## Review Conditional Access policies
 
 If the Azure sign-in logs and "What If" tool don't reveal any Conditional Access policies affecting the account, manually review every Conditional Access policy to ensure the Surface Hub device account isn't impacted.
 
