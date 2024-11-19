@@ -60,7 +60,7 @@ Surface Hubs, like all Windows 10 devices, include **Windows Update for Business
 2. [Configure when Surface Hub receives updates](#configure-when-surface-hub-receives-updates).
 
 > [!NOTE]
-> You can use Microsoft Intune, Microsoft Endpoint Configuration Manager, or a supported third-party MDM provider to set up WUfB. [Walkthrough: use Microsoft Intune to configure Windows Update for Business.](/windows/deployment/update/waas-wufb-intune)
+> You can use Microsoft Intune, Microsoft Configuration Manager, or a supported third-party MDM provider to set up WUfB. [Walkthrough: use Microsoft Intune to configure Windows Update for Business.](/windows/deployment/update/waas-wufb-intune)
 
 
 ### Group Surface Hub into deployment rings

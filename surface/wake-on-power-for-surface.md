@@ -71,7 +71,7 @@ Surface UEFI Configurator lets you save individual UEFI settings in a Windows In
 
 ## Apply the MSI package
 
-You can apply the MSI package to devices across your network by using software distribution tools such as Microsoft Endpoint Configuration Manager. This procedure includes steps to install the package on your local computer.
+You can apply the MSI package to devices across your network by using software distribution tools such as Microsoft Configuration Manager. This procedure includes steps to install the package on your local computer.
 
 1. At an elevated command prompt, enter the full path of the .msi file to run the .msi package.
 

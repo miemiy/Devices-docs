@@ -48,7 +48,7 @@ To learn more, see [Get the most out of any Teams Rooms meeting with speaker rec
 
 Surface Hub running Teams Rooms on Windows empowers IT admins with enterprise-grade tools to manage devices and maintain security from anywhere.
 
-- **Remote management**: Use Microsoft Endpoint Manager to configure settings and policies. Monitor health and room status with [Microsoft Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) and the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal).
+- **Remote management**: Use the [Microsoft Intune Admin Center](https://intune.microsoft.com) to configure settings and policies. Monitor health and room status with [Microsoft Teams Admin Center](/microsoftteams/manage-teams-in-modern-portal) and the [Teams Rooms Pro Management Portal](/microsoftteams/rooms/managed-meeting-rooms-portal).
 - **Low-touch deployment**: Quickly deploy devices using Windows Autopilot, and use auto-sign-in capabilities for seamless integration with Azure Directory.
 - **Security and compliance**: Ensure data protection with BitLocker, Trusted Platform Module 2.0 (TPM), and Microsoft Defender for cloud-powered security. Enable [Conditional Access policies](/mem/intune/protect/conditional-access) to safeguard sign-ins on shared devices. To learn more, see [Security best practices for Surface Hubs running Microsoft Teams Rooms on Windows](surface-hub-3-security.md).
 

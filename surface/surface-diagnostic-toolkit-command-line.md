@@ -47,7 +47,7 @@ Command | Notes
 -warranty "output file" | Checks warranty information on the device (valid or invalid). The optional "output file" is the file path to create the XML file.<br><br>**Example**:<br>Microsoft.Surface.Diagnostics.App.Console.exe –warranty "warranty.xml"
 
 >[!NOTE]
->To run the SDT app console remotely on target devices, use a configuration management tool such as Microsoft Endpoint Configuration Manager. Alternatively, you can create a .zip file containing the console app and appropriate console commands and deploy per your organization’s software distribution processes.
+>To run the SDT app console remotely on target devices, use a configuration management tool such as Microsoft Configuration Manager. Alternatively, you can create a .zip file containing the console app and appropriate console commands and deploy per your organization’s software distribution processes.
 
 ## Run Best Practice Analyzer
 

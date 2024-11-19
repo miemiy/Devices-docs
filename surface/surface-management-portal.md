@@ -39,7 +39,7 @@ With the Surface Management Portal, you can:
 
 ### If you have an Intune subscription
 
-- Sign in to the [Microsoft Intune Admin Center](https://endpoint.microsoft.com), and select **All services** > **Surface Management Portal**.
+- Sign in to the [Microsoft Intune Admin Center](https://intune.microsoft.com), and select **All services** > **Surface Management Portal**.
 
    :::image type="content" source="images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Screenshot that shows the Surface Management Portal on the Intune admin center home page.":::
 

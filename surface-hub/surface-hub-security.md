@@ -65,9 +65,9 @@ The configuration file is signed using the Microsoft Production Root CA designed
 
 In addition to blocking unsigned or incorrectly signed code via UMCI, Surface Hub uses Windows Application Control to block Windows components, such as the Command Prompt, PowerShell, and Task Manager. These safeguards reflect a key design feature of Surface Hub as a secure computing appliance. For more information, see the following resources:
 
-- [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [Application Control for Windows](/windows/security/application-security/application-control/app-control-for-business/appcontrol)
 
-- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity)
 
 ### User interface defenses
 
@@ -112,7 +112,7 @@ Surface Hub uses a device account, also known as a "room account," to authentica
 In addition to Surface Hub-specific configurations and features addressed in this document, Surface Hub also uses standard Windows security features, including the following functionality: 
 
 - **BitLocker**. The Surface Hub SSD is equipped with BitLocker to protect the data on the device. Its configuration follows industry standards. For more information, see [BitLocker overview](/windows-hardware/design/device-experiences/oem-secure-boot).
-- **Windows Defender.** The Windows Defender anti-malware engine runs continuously on Surface Hub and works to automatically remediate threats found on Surface Hub. The Windows Defender engine receives updates automatically and is manageable via remote management tools for IT admins. The Windows Defender engine is a perfect example of our Defense in Depth approach: If malware can find a way around our core code-signage-based security solution, it is caught here. For more information, see [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).
+- **Windows Defender.** The Windows Defender anti-malware engine runs continuously on Surface Hub and works to automatically remediate threats found on Surface Hub. The Windows Defender engine receives updates automatically and is manageable via remote management tools for IT admins. The Windows Defender engine is a perfect example of our Defense in Depth approach: If malware can find a way around our core code-signage-based security solution, it is caught here. For more information, see [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity).
 - **Plug and play drivers.** To prevent malicious code from reaching the device through drivers, Surface Hub doesn't download advanced drivers for PnP devices. This allows devices that use basic drivers such as USB flash drives to work as expected while blocking more advanced systems such as printers.
 - **Trusted Platform Module 2.0.** Surface Hub has an industry standard discrete Trusted Platform Module (dTPM) for generating and storing cryptographic keys and hashes. The dTPM protects keys used for the verification of boot phases, the BitLocker master key, password-less sign-on key, and more. The dTPM meets [FIPS 140-2 Level 2](/windows/security/threat-protection/fips-140-validation) certification, the U.S. government computer security standard, and is compliant with [Common Criteria](/windows/security/threat-protection/windows-platform-common-criteria) certification used worldwide.
 
@@ -208,7 +208,7 @@ Also recommended:
 - [Application Control overview](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 - [Secure and manage Surface Hub 2S with SEMM and UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
 - [How Surface Hub addresses Wi-Fi Direct security issues](/surface-hub/surface-hub-wifi-direct)
-- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Windows Defender Application Control and virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity)
 - [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703)
 - [FIPS 140-2 Level 2](/windows/security/threat-protection/fips-140-validation)
 - [Common Criteria certification](/windows/security/threat-protection/windows-platform-common-criteria)

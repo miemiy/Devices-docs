@@ -31,7 +31,7 @@ In some scenarios, you may want to provide complete automation to ensure that at
 This article provides a summary of the scenarios where a deployment might require additional steps. It also provides the required information to ensure that the desired experience is achieved on any newly deployed Surface device. This article is intended for administrators who are familiar with the deployment process, as well as concepts such as answer files and [reference images](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).
 
 >[!NOTE]
->Although the OOBE phase of setup is still run as part of an automated deployment solution such as the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) or [Microsoft Endpoint Configuration Manager Operating System Deployment (OSD)](/mem/configmgr/osd/), it is automated by the settings supplied in the deployment wizard and task sequence.
+>Although the OOBE phase of setup is still run as part of an automated deployment solution such as the [Microsoft Deployment Toolkit (MDT)](/mem/configmgr/mdt) or [Microsoft Configuration Manager Operating System Deployment (OSD)](/mem/configmgr/osd/), it is automated by the settings supplied in the deployment wizard and task sequence.
 
 ## Scenario 1: Wireless networking in OOBE with MDT 2013
 

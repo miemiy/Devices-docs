@@ -27,7 +27,7 @@ SEMM also uses a certificate to protect the configuration from unauthorized tamp
 
 This article shows you how to create a Surface UEFI configuration package to enable or disable hardware components at the firmware level and enroll a Surface device in SEMM. When Surface devices are configured by SEMM and secured with the SEMM certificate, they're considered *enrolled* in SEMM. When the SEMM certificate is removed and control of UEFI settings is returned to the user of the device, the Surface device is considered *unenrolled* in SEMM.
 
-You can also [Use Microsoft Endpoint Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
+You can also [Use Microsoft Configuration Manager to manage devices with SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
 
 As an alternative to SEMM, newer Surface devices support remote management of a subset of firmware settings via Microsoft Intune. For more information, see [Manage DFCI on Surface devices](surface-manage-dfci-guide.md).
 
@@ -107,7 +107,7 @@ After a device is enrolled in SEMM, the configuration file is read, and the sett
 >6. In the **Show** drop-down menu, **All** or **Properties Only** must be selected.
 >7. Select the **Thumbprint** field.
 
-To enroll a Surface device in SEMM or apply the UEFI configuration from a configuration package, run the .msi file with administrative privileges on the intended Surface device. You can use application deployment or operating system deployment technologies, like [Microsoft Endpoint Configuration Manager](/mem/configmgr) or the [Microsoft Deployment Toolkit](/mem/configmgr/mdt). When you enroll a device in SEMM, you must be physically present to confirm the enrollment on the device. When you apply a configuration to devices that are already enrolled in SEMM, user interaction isn’t required.
+To enroll a Surface device in SEMM or apply the UEFI configuration from a configuration package, run the .msi file with administrative privileges on the intended Surface device. You can use application deployment or operating system deployment technologies, like [Microsoft Configuration Manager](/mem/configmgr) or the [Microsoft Deployment Toolkit](/mem/configmgr/mdt). When you enroll a device in SEMM, you must be physically present to confirm the enrollment on the device. When you apply a configuration to devices that are already enrolled in SEMM, user interaction isn’t required.
 
 ### Recovery request
 

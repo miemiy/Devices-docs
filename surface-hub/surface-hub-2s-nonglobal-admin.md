@@ -118,7 +118,7 @@ First, create a security group containing the admin accounts. Then create anothe
 
 ## Create Custom configuration profile
 
-1. In Endpoint Manager, go to **Devices** > **Configuration profiles** > **Create profile**.
+1. In Microsoft Intune, go to **Devices** > **Configuration profiles** > **Create profile**.
 2. Select **Windows 10 and later** for the platform. For the profile, choose **Templates** > **Custom** > **Create**.
 3. Provide a name and description, then select **Next**.
 4. Under **Configuration settings** > **OMA-URI Settings**, select **Add**.

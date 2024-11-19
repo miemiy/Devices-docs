@@ -1,6 +1,6 @@
 ---
-title: Considerations for Surface and Microsoft Endpoint Configuration Manager
-description: Manage & deploy Surface devices efficiently with Endpoint Configuration Manager, covering drivers, licensing, security, and Windows 11 updates.
+title: Considerations for Surface and Microsoft Configuration Manager
+description: Manage & deploy Surface devices efficiently with Configuration Manager, covering drivers, licensing, security, and Windows 11 updates.
 ms.service: surface
 author: coveminer
 ms.author: chauncel
@@ -13,19 +13,19 @@ appliesto:
 - Windows 11
 ---
 
-# Considerations for Surface and Microsoft Endpoint Configuration Manager
+# Considerations for Surface and Microsoft Configuration Manager
 
-Fundamentally, management and deployment of Surface devices with Microsoft Endpoint Configuration Manager follows the same principles as managing other PCs. Like any PC deployment, it includes importing drivers, preparing Windows images, setting deployment task sequences, and applying those sequences to device collections. After deployment, Surface devices behave like any other Windows client, receiving apps, settings, and policies through familiar processes.
+Fundamentally, management and deployment of Surface devices with Microsoft Configuration Manager follows the same principles as managing other PCs. Like any PC deployment, it includes importing drivers, preparing Windows images, setting deployment task sequences, and applying those sequences to device collections. After deployment, Surface devices behave like any other Windows client, receiving apps, settings, and policies through familiar processes.
 
-To learn more, see [Microsoft Endpoint Configuration Manager documentation](/mem/configmgr/).
+To learn more, see [Microsoft Configuration Manager documentation](/mem/configmgr/).
 
 Although the deployment and management of Surface devices is fundamentally similar to other PCs, some scenarios might require extra IT tasks, as described in this article.
 
 ## Proactive monitoring, security, and AI-powered insights
 
-Endpoint Configuration Manager supports enhanced security, proactive monitoring, and compliance enforcement. It enables IT administrators to take advantage of **virtualization-based security (VBS)** to isolate critical security operations, while **TPM 2.0** plays a foundational role in enabling **encryption with BitLocker**, **secure boot**, and **Windows Hello for Business**. Endpoint Configuration Manager ensures compliance with these security baselines by monitoring device health and policy adherence, ensuring devices are protected against unauthorized access.
+Configuration Manager supports enhanced security, proactive monitoring, and compliance enforcement. It enables IT administrators to take advantage of **virtualization-based security (VBS)** to isolate critical security operations, while **TPM 2.0** plays a foundational role in enabling **encryption with BitLocker**, **secure boot**, and **Windows Hello for Business**. Configuration Manager ensures compliance with these security baselines by monitoring device health and policy adherence, ensuring devices are protected against unauthorized access.
 
-Additionally, [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection) integrates with Endpoint Configuration Manager, delivering AI-powered threat detection and response capabilities, helping organizations detect anomalies and protect against sophisticated threats.
+Additionally, [Microsoft Defender for Endpoint](/mem/configmgr/protect/deploy-use/defender-advanced-threat-protection) integrates with Configuration Manager, delivering AI-powered threat detection and response capabilities, helping organizations detect anomalies and protect against sophisticated threats.
 
 ## Windows 11 24H2 Update integration
 

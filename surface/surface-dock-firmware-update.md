@@ -18,7 +18,7 @@ appliesto:
 This article explains how to use Microsoft Surface Dock 1 Firmware Update to install and manage firmware on the original Surface Dock 1. When installed on your Surface device, it updates Surface Dock 1 devices attached to your Surface device.
 
 > [!NOTE]
-> This article does not apply to [Surface Dock 2](surface-dock2-overview.md), which receives updates automatically via Windows Update or by using Microsoft Endpoint Configuration Manager or other MSI deployment tools. All current software, firmware, and drivers for the Surface Dock 2 can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=101317).
+> This article does not apply to [Surface Dock 2](surface-dock2-overview.md), which receives updates automatically via Windows Update or by using Microsoft Configuration Manager or other MSI deployment tools. All current software, firmware, and drivers for the Surface Dock 2 can be found [here](https://www.microsoft.com/en-us/download/details.aspx?id=101317).
 
 This tool supersedes the earlier Microsoft Surface Dock Updater tool, previously available for download as part of Surface Tools for IT. The earlier tool was named Surface_Dock_Updater_vx.xx.xxx.x.msi (where x indicates the version number) and is no longer available for download and should not be used.
 
@@ -94,7 +94,7 @@ Also see the following sections in this article:
 
 ## Network deployment
 
-You can use Windows Installer commands (Msiexec.exe) to deploy Surface Dock 1 Firmware Update to multiple devices across your network. When using Microsoft Endpoint Configuration Manager or other deployment tool, enter the following syntax to ensure the installation is silent:
+You can use Windows Installer commands (Msiexec.exe) to deploy Surface Dock 1 Firmware Update to multiple devices across your network. When using Microsoft Configuration Manager or other deployment tool, enter the following syntax to ensure the installation is silent:
 
 - **Msiexec.exe /i \<path to msi file\> /quiet /norestart**
 
