@@ -24,7 +24,7 @@ Network deployment to Surface devices can pose some unique challenges for system
 
 Before you can address how your deployment solution will recognize devices, you have to use a wired network adapter.
 
-When selecting Ethernet adapters, the primary concern is how adapters will boot your Surface devices from the network. Suppose you're prestaging clients with Windows Deployment Services (WDS) or using Microsoft Endpoint Configuration Manager. Consider whether the removable Ethernet adapters will be dedicated to a specific Surface device or shared among multiple devices. For more information on potential conflicts with shared adapters, see [Manage MAC addresses with removable Ethernet adapters](#manage-mac-addresses) later in this article.
+When selecting Ethernet adapters, the primary concern is how adapters will boot your Surface devices from the network. Suppose you're prestaging clients with Windows Deployment Services (WDS) or using Microsoft Configuration Manager. Consider whether the removable Ethernet adapters will be dedicated to a specific Surface device or shared among multiple devices. For more information on potential conflicts with shared adapters, see [Manage MAC addresses with removable Ethernet adapters](#manage-mac-addresses) later in this article.
 
 Booting from the network (PXE boot) is only supported when using an Ethernet adapter or docking station from Microsoft. The chipset in the Ethernet adapter or dock must be detected and configured as a boot device in the firmware of the Surface device. Microsoft Ethernet adapters, such as the Surface Ethernet Adapter and the [Surface Dock](https://www.microsoft.com/surface/accessories/surface-dock), use a chipset compatible with the Surface firmware.
 

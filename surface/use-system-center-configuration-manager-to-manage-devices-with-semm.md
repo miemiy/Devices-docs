@@ -1,6 +1,6 @@
 ---
 title: Use UEFI Assemblies & Configuration Manager to manage devices with SEMM 
-description: Learn how to manage Surface Enterprise Management Mode (SEMM) with UEFI Assemblies, PowerShell scripts, and Endpoint Configuration Manager.
+description: Learn how to manage Surface Enterprise Management Mode (SEMM) with UEFI Assemblies, PowerShell scripts, and Configuration Manager.
 ms.service: surface
 author: coveminer
 ms.author: chauncel
@@ -18,7 +18,7 @@ appliesto:
 
 The Surface Enterprise Management Mode (SEMM) feature of Surface UEFI devices lets administrators manage and help secure the configuration of Surface UEFI settings. For most organizations, this process is accomplished by creating Windows Installer (.msi) packages with the [UEFI Configurator](surface-it-toolkit-uefi-config.md) tool in the [Surface IT Toolkit](surface-it-toolkit.md). These packages are then run or deployed to the client Surface devices to enroll the devices in SEMM and to update the Surface UEFI settings configuration.
 
-For organizations with Endpoint Configuration Manager, there's an alternative to using the Surface UEFI Configurator .msi process to deploy and administer SEMM. Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. When you install these assemblies with Surface UEFI Manager on a managed client, you can manage SEMM via Configuration Manager with PowerShell scripts, deployed as applications. Doing so eliminates the need for the external Surface UEFI Configurator tool.
+For organizations with Configuration Manager, there's an alternative to using the Surface UEFI Configurator .msi process to deploy and administer SEMM. Surface UEFI Manager is a lightweight installer that makes required assemblies for SEMM management available on a device. When you install these assemblies with Surface UEFI Manager on a managed client, you can manage SEMM via Configuration Manager with PowerShell scripts, deployed as applications. Doing so eliminates the need for the external Surface UEFI Configurator tool.
 
 > [!NOTE]
 > Although the process described in this article may work with earlier versions of Configuration Manager or with other third-party management solutions, management of SEMM with Surface UEFI Manager and PowerShell is supported only with the Current Branch of Configuration Manager.

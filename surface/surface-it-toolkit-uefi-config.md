@@ -82,6 +82,6 @@ You can verify if a Surface device is successfully enrolled in SEMM by looking f
 
 ## Configure more Surface UEFI settings
 
-After a device is enrolled in SEMM, you can run other Surface UEFI configuration packages signed with the same SEMM certificate to apply new Surface UEFI settings. These settings are applied automatically the next time the device boots, without any interaction from the user. You can use application deployment solutions like Microsoft Endpoint Configuration Manager to deploy Surface UEFI configuration packages to Surface devices to change or manage the settings in Surface UEFI.
+After a device is enrolled in SEMM, you can run other Surface UEFI configuration packages signed with the same SEMM certificate to apply new Surface UEFI settings. These settings are applied automatically the next time the device boots, without any interaction from the user. You can use application deployment solutions like Microsoft Configuration Manager to deploy Surface UEFI configuration packages to Surface devices to change or manage the settings in Surface UEFI.
 
-For more information about how to deploy Windows Installer (.msi) files with Configuration Manager, see [Deploy and manage applications with Microsoft Endpoint Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications).
+For more information about how to deploy Windows Installer (.msi) files with Configuration Manager, see [Deploy and manage applications with Microsoft Configuration Manager](/mem/configmgr/apps/deploy-use/deploy-applications).

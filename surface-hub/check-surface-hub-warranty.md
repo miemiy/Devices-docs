@@ -30,7 +30,7 @@ You can check the warranty status directly from Surface Hub or from the cloud, v
 
 ## Check warranty status in Surface Management Portal
 
-1. Sign in to the [Endpoint Manager Admin Center](https://endpoint.microsoft.com/).
+1. Sign in to the [Intune Admin Center](https://intune.microsoft.com)
 2. Select **All Services** > **Surface Management Portal**. This takes you to the main page of the Surface Management Portal that displays information for all your Surface devices. 
 
     :::image type="content" source="images/hub-warranty-surface-management-portal.png" alt-text="Screenshot of Surface Management Portal." :::
