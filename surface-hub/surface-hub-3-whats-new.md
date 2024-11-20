@@ -7,7 +7,7 @@ ms.service: surface-hub
 author: coveminer
 ms.author: dpandre
 ms.topic: how-to
-ms.date: 10/31/2024
+ms.date: 11/20/2024
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub 3
