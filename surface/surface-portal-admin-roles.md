@@ -59,7 +59,7 @@ Here's a comprehensive table of the available roles with their permissions and d
 | **Billing Admin**                        | - View service requests<br>- Create/manage device replacement requests<br>- Add/edit/delete ship-to addresses                                                     | Manages billing and shipping address aspects of device replacements and service requests. |
 | **Global Reader**                        | - View all administrative settings and configurations across Microsoft Entra<br>- Read-only access to Microsoft 365 tenant and associated services             | Perfect for audit, compliance, and oversight roles requiring view-only access to configurations and settings.|
 
-1. *On Surface Management Portal only, access to the Microsoft Hardware Warranty Administrator role requires assigning the **Global Reader** role.*
+1. *On Surface Management Portal only, access to the **Microsoft Hardware Warranty Administrator** and **Microsoft Hardware Warranty Specialist** roles require assigning the **Global Reader** role.*
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Admin is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
