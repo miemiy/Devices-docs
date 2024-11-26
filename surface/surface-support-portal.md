@@ -6,7 +6,7 @@ ms.localizationpriority: medium
 author: coveminer  
 ms.author: chauncel  
 ms.topic: how-to  
-ms.date: 09/18/2024 
+ms.date: 11/21/2024 
 ms.reviewer: cchauvet  
 manager: frankbu  
 appliesto:  
@@ -36,40 +36,47 @@ If you already have access to the portal, skip to the [Prerequisites section](#p
 
 ### How to access Surface Support Portal
 
-The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, the instructions can help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
+The onboarding process includes steps to validate your organization’s Microsoft tenant. If your organization doesn't already have a tenant, these instructions will help you create one, ensuring seamless access to the Surface Support Portal via the Microsoft 365 Admin Center.
 
-1. **Select this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba)** to validate your organization’s email and domain. If your organization is already registered with Microsoft, sign in with your credentials.
+1. **Check if your organization has an existing tenant**  
+   - Go to the [tenant validation page](https://aka.ms/wheres-my-tenant).  
+   - Enter your organization's domain to check if a tenant exists.  
+   - If the tenant exists, contact your organization's administrator to create a user account for access to the Microsoft 365 Admin Center.  
 
-   - If your organization doesn't have a Microsoft tenant, skip to **Step 2**.
+2. **Validate your organization's email and domain**  
+   - Use this [onboarding page](https://signup.microsoft.com/createaccount?culture=en-us&country=us&ru=https%3A%2F%2Fadmin.microsoft.com%2FAdminportal%2FHome%3Fmcapiorgid%3D%7Bmcapiorgid%7D%26accountid%3D%7Baccountid%7D%26&origin=servicesHub&scenario=skiplba) to validate your email and domain.  
+   - If your organization is already registered, sign in with your credentials.  
+   - If your organization doesn’t have a tenant, skip to **Step 3**.  
 
     :::image type="content" source="images/portal-signin.png" alt-text="Screenshot of sign in page.":::
 
-2. **Set up an account** – Begin the process of creating a new Microsoft account for your organization.
+3. **Set up a new account for your organization**  
+   - Provide your organization’s name, address, phone number, and the email address you want to associate with the account.  
 
-   - Provide your organization’s name, address, phone number, and the email address you want to associate with the account.
+4. **Verify your identity**  
+   - Confirm your identity via text or call.  
+   - A verification code will be sent to you. Once verified, create your account credentials.  
 
-3. **Verify your identity** – Confirm your identity via text or call.
+5. **Add your credentials**  
+   - Save your email and password before proceeding. Select **Next** to continue.  
 
-   - A verification code will be sent to you. Once verified, create your account credentials.
+6. **Add payment details**  
+   - Provide payment information. This step links the details to your account but does not incur charges unless a product is purchased.  
+   - The Surface Support Portal on the Microsoft 365 Admin Center does not require a subscription for access.  
 
-4. **Add your credentials** to access the Microsoft 365 Admin Center.
+    > [!NOTE]  
+    > The payment information links with your account, but you are not charged until you purchase a product from Microsoft. The Surface Support Portal on Microsoft 365 Admin Center does not require any subscription to access Surface support and services.
+ 
+7. **Access the Microsoft 365 Admin Center**  
+   - After completing the payment information, you will be redirected to the Admin Center homepage. Select **Finish**.  
+   - Request access to the Surface Support Portal.  
 
-   - Save your email and password before proceeding to the next step. Select **Next** to continue.
-
-5. **Add payment details**. This is the final step before you’re redirected to the Microsoft 365 Admin Center.
-
-> [!NOTE]
-> The payment information links with your account, but you are not charged until you purchase a product from Microsoft. The Surface Support Portal on Microsoft 365 Admin Center does not require any subscription to access Surface support and services.
-
-6. After completing the payment information, you’ll be redirected to the Microsoft 365 Admin Center homepage. Select **Finish**.
-
-7. Once in the Microsoft 365 Admin Center, request access to the Surface Support Portal.
-
-   - If access is delayed or denied, you can still create support orders for your Surface devices by selecting the **Help and Support** node.
+   - If access is delayed or denied, you can still create support orders for your Surface devices by selecting the **Help and Support** node.  
 
     :::image type="content" source="images/m365-admin-center.png" alt-text="Screenshot of Microsoft 365 Admin Center.":::
 
-8. To expedite your support request, include your device serial numbers and your shipping address in the **Issue Description** field.
+8. **Expedite your support request**  
+   - Include device serial numbers and your shipping address in the **Issue Description** field to speed up processing.
 
 ## Prerequisites
 
@@ -78,7 +85,7 @@ The onboarding process includes steps to validate your organization’s Microsof
 - [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Add an admin](/microsoft-365/admin/add-users/assign-admin-roles#steps-add-an-admin)
 
-2. To manage devices or take adavantage of the option to use Windows Autopilot, you first need to register them with the Surface Support Portal, as explained in the following section. 
+2. To manage devices or take advantage of the option to use Windows Autopilot, you first need to register them with the Surface Support Portal, as explained in the following section.
 
 ## IT admin tasks in Surface Support Portal
 
