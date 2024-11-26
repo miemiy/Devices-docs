@@ -17,7 +17,7 @@ ms.collection: essentials-manage
 
 # Surface Support Portal overview
 
-The Surface Support Portal simplifies device support and service management for businesses. This portal offers faster, more efficient support for Surface devices, ensuring that any issues are promptly addressed.
+The [Surface Support Portal](https://admin.microsoft.com/#/support/microsoftsurfacesupport) simplifies device support and service management for businesses. This portal offers faster, more efficient support for Surface devices, ensuring that any issues are promptly addressed.
 
 With the Surface Support Portal, you benefit from:
 
@@ -172,5 +172,4 @@ Quickly address hardware issues by creating a service request for device replace
 - [Assign admin roles for Surface portals](surface-portal-admin-roles.md)
 - [Surface portals overview](surface-portals.md)
 - [Surface Management Portal overview](surface-management-portal.md)
-- [Surface Support Portal overview](surface-support-portal.md)
 - [Surface IT Toolkit](surface-it-toolkit.md)
