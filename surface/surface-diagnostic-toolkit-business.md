@@ -1,12 +1,12 @@
 ---
 title: Surface Diagnostic Toolkit for Business
-description: This topic explains how to deploy and use the Surface Diagnostic Toolkit for Business, which enables IT administrators to quickly investigate, troubleshoot, and resolve hardware, software, and firmware issues with Surface devices.
+description: Troubleshoot Surface devices with the Diagnostic Toolkit for Business. Customize, test, and resolve issues across your network efficiently.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
 ms.author: chauncel
 ms.topic: how-to
-ms.date: 10/25/2021
+ms.date: 12/02/2024
 ms.reviewer: chauncel
 manager: frankbu
 appliesto:
@@ -64,7 +64,7 @@ To create an SDT package that you can distribute to users in your organization:
     - For Intel/AMD devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.193.139.0.msi**.
     - For ARM devices, download: **Surface_Diagnostic_Toolkit_for_Business_v2.193.139.0_x86.msi**.
 
-3. Copy the .msi file to a preferred location on your Surface device, such as Desktop.The SDT setup wizard appears, as shown in Figure 1. Click **Next**.
+3. Copy the .msi file to a preferred location on your Surface device, such as Desktop.The SDT setup wizard appears, as shown in Figure 1. Select **Next**.
 
     >[!NOTE]
     >If the setup wizard does not appear, ensure that you are signed into the Administrator account on your computer.
@@ -72,7 +72,7 @@ To create an SDT package that you can distribute to users in your organization:
     ![Screenshot that shows the start of the Surface Diagnostic Toolkit setup wizard.](images/sdt-1.png)<br/>
     *Figure 1. Surface Diagnostic Toolkit setup wizard*
 
-4. When the SDT setup wizard appears, click **Next**, and accept the End User License Agreement (EULA).
+4. When the SDT setup wizard appears, select **Next**, and accept the End User License Agreement (EULA).
 
 5. On the Install Options screen, change the default install location if desired.
 
@@ -83,7 +83,7 @@ To create an SDT package that you can distribute to users in your organization:
 
     ![Screenshot that shows selection of Install Options: Advanced.](images/sdt-install.png)
 
-7. Click **Next** and then click **Install**.
+7. Select **Next**, and then select **Install**.
 
 ## Installing using the command line
 
@@ -119,9 +119,9 @@ In addition to the .exe file, SDT installs a JSON file and an admin.dll file (mo
 
 Creating a custom package allows you to target the tool to specific known issues.
 
-1. Click **Start > Run**, enter **Surface** and then click **Surface Diagnostic Toolkit for Business**.
+1. Select **Start > Run**, enter **Surface**, and then select **Surface Diagnostic Toolkit for Business**.
 
-2. When the tool opens, click **Create Custom Package**, as shown in Figure 3.
+2. When the tool opens, select **Create Custom Package**, as shown in Figure 3.
 
     ![Create custom package option.](images/sdt-3.png)<br/>
     *Figure 3. Create custom package*
@@ -152,7 +152,7 @@ This allows you to select or remove the option to run software repair updates.
 
 ### Collecting logs and saving package page
 
-You can select to run a wide range of logs across applications, drivers, hardware, and the operating system. Click the appropriate area and select from the menu of available logs. You can then save the package to a software distribution point or equivalent location that users can access.
+You can select to run a wide range of logs across applications, drivers, hardware, and the operating system. Select the appropriate area, and select from the menu of available logs. You can then save the package to a software distribution point or equivalent location that users can access.
 
 ![Select log options.](images/sdt-7.png)<br/>
 *Figure 7. Log option and save package*

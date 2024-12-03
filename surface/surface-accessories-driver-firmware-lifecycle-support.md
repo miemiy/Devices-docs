@@ -1,6 +1,6 @@
 ---
 title: Surface accessories driver and firmware lifecycle
-description: This article provides detailed lifecycle information to help plan and manage deployment of Surface accessories. 
+description: Learn about the Surface accessories driver & firmware lifecycle, including update timelines and end-of-servicing dates for each accessory. 
 ms.service: surface
 ms.localizationpriority: high
 author: coveminer
