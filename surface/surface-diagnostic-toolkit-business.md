@@ -119,7 +119,7 @@ In addition to the .exe file, SDT installs a JSON file and an admin.dll file (mo
 
 Creating a custom package allows you to target the tool to specific known issues.
 
-1. Select **Start > Run**, enter **Surface** and then select **Surface Diagnostic Toolkit for Business**.
+1. Select **Start > Run**, enter **Surface**, and then select **Surface Diagnostic Toolkit for Business**.
 
 2. When the tool opens, select **Create Custom Package**, as shown in Figure 3.
 
