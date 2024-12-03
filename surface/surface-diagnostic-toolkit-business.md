@@ -152,7 +152,7 @@ This allows you to select or remove the option to run software repair updates.
 
 ### Collecting logs and saving package page
 
-You can select to run a wide range of logs across applications, drivers, hardware, and the operating system. Select the appropriate area and select from the menu of available logs. You can then save the package to a software distribution point or equivalent location that users can access.
+You can select to run a wide range of logs across applications, drivers, hardware, and the operating system. Select the appropriate area, and select from the menu of available logs. You can then save the package to a software distribution point or equivalent location that users can access.
 
 ![Select log options.](images/sdt-7.png)<br/>
 *Figure 7. Log option and save package*
