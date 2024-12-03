@@ -1,6 +1,6 @@
 ---
 title: Surface Registration Support for Windows Autopilot
-description: This article describes the requirements for submitting Autopilot registration requests to Microsoft Support. 
+description: Register Surface devices for Windows Autopilot easily via Microsoft Support. Covers registration, hash requests, and deregistration.
 ms.service: surface
 ms.localizationpriority: medium
 author: coveminer
@@ -21,15 +21,15 @@ A simplified process of registering Surface devices for Windows Autopilot deploy
 - **Surface Device Hardware Hash Request.** Submits request to Microsoft Support to provide you with hardware hashes that customers or CSPs can use to self-register devices via Microsoft Intune or the Microsoft Partner Center.
 - **Surface Device Autopilot Deregistration.** Submits request to delete devices from Windows Autopilot, typically used in device end of life scenarios.
 
-See the following table for details of the information you will need to collect prior to submitting registration requests to Microsoft Support. For the official System Model names of all Surface devices, refer to [Surface System SKU reference](surface-system-sku-reference.md).
+See the following table for details of the information you need to collect before submitting registration requests to Microsoft Support. For the official System Model names of all Surface devices, refer to [Surface System SKU reference](surface-system-sku-reference.md).
 
 **Table 1. Required information for Autopilot registration requests**
 
 | Required information                   | Description                                                                                                                                                                                                                                                                                    | Autopilot Registration | Hardware Hash Request | Autopilot<br>Deregistration |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------- | --------------------------- |
-| **Microsoft Entra tenant ID**   | Your Microsoft Entra tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain.<br> <br>To find your Tenant ID sign into the Azure Portal [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). | Y                      | N                     | Y                           |
+| **Microsoft Entra tenant ID**   | Your Microsoft Entra tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain.<br> <br>To find your Tenant ID sign into the Azure portal [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). | Y                      | N                     | Y                           |
 | **Microsoft Entra Domain Name** | Your top-level domain name; for example, contoso.com.                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
-| **Proof of ownership**                 | Verify proof of ownership by uploading the original bill of sale or invoice in PDF format. Screenshots are not accepted.<br> <br>The bill of sale or invoice  must include the following:<br>Device serial numbers.<br>Company name.                                                           | Y                      | Y                     | Y                           |
+| **Proof of ownership**                 | Verify proof of ownership by uploading the original bill of sale or invoice in PDF format. Screenshots aren't accepted.<br> <br>The bill of sale or invoice  must include the following:<br>Device serial numbers.<br>Company name.                                                           | Y                      | Y                     | Y                           |
 | **Device serial numbers**              | Upload Excel file in CSV format with each device serial number in a new line.                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
 
 ## Submit support requests
