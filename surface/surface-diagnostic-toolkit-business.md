@@ -83,7 +83,7 @@ To create an SDT package that you can distribute to users in your organization:
 
     ![Screenshot that shows selection of Install Options: Advanced.](images/sdt-install.png)
 
-7. Select **Next** and then select **Install**.
+7. Select **Next**, and then select **Install**.
 
 ## Installing using the command line
 
