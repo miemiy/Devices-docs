@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
-ms.date: 04/09/2024
+ms.date: 12/04/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -112,19 +112,15 @@ Depending on your device, you may also see if your TPM is enabled or disabled. I
 
 The Devices page allows you to turn specific components on eligible devices on or off. Components consist of the following:
 
-- Docking USB port
-
-- MicroSD or SD Card Slot
-
-- Rear Camera
-
-- Front Camera
-
-- Infrared (IR) Camera
-
-- Wi-Fi and Bluetooth
-
-- Onboard Audio (Speakers and Microphone)
+- Docking USB Port
+- Front camera
+- Rear camera
+- IR camera
+- On-board Audio
+- SDcard
+- Wi-Fi & Bluetooth
+- Bluetooth
+- Type Cover port
 
 Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
 
