@@ -198,7 +198,7 @@ When you update the Surface device firmware using either Windows Update or manua
 
 ![Surface ISH firmware with pink progress bar.](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
 
-*Figure 16 The Surface ISH firmware update displays a light pink progress bar.*
+*Figure 16. The Surface ISH firmware update displays a light pink progress bar.*
 
 ![Surface Trackpad firmware with gray progress bar.](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
