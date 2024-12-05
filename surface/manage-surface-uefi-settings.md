@@ -8,7 +8,7 @@ ms.author: chauncel
 ms.topic: how-to
 ms.reviewer: chauncel
 manager: frankbu
-ms.date: 04/09/2024
+ms.date: 12/04/2024
 appliesto:
 - Windows 10
 - Windows 11
@@ -112,21 +112,17 @@ Depending on your device, you may also see if your TPM is enabled or disabled. I
 
 The Devices page allows you to turn specific components on eligible devices on or off. Components consist of the following:
 
-- Docking USB port
+- Docking USB Port
+- Front camera
+- Rear camera
+- IR camera
+- On-board Audio
+- SDcard
+- Wi-Fi & Bluetooth
+- Bluetooth
+- Type Cover port
 
-- MicroSD or SD Card Slot
-
-- Rear Camera
-
-- Front Camera
-
-- Infrared (IR) Camera
-
-- Wi-Fi and Bluetooth
-
-- Onboard Audio (Speakers and Microphone)
-
-Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
+Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6. (Components may vary by Surface device.)
 
 :::image type="content" alt-text="Enable and disable specific devices." source="images/manage-surface-uefi-fig5a.png":::
 
@@ -202,7 +198,7 @@ When you update the Surface device firmware using either Windows Update or manua
 
 ![Surface ISH firmware with pink progress bar.](images/manage-surface-uefi-fig14.png "Surface ISH firmware with pink progress bar")
 
-*Figure 16 The Surface ISH firmware update displays a light pink progress bar.*
+*Figure 16. The Surface ISH firmware update displays a light pink progress bar.*
 
 ![Surface Trackpad firmware with gray progress bar.](images/manage-surface-uefi-fig15.png "Surface Trackpad firmware with gray progress bar")
 
