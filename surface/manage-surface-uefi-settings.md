@@ -122,7 +122,7 @@ The Devices page allows you to turn specific components on eligible devices on o
 - Bluetooth
 - Type Cover port
 
-Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6.
+Each device has a slider button to move to **On** (enabled) or **Off** (disabled) position, as shown in Figure 6. (Components may vary by Surface device.)
 
 :::image type="content" alt-text="Enable and disable specific devices." source="images/manage-surface-uefi-fig5a.png":::
 
